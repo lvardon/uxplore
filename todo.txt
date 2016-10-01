@@ -1,0 +1,27 @@
+FIX TODO
+
+- import : gerer l'ecrasement des métadonnées
+- Documentation
+- purger appSetingsWriteAtExit() 
+ 
+FIX Win
+- Une console s'ouvre systématiquement ; il est impossible d'executer uXplore sans cette console.
+- A propos : l page apropos.html ne s'affiche pas
+- Fichier->Imprimer -> Premièe valeur sur ligne légende  mal formatée ("1/%'.0f" au lieu de la valeur)
+- Certains serveur de tuiles ne répondent pas (page blanche) ???
+
+
+TODO NEW FCT
+
+- Calcul de distance
+
+DONE
+- Parametrer (bouton) le dossier du cache
+- Projet à flager "modifié" lors de l'édition d'une balise par clic-droit depuis la carte
+- Tri incorrect (toDouble manquant) sur colonnes lon et lat (projectdata.sortCompareValues)
+- formats dates
+- alternate colors
+- Import/export CSV
+- Liste des projets recement ouverts
+- Export Kml + kmz
+- La carte index 0 ne s'affiche pas au lancement du programme

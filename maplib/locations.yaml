@@ -1,0 +1,112 @@
+# This is a .yaml file, just a way to write nested data structures in
+# a way so that they don't hurt the eyes of humans. Google for YAML to
+# get more info ...
+
+
+Location:
+  desc: "Stores a QTH location."
+  container:
+    name: locations
+    desc: A container for QTH records.
+    type: QList
+    # This generates a function to save the container as a CSV file
+    save: true
+    # And this is the opposite, to load data from a CSV
+    load: true
+    # this is a code-piece to be called right before adding the record
+    # to the container. Can do initializations or checks. If the
+    # record should not be added, it can simply return.
+    load_code: loadCode
+  model:
+    name: LocationsModel
+    type: QAbstractTableModel
+    # This would disable the automatically generated sort code of the model
+    #sort: false
+    # This disabled editing directly inside the form:
+    #edit_table: false
+    rowtext: " "
+  view:
+    name: LocationsView
+    type: QTableView
+    # This would disable the automatically generated sort code of the view:
+    #sort: false
+    delete: true
+    insert: true
+    # This is the way you can use to specify which Dialog the view should
+    # using when inserting/editing items:
+    dialog_name: LocationMapDialog
+    dialog_include: LocationMapDialog.h
+    init_code: viewInit
+    setmodel_code: viewSetModel
+  dialog:
+    # The existence of this "dialog" entry enables editing inside a form
+    # after a double-click.
+    name: LocationDialog
+    head: "Location"
+    xsize: 500
+    ysize: 250
+  fields:
+    - {
+    # Each normal entry has a 'name', which get's used in the C++ struct.
+    # It has also a type, again for the C++ struct.
+    name: number,
+    desc: "Internal number, corresponds to the position in the file. Mostly used for sorting in the LocationsView.",
+    type: quint32,
+    # This allows the setting of default values for inserted data
+    # default: 0
+    default_code: locations.count()+1,
+    # Every field with a 'head' will end up in one column of the table.
+    head: "Number",
+    # This entry is readonly -> won't end up in the dialog form
+    readonly: true,
+    # Don't save this field into the file
+    save: false,
+    # TODO: Tool tip
+    # TODO: What's this
+    width: 100,
+    }
+
+    - {
+    name: name,
+    desc: "Name of this location.",
+    type: QString,
+    head: "&Name",
+    }
+
+    - {
+    name: longitude,
+    desc: "Longitude (in degrees) of this position. East is positive, west is negative. This uses the WGS 84 datum --- the same as GPS.",
+    type: double,
+    min: -180,
+    max: 180,
+    head: "L&ongitude",
+    halign: right,
+    width: 100,
+    }
+
+    - {
+    name: latitude,
+    desc: "Longitude (in degrees) of this position. North is positive, south is negative. This uses the WGS 84 datum --- the same as GPS.",
+    type: double,
+    min: -75,
+    max: 75,
+    head: "L&atitude",
+    halign: right,
+    width: 100,
+    }
+
+  code:
+    # Code sections will be included in the generated *.h/*.cpp files
+    # at the proper locations.
+    loadCode: |
+      m.number = locations.count()+1;
+    viewInit: |
+      setAlternatingRowColors(true);
+      verticalHeader()->hide();
+      horizontalHeader()->setMovable(true);
+      setTabKeyNavigation(false);
+      setHorizontalScrollMode(QAbstractItemView::ScrollPerPixel);
+      setVerticalScrollMode(QAbstractItemView::ScrollPerPixel);
+    viewSetModel: |
+      horizontalHeader()->moveSection(COL_LOCATIONSMODEL_NAME, COL_LOCATIONSMODEL_LAST);
+      horizontalHeader()->setStretchLastSection(true);

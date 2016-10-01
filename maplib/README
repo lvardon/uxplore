@@ -1,0 +1,117 @@
+-*- mode: org -*-
+
+* Demo applications
+  Go into the directory "demo", then type "qmake -r" (or "qmake-qt4
+  -r") followed by make. Then you get a "main" executable containing
+  a simple demo application in each of the following subdirectories:
+
+** geo  (GeoUtils)
+  Shows how to ...
+  - put locations (coordinates) into a QPointF
+  - how to calculate the great circle distance of two locations
+  - how to calculate the azimuthal angle between two locations
+  - how to make a path between two locations, following the great circle
+  - how to calculate a Maidenhead locator (QTH)
+  - and also how to to convert this back into coordinates
+** locations
+** slippy_map
+  This demo show how to display
+  - a slippy map based on web resources (OpenStreetmap, Google etc)
+  - how to scroll and zoom
+  - how to display locations in the slippy map
+  - how to display great-circle paths in the slippy map
+** map_chooser
+  This demo shows you how to select between different map sources.
+** dem_downloader
+  This (unfinished) demo shows
+  - how to download SRTMv4.1 data from the Internet
+  - extract the GeoTIFF inside the downloaded .zip file
+** parse_srtm
+  This demo shows:
+  - how to open an already downloaded SRTMv4.1 file
+  - determine the height of some coordinates
+** ele_profile
+  This demo shows
+  - how to fill the elevation into a great-circle path
+  - how to display the elevation data
+  - how to display a line-of-sight
+** terrain_classification
+  This demo shows
+  - how to calculate terrain profile parameters according to ITU-R P.452 or ITU-R P.1812
+  - how to display the total distance between two points
+  - how to display the line-of-sight at antenna level
+  - how to display the equivalent smooth earth
+  - how to display the radio horizon
+  - how to display the terrain roughtness parameter
+
+
+* Propagation Models:
+  http://en.wikipedia.org/wiki/Radio_propagation_model
+
+
+* Overview of radio propagation theory:
+  http://w3.antd.nist.gov/wctg/manet/propthy_r1.pdf
+  http://www.iucaf.org/SSS2010/presentations/day2/Wilson(Propagation).ppt
+
+
+* ITM a.k.a. Longley-Rice (20 MHz - 20 GHz):
+** Documentation of itm.for sample implementation:
+   http://flattop.its.bldrdoc.gov/itm.html
+   http://flattop.its.bldrdoc.gov/itm/itm.pdf
+   http://flattop.its.bldrdoc.gov/itm/itm_alg.pdf
+** NBS TN101: Documentation of the Longley-Rice algorithm:
+   http://www.its.bldrdoc.gov/pub/ntia-rpt/tn101/
+** NTIA 82-100: Guide to use ITM for area prediction mode:
+   http://upcommons.upc.edu/pfc/bitstream/2099.1/6989/18/Anexo%2017.pdf (Intro into Usage)
+   http://www.its.bldrdoc.gov/pub/ntia-rpt/82-100/82-100_ocr.pdf (dito, as OCR, but with
+   Annex A (descripton) and B (fortran source):
+** Misc web sites:
+   http://www.its.bldrdoc.gov/pub/ot/ot-78-144/ot-78-144_appendix_a.pdf
+   http://www.2dix.com/pdf-2010/longley-rice-model-pdf.php
+   http://etd.lib.ttu.edu/theses/available/etd-12052005-202112/unrestricted/ThesisDoc.pdf
+   http://www.its.bldrdoc.gov/isart/art08/slides08/shu_s-08.pdf
+
+
+* ITU-R P.xxx Recommendations
+  Software for various ITU Recommendations:
+  http://www.itu.int/ITU-R/index.asp?category=study-groups&rlink=rsg3-software-ionospheric&lang=en
+** ITU-R P.1812 (30 MHz - 3.5 GHz, up to 1000 km)
+   http://www.tvtechnology.com/article/80462
+   http://webs.uvigo.es/servicios/biblioteca/uit/
+   http://www.catr.cn/cttlcds/itu/itur/itur.jsp?docplace=P
+   http://webs.uvigo.es/servicios/biblioteca/uit/rec/P/R-REC-P.1812-0-200711-I!!PDF-E.pdf
+
+
+* ICEPAC, VOACAP, REC533 (2 MHz - 30 MHz):
+  http://elbert.its.bldrdoc.gov/hf.html
+
+
+* Splat! (uses ITM):
+  http://www.qsl.net/kd2bd/splat.html
+  http://www.qsl.net/kd2bd/splat.pdf
+
+
+* DEM data, e.g. SRTM:
+** Intro:
+   http://wiki.openstreetmap.org/wiki/SRTM
+** How to download SRTV v4 CGIAR-CSI data
+   http://www.xcsoar.org/trac/browser/mapgen/src/terrain_srtm.py
+** SRTMv3 data as .hgt (originally used by SPLAT!)
+   http://dds.cr.usgs.gov/srtm/version2_1/SRTM3/
+** SRTMv4.1 as .tif:
+   http://droppr.org/srtm/v4.1/6_5x5_TIFs
+
+
+* Misc
+  http://www.itu.int/ITU-R/index.asp?category=study-groups&link=rsg3&lang=en
+  http://www.scribd.com/doc/26150633/NTIA-Special-Publication-SP-08-452-Proceedings-of-the-International-Symposium-on-Advanced-Radio-Technologies-by-Patricia-J-Raush-el-al-June-2008
+  http://www.fcc.gov/oet/fm/ptp/
+** LoS, Viewshed
+   ftp://ftp.ecn.purdue.edu/jshan/proceedings/asprs2005/Files/0051.pdf
+   http://www.cs.swarthmore.edu/~adanner/cs97/f06/ps/FastViewshed.ps
+   git://github.com/jfishman/gis.git
+** HAAT
+  http://www.fcc.gov/mb/audio/bickel/haat_calculator.html
+** Matlab/Octave:
+   http://www.mathworks.com/matlabcentral/fileexchange/25099-itu-r-p-1546-calculator
+

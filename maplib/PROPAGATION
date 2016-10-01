@@ -1,0 +1,180 @@
+/*  -*- mode: maxima -*-
+
+This are semo calculation that I use with using Maxima.
+
+They have to do with Longley-Rice, but also with several ITU
+recommendations. I use this file mostly to quickly generate graphs, to
+get a better understanding of the value ranges.
+
+I'm editing this file in Emacs, with maximal.el installed (comes in
+Debian with emacs-maxima). Then I mark ranges and hit Ctrl-C Ctrl-R.
+This will send the marked range to Maxima and I can see the result. Or
+I point the cursor to some line and type Ctrl-C Ctrl-C, then just this
+line will be sent to Maxima.
+
+*/
+
+
+km : 1000 * m;
+ae : 9617.8 * km;
+hts : 50;
+hrs : 193;
+dtot : 109 * km
+theta_d : (hrs - hts) / dtot - 1000 * dtot / (2 * ae), numer;
+(hrs-hts)/dtot, m=1, numer
+dtot / (2 * ae / 1000)
+
+
+/* Fresnel zone
+
+d_tr    Distance between Trx and Rcv [km]
+d       point where the ellipsoid radius is wanted [km]
+f       Frequency [MHz]
+n       number of ellipsoid wanted
+result  [m]
+
+*/
+
+Rn(d_tr, d, f, n) := block([],
+  d1 : d_tr - d,
+  d2 : d,
+  550 * (n * d1 * d2 / (d1 + d2) * f) ^ (1/2))
+
+
+Rn(10, 2, 144, 1), numer
+
+plot2d(['Rn(10, d, 144, 1), 'Rn(10, d, 144, 2), 'Rn(10, d, 144, 3)], [d, 0, 10])
+
+
+
+
+/* Effective earth radius, from ITU-R P.452 Step 3 */
+
+a_e : 6371e3* 4 / 3$   /* effective earth radius */
+k50(Delta_n) := 157 / (157 - Delta_n);
+
+plot2d(k50(n) * a_e / 1000, [n, 30, 100])$
+
+
+
+
+/* ITU-R P.452-13, Section 4.1
+
+Basic transmission loss due to free-space propagation and attenuation by atmospheric gases
+
+d       Great circle distance [km]
+f       Frequency, MHz?
+result  [dB]
+
+*/
+L_bfsg : 92.5 + 20*log(f) + 20*log(d) + A_g
+
+
+omega: 0.01$             /* fraction of total path over water */
+rho: 7.5 + 2.5 * omega;  /* water vapour density */
+lambda_o : 0$            /* specific attenuation due to air, ITU-R P.676 */
+lambda_w(rho) := 0$      /* specific attenuation due to water vapour */
+A_g(d, rho) := (lambda_o + lambda_w(rho)) * d;
+plot2d(A_g(d, rho), [d, 1, 100])
+
+
+/* Ducting parameter
+
+ITU-R P.1812 Section 3.6
+
+theta  path center (degrees)
+dtm    longest continuous land (inland+coastal) section of the gread circle path [km]
+dlm    longest continuous inland section of the gread circle path [km]
+
+*/
+
+/* Equation (3) */
+tau : 1 - %e ^ -(4.12e-4 * dlm ^ 2.41);
+kill(tau)$
+plot2d(tau, [dlm, 10, 100]);
+
+/* Equation (1) */
+mu1 : max(1, (10 ^ (-dtm / (16 - 6.6 * tau)) + (10 ^ -(0.496 + 0.354 * tau)) ^ 5) ^ 0.2);
+kill(mu1)$
+plot2d(mu1, [dtm, 0.1, 100]), dlm=0;
+-- plot3d(mu1, [dtm, 1, 2], [dlm, 1, 2]);
+
+/* Equation (4) */
+mu4 : if abs(theta) <= 70 then (mu1 ^ (-0.935 + 0.0176 * abs(theta))) else mu1^0.3;
+kill(mu4)$
+plot2d(mu4, [mu_1, 0.1, 1]), mu1=mu_1, theta=55;
+plot3d(mu4, [mu_1, 0.1, 1], [theta, 0, 90]), mu1=mu_1;
+
+/* Equation 5 */
+beta0 : if abs(theta) <= 70 then 10 ^ (-0.015 * abs(theta) + 1.67) * mu1 * mu4 else 4.17 * mu1 * mu4;
+plot3d(mu4, [mu_1, 0.1, 1], [theta, 0, 80]), mu1=mu_1:
+
+
+
+/* Basic transmission loss due to free-space propagation
+
+ITU-R P.1812 Section 4.2
+
+d       Great circle distance [km]
+f       Frequency [GHz]
+result  [dB]
+
+*/
+
+/* Equation 8 */
+Lbfs : 92.44 + 20*log(f)/log(10) + 20*log(d)/log(10);
+plot2d(Lbfs, [d, 0.1, 100]), f=0.144;
+
+
+/*
+dlt    Distance from Tx to its horizon [km]
+dlr    Distance from Rx to its horizon [km]
+p      field strength exceeding percentage, 1 % .. 50 %
+beta0  xxx
+*/
+
+/* Equation 9a */
+
+Esp : 2.6 * (1 - %e ^ (-0.1 * (dlt + dlr))) * log(p/50)/log(10);
+plot2d(Esp, [p, 0.1, 1]), dlt=10, dlr=20;
+
+/* Equation 9n */
+
+Esbeta : 2.6 * (1 - %e ^ (-0.1 * (dlt + dlr))) * log(beta0/50)/log(10);
+plot2d(Esbeta, [beta0, 0.1, 1]), dlt=10, dlr=20;
+
+/* Equation 10 */
+
+Lb0p : Lbfs + Esp;
+Lb0p, d=30, f=0.144, dlt=10, dlr=20, p=0.5;
+
+/* Equation 11 */
+
+Lb0beta : Lbfs + Esbeta;
+Lb0beta, d=30, f=0.144, dlt=10, dlr=20, beta0=0.5;
+plot2d([Lbfs, Lb0p, Lb0beta], [d, 30.1, 100]), f=0.144, dlt=10, dlr=20, beta0=0.5, p=0.1;
+
+
+/* Propagation by diffraction
+
+ITU-R P.1812 Section 4.3
+
+*/
+
+/* Equation (12) */
+
+J : max(-0.78, 6.9 + 20 * log(sqrt((v-0.1)^2 + 1) + v - 0.1) / log(10));
+plot2d(J, [v, -3, 3]);
+
+/* Equation (13) */
+/* Median diffraction loss for the principal edge */
+zetam : cos(arctan(10e-3 * (hrc - htc) / d));
+
+
+/* Part of Equation (15) --- in km */
+nu_part : sqrt( (0.002 * d ) / (lambda * d_i * (d - d_i)));
+f, d=40, d_i=30, lambda=2, numer;
+
+/* Part of Equation (15) --- in m */
+nu_part : sqrt( (2 * d) / (lambda * d_i * (d - d_i)));
+nu_part, d=40*1000, d_i=30*1000, lambda=2, numer;

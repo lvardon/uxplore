@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="uxplore" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="0">
+			<notes>
+				<![CDATA[TODO
+
+- Documentation
+- import : gerer l'ecrasement des métadonnées
+
+TODO NEW FCT
+
+- Import/exort CSV
+- Export Kml + kmz
+- Calcul de distance
+
+DONE
+- Parametrer (bouton) le dossier du cache 
+- Projet à flager "modifié" lors de l'édition d'une balise par clic-droit depuis la carte
+- - Tri incorrect (toDouble manquant) sur colonnes lon et lat (projectdata.sortCompareValues)
+
+]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/uxplore" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-fPIC" />
+					<Add option="-std=c++11" />
+					<Add option="-static-libstdc++" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include/QtGui" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include/QtCore" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include/QtNetwork" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include/QtWidgets" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets" />
+					<Add directory="/opt/qt5/5.7/gcc_64/lib/" />
+				</Compiler>
+				<Linker>
+					<Add option="-lpthread" />
+					<Add option="-lz" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5Core.so" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5Gui.so" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5Network.so" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libicui18n.so.56" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libicuuc.so.56" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libicudata.so.56" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5Widgets.so" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5PrintSupport.so" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5WebEngine.so" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5WebEngineCore.so" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5WebEngineWidgets.so.5.7.0" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5WebChannel.so.5.7.0" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5WebSockets.so.5.7.0" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5WebView.so.5.7.0" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5Qml.so.5.7.0" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib/libQt5Quick.so" />
+				</Linker>
+				<ExtraCommands>
+					<Add before='export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:&quot;/opt/qt5/5.7/gcc_64/lib/:/opt/qt5/5.7/gcc_64/lib/qtcreator/&quot;' />
+				</ExtraCommands>
+				<Environment>
+					<Variable name="QT +" value="webenginewidgets" />
+				</Environment>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/uxplore" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include/QtGui" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include/QtCore" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include/QtNetwork" />
+					<Add directory="/opt/qt5/5.7/gcc_64/include/QtWidgets" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lpthread" />
+					<Add option="-lz" />
+					<Add library="/opt/qt5/5.7/gcc_64/lib" />
+				</Linker>
+				<Environment>
+					<Variable name="QT+" value="printsupport" />
+				</Environment>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="alire.txt" />
+		<Unit filename="csvDefinition.h" />
+		<Unit filename="dialogAbout.cpp" />
+		<Unit filename="dialogAbout.h" />
+		<Unit filename="dialogAppPref.cpp" />
+		<Unit filename="dialogAppPref.h" />
+		<Unit filename="dialogCsv.cpp" />
+		<Unit filename="dialogCsv.h" />
+		<Unit filename="dialogFind.cpp" />
+		<Unit filename="dialogFind.h" />
+		<Unit filename="dialogPrint.cpp" />
+		<Unit filename="dialogPrint.h" />
+		<Unit filename="dialogProjProperty.cpp" />
+		<Unit filename="dialogProjProperty.h" />
+		<Unit filename="dialogReplace.cpp" />
+		<Unit filename="dialogReplace.h" />
+		<Unit filename="dialogSearchDup.cpp" />
+		<Unit filename="dialogSearchDup.h" />
+		<Unit filename="dialogWptProp.cpp" />
+		<Unit filename="dialogWptProp.h" />
+		<Unit filename="envParam.cpp" />
+		<Unit filename="envParam.h" />
+		<Unit filename="global.cpp" />
+		<Unit filename="global.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mainWindow.cpp" />
+		<Unit filename="mainWindow.h" />
+		<Unit filename="maplib/3rdparty/qzip/qzip.cpp" />
+		<Unit filename="maplib/3rdparty/qzip/qzipreader.h" />
+		<Unit filename="maplib/3rdparty/qzip/qzipwriter.h" />
+		<Unit filename="maplib/DemDownloader.cpp" />
+		<Unit filename="maplib/DemDownloader.h" />
+		<Unit filename="maplib/Downloader.cpp" />
+		<Unit filename="maplib/DrawITUTerrain.cpp" />
+		<Unit filename="maplib/DrawITUTerrain.h" />
+		<Unit filename="maplib/GeoUtils.cpp" />
+		<Unit filename="maplib/GeoUtils.h" />
+		<Unit filename="maplib/ITUTerrain.cpp" />
+		<Unit filename="maplib/ITUTerrain.h" />
+		<Unit filename="maplib/LocationMapDialog.cpp" />
+		<Unit filename="maplib/LocationMapDialog.h" />
+		<Unit filename="maplib/MapChooseWidget.cpp" />
+		<Unit filename="maplib/MapChooseWidget.h" />
+		<Unit filename="maplib/ParseCSV.cpp" />
+		<Unit filename="maplib/ParseCSV.h" />
+		<Unit filename="maplib/ProfileWidget.cpp" />
+		<Unit filename="maplib/ProfileWidget.h" />
+		<Unit filename="maplib/SRTMv4.cpp" />
+		<Unit filename="maplib/SRTMv4.h" />
+		<Unit filename="maplib/SlippyLocations.cpp" />
+		<Unit filename="maplib/SlippyLocations.h" />
+		<Unit filename="maplib/SlippyMapWidget.cpp" />
+		<Unit filename="maplib/SlippyMapWidget.h" />
+		<Unit filename="maplib/locations.cpp" />
+		<Unit filename="maplib/locations.h" />
+		<Unit filename="maplib/mydebug.cpp" />
+		<Unit filename="maplib/mydebug.h" />
+		<Unit filename="projectData.cpp" />
+		<Unit filename="projectData.h" />
+		<Unit filename="wptEdit.cpp" />
+		<Unit filename="wptEdit.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

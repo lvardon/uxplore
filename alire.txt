@@ -1,0 +1,80 @@
+Dépendances :
+
+GLIBCXX_3.4.21(libstdc++.so.6) , check : ldd --version
+
+-------------------------------
+Win deploy :
+
+
+The application is able to run on the host system, since the Qt bin path is in the system PATH variable.
+
+There is a standard Qt tool for deployment of Qt applications on Windows windeployqt to be able to run the application on target machines that do not have Qt installed.
+
+That tool takes care about Qt DLL dependencies, makes a copy of platforms\qwindows.dll and also it makes a copy of libraries that you cannot detect with the Dependency Walker, since image plugins and some other DLLs are loaded at runtime.
+
+You do not even need to have your Qt bin folder in your environment PATH. The simplest deployment:
+
+    copy built exe binary to a new folder
+    open cmd console in that folder
+    call windeployqt using the full path (if it is not in the system PATH) and provide your executable, for example:
+
+        c:\Qt\Qt5.2.1\5.2.1\msvc2010_opengl\bin\windeployqt.exe application.exe
+
+As a result you have in that folder all needed Qt DLLs to run the application.
+
+The tool windeployqt has various options. It can also take care about deployment of qml related files.
+
+Of course you can have also issues with MSVC redistributables, but those should be deployed separately and installed once per system.
+
+Only some 3rd party libraries should be copied manually if they are used, for example OpenSSL.
+
+
+src = https://stackoverflow.com/questions/21268558/application-failed-to-start-because-it-could-not-find-or-load-the-qt-platform-pl#25266269
+-------------------------------
+
+
+
+Thanks JKSH for putting me on the way to the solution!
+[quote author="JKSH" date="1393037410"]
+Follow the quick-and-dirty method in this guide to identify the missing dependenc(ies): http://qt-project.org/wiki/Deploy_an_Application_on_Windows It's written for Windows but also works on Linux. Just replace *.dll with *.so[/quote]
+
+Here is a Linux version of the above for those who may have a similar problem.
+
+-- Firstly copy the required platform plugin libqxcb.so to a test directory ~/test_libs from /pathToQt/plugins/platforms
+in my case the pathToQt was ~/Qt/5.2.1/gcc_64/
+
+-- Then copy all of the libraries from /pathToQt/lib to ~/test_libs
+
+Set the LD_LIBRARY_PATH
+@
+LD_LIBRARY_PATH=~/test_libs
+export LD_LIBRARY_PATH
+@
+
+Then run
+@
+cd ~/test_libs
+ldd -r -d libqxcb.so
+@
+
+This should have no errors or undefined symbol messages.
+
+Then you can delete libraries from ~/test_libs whilst rerunning ldd to work out the required libs, or delete all the libraries that ldd does not list from the directory ~/test_libs.
+
+In my case libqxcb.so required the following libraries
+libicudata.so.51
+libicui18n.so.51
+libicuuc.so.51
+libQt5Core.so.5
+libQt5DBus.so.5
+libQt5Gui.so.5
+
+So I think my problem was that some incompatible libraries were found on the system so ldd didn't complain about them being missing.
+
+----------------
+
+
+undefined symbol recherche so :
+
+find /opt/qt5/5.7/gcc_64/lib -print | grep ibQt5XcbQpa.so.5
+

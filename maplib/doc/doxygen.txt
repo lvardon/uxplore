@@ -1,0 +1,38 @@
+/*
+
+\file DemAccess.h            Helper to download elevation data.
+\file DemAccess.cpp          Helper to download elevation data.
+
+\addtogroup PathPrediction Path Prediction
+@{
+\file itm.cpp                ITM (Longley-Rice) Path Prediction calculations.
+@}
+
+\class LocationDialog
+\ingroup Widgets
+
+XXX
+
+*/
+
+
+
+/*!
+
+\defgroup Storage Storage
+\defgroup Geodetic Geodetic
+\defgroup Widgets Widgets
+\defgroup Debug Debug
+\defgroup Network Network
+\defgroup Propagation Propagation
+
+\class Location
+\ingroup Storage
+\class LocationsModel
+\ingroup Storage, Widgets
+\class LocationsView
+\ingroup Widgets
+\class LocationsParser
+\ingroup Storage
+
+*/

@@ -1,0 +1,326 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'dialogAppPref.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.7.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "dialogAppPref.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'dialogAppPref.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.7.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+struct qt_meta_stringdata_dialogAppPref_t {
+    QByteArrayData data[51];
+    char stringdata0[894];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_dialogAppPref_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_dialogAppPref_t qt_meta_stringdata_dialogAppPref = {
+    {
+QT_MOC_LITERAL(0, 0, 13), // "dialogAppPref"
+QT_MOC_LITERAL(1, 14, 9), // "okClicked"
+QT_MOC_LITERAL(2, 24, 0), // ""
+QT_MOC_LITERAL(3, 25, 13), // "cancelClicked"
+QT_MOC_LITERAL(4, 39, 13), // "displayWptCol"
+QT_MOC_LITERAL(5, 53, 15), // "ctxMenuColDispo"
+QT_MOC_LITERAL(6, 69, 15), // "ctxMenuMapDispo"
+QT_MOC_LITERAL(7, 85, 13), // "wptDispoColUp"
+QT_MOC_LITERAL(8, 99, 15), // "wptDispoColDown"
+QT_MOC_LITERAL(9, 115, 17), // "mapDispoColInsert"
+QT_MOC_LITERAL(10, 133, 15), // "mapDispoColSupp"
+QT_MOC_LITERAL(11, 149, 13), // "mapDispoColUp"
+QT_MOC_LITERAL(12, 163, 15), // "mapDispoColDown"
+QT_MOC_LITERAL(13, 179, 14), // "mapDispoColTop"
+QT_MOC_LITERAL(14, 194, 17), // "mapDispoColBottom"
+QT_MOC_LITERAL(15, 212, 16), // "onCacheDirSelect"
+QT_MOC_LITERAL(16, 229, 17), // "onMarkerDirSelect"
+QT_MOC_LITERAL(17, 247, 17), // "onMarkerFontColor"
+QT_MOC_LITERAL(18, 265, 15), // "onMarkerBgColor"
+QT_MOC_LITERAL(19, 281, 18), // "onMarkerFontSelect"
+QT_MOC_LITERAL(20, 300, 20), // "onMarkerTransparency"
+QT_MOC_LITERAL(21, 321, 15), // "onZoomFontColor"
+QT_MOC_LITERAL(22, 337, 13), // "onZoomBgColor"
+QT_MOC_LITERAL(23, 351, 16), // "onZoomFontSelect"
+QT_MOC_LITERAL(24, 368, 18), // "onZoomTransparency"
+QT_MOC_LITERAL(25, 387, 16), // "onCrossFontColor"
+QT_MOC_LITERAL(26, 404, 14), // "onCrossBgColor"
+QT_MOC_LITERAL(27, 419, 19), // "onCrossTransparency"
+QT_MOC_LITERAL(28, 439, 19), // "onScaleBigFontColor"
+QT_MOC_LITERAL(29, 459, 17), // "onScaleBigBgColor"
+QT_MOC_LITERAL(30, 477, 20), // "onScaleBigFontSelect"
+QT_MOC_LITERAL(31, 498, 22), // "onScaleBigTransparency"
+QT_MOC_LITERAL(32, 521, 19), // "onScaleVarFontColor"
+QT_MOC_LITERAL(33, 541, 17), // "onScaleVarBgColor"
+QT_MOC_LITERAL(34, 559, 20), // "onScaleVarFontSelect"
+QT_MOC_LITERAL(35, 580, 22), // "onScaleVarTransparency"
+QT_MOC_LITERAL(36, 603, 14), // "onFoundBgColor"
+QT_MOC_LITERAL(37, 618, 17), // "onLineEditBgColor"
+QT_MOC_LITERAL(38, 636, 19), // "onLineSelectBgColor"
+QT_MOC_LITERAL(39, 656, 17), // "onMapPoiFontColor"
+QT_MOC_LITERAL(40, 674, 15), // "onMapPoiBgColor"
+QT_MOC_LITERAL(41, 690, 18), // "onMapPoiFontSelect"
+QT_MOC_LITERAL(42, 709, 20), // "onMapPoiTransparency"
+QT_MOC_LITERAL(43, 730, 18), // "onListPoiFontColor"
+QT_MOC_LITERAL(44, 749, 16), // "onListPoiBgColor"
+QT_MOC_LITERAL(45, 766, 19), // "onListPoiFontSelect"
+QT_MOC_LITERAL(46, 786, 21), // "onListPoiTransparency"
+QT_MOC_LITERAL(47, 808, 20), // "onMapLegendFontColor"
+QT_MOC_LITERAL(48, 829, 18), // "onMapLegendBgColor"
+QT_MOC_LITERAL(49, 848, 21), // "onMapLegendFontSelect"
+QT_MOC_LITERAL(50, 870, 23) // "onMapLegendTransparency"
+
+    },
+    "dialogAppPref\0okClicked\0\0cancelClicked\0"
+    "displayWptCol\0ctxMenuColDispo\0"
+    "ctxMenuMapDispo\0wptDispoColUp\0"
+    "wptDispoColDown\0mapDispoColInsert\0"
+    "mapDispoColSupp\0mapDispoColUp\0"
+    "mapDispoColDown\0mapDispoColTop\0"
+    "mapDispoColBottom\0onCacheDirSelect\0"
+    "onMarkerDirSelect\0onMarkerFontColor\0"
+    "onMarkerBgColor\0onMarkerFontSelect\0"
+    "onMarkerTransparency\0onZoomFontColor\0"
+    "onZoomBgColor\0onZoomFontSelect\0"
+    "onZoomTransparency\0onCrossFontColor\0"
+    "onCrossBgColor\0onCrossTransparency\0"
+    "onScaleBigFontColor\0onScaleBigBgColor\0"
+    "onScaleBigFontSelect\0onScaleBigTransparency\0"
+    "onScaleVarFontColor\0onScaleVarBgColor\0"
+    "onScaleVarFontSelect\0onScaleVarTransparency\0"
+    "onFoundBgColor\0onLineEditBgColor\0"
+    "onLineSelectBgColor\0onMapPoiFontColor\0"
+    "onMapPoiBgColor\0onMapPoiFontSelect\0"
+    "onMapPoiTransparency\0onListPoiFontColor\0"
+    "onListPoiBgColor\0onListPoiFontSelect\0"
+    "onListPoiTransparency\0onMapLegendFontColor\0"
+    "onMapLegendBgColor\0onMapLegendFontSelect\0"
+    "onMapLegendTransparency"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_dialogAppPref[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      49,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  259,    2, 0x0a /* Public */,
+       3,    0,  260,    2, 0x0a /* Public */,
+       4,    0,  261,    2, 0x0a /* Public */,
+       5,    1,  262,    2, 0x0a /* Public */,
+       6,    1,  265,    2, 0x0a /* Public */,
+       7,    0,  268,    2, 0x0a /* Public */,
+       8,    0,  269,    2, 0x0a /* Public */,
+       9,    0,  270,    2, 0x0a /* Public */,
+      10,    0,  271,    2, 0x0a /* Public */,
+      11,    0,  272,    2, 0x0a /* Public */,
+      12,    0,  273,    2, 0x0a /* Public */,
+      13,    0,  274,    2, 0x0a /* Public */,
+      14,    0,  275,    2, 0x0a /* Public */,
+      15,    0,  276,    2, 0x0a /* Public */,
+      16,    0,  277,    2, 0x0a /* Public */,
+      17,    0,  278,    2, 0x0a /* Public */,
+      18,    0,  279,    2, 0x0a /* Public */,
+      19,    0,  280,    2, 0x0a /* Public */,
+      20,    0,  281,    2, 0x0a /* Public */,
+      21,    0,  282,    2, 0x0a /* Public */,
+      22,    0,  283,    2, 0x0a /* Public */,
+      23,    0,  284,    2, 0x0a /* Public */,
+      24,    0,  285,    2, 0x0a /* Public */,
+      25,    0,  286,    2, 0x0a /* Public */,
+      26,    0,  287,    2, 0x0a /* Public */,
+      27,    0,  288,    2, 0x0a /* Public */,
+      28,    0,  289,    2, 0x0a /* Public */,
+      29,    0,  290,    2, 0x0a /* Public */,
+      30,    0,  291,    2, 0x0a /* Public */,
+      31,    0,  292,    2, 0x0a /* Public */,
+      32,    0,  293,    2, 0x0a /* Public */,
+      33,    0,  294,    2, 0x0a /* Public */,
+      34,    0,  295,    2, 0x0a /* Public */,
+      35,    0,  296,    2, 0x0a /* Public */,
+      36,    0,  297,    2, 0x0a /* Public */,
+      37,    0,  298,    2, 0x0a /* Public */,
+      38,    0,  299,    2, 0x0a /* Public */,
+      39,    0,  300,    2, 0x0a /* Public */,
+      40,    0,  301,    2, 0x0a /* Public */,
+      41,    0,  302,    2, 0x0a /* Public */,
+      42,    0,  303,    2, 0x0a /* Public */,
+      43,    0,  304,    2, 0x0a /* Public */,
+      44,    0,  305,    2, 0x0a /* Public */,
+      45,    0,  306,    2, 0x0a /* Public */,
+      46,    0,  307,    2, 0x0a /* Public */,
+      47,    0,  308,    2, 0x0a /* Public */,
+      48,    0,  309,    2, 0x0a /* Public */,
+      49,    0,  310,    2, 0x0a /* Public */,
+      50,    0,  311,    2, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QPoint,    2,
+    QMetaType::Void, QMetaType::QPoint,    2,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void dialogAppPref::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        dialogAppPref *_t = static_cast<dialogAppPref *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->okClicked(); break;
+        case 1: _t->cancelClicked(); break;
+        case 2: _t->displayWptCol(); break;
+        case 3: _t->ctxMenuColDispo((*reinterpret_cast< const QPoint(*)>(_a[1]))); break;
+        case 4: _t->ctxMenuMapDispo((*reinterpret_cast< const QPoint(*)>(_a[1]))); break;
+        case 5: _t->wptDispoColUp(); break;
+        case 6: _t->wptDispoColDown(); break;
+        case 7: _t->mapDispoColInsert(); break;
+        case 8: _t->mapDispoColSupp(); break;
+        case 9: _t->mapDispoColUp(); break;
+        case 10: _t->mapDispoColDown(); break;
+        case 11: _t->mapDispoColTop(); break;
+        case 12: _t->mapDispoColBottom(); break;
+        case 13: _t->onCacheDirSelect(); break;
+        case 14: _t->onMarkerDirSelect(); break;
+        case 15: _t->onMarkerFontColor(); break;
+        case 16: _t->onMarkerBgColor(); break;
+        case 17: _t->onMarkerFontSelect(); break;
+        case 18: _t->onMarkerTransparency(); break;
+        case 19: _t->onZoomFontColor(); break;
+        case 20: _t->onZoomBgColor(); break;
+        case 21: _t->onZoomFontSelect(); break;
+        case 22: _t->onZoomTransparency(); break;
+        case 23: _t->onCrossFontColor(); break;
+        case 24: _t->onCrossBgColor(); break;
+        case 25: _t->onCrossTransparency(); break;
+        case 26: _t->onScaleBigFontColor(); break;
+        case 27: _t->onScaleBigBgColor(); break;
+        case 28: _t->onScaleBigFontSelect(); break;
+        case 29: _t->onScaleBigTransparency(); break;
+        case 30: _t->onScaleVarFontColor(); break;
+        case 31: _t->onScaleVarBgColor(); break;
+        case 32: _t->onScaleVarFontSelect(); break;
+        case 33: _t->onScaleVarTransparency(); break;
+        case 34: _t->onFoundBgColor(); break;
+        case 35: _t->onLineEditBgColor(); break;
+        case 36: _t->onLineSelectBgColor(); break;
+        case 37: _t->onMapPoiFontColor(); break;
+        case 38: _t->onMapPoiBgColor(); break;
+        case 39: _t->onMapPoiFontSelect(); break;
+        case 40: _t->onMapPoiTransparency(); break;
+        case 41: _t->onListPoiFontColor(); break;
+        case 42: _t->onListPoiBgColor(); break;
+        case 43: _t->onListPoiFontSelect(); break;
+        case 44: _t->onListPoiTransparency(); break;
+        case 45: _t->onMapLegendFontColor(); break;
+        case 46: _t->onMapLegendBgColor(); break;
+        case 47: _t->onMapLegendFontSelect(); break;
+        case 48: _t->onMapLegendTransparency(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject dialogAppPref::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_dialogAppPref.data,
+      qt_meta_data_dialogAppPref,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+};
+
+
+const QMetaObject *dialogAppPref::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *dialogAppPref::qt_metacast(const char *_clname)
+{
+    if (!_clname) return Q_NULLPTR;
+    if (!strcmp(_clname, qt_meta_stringdata_dialogAppPref.stringdata0))
+        return static_cast<void*>(const_cast< dialogAppPref*>(this));
+    return QDialog::qt_metacast(_clname);
+}
+
+int dialogAppPref::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 49)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 49;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 49)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 49;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

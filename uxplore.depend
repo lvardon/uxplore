@@ -1,0 +1,6017 @@
+# depslib dependency file v1.0
+1468088328 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAbout.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogAbout.h"
+	<QDebug>
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogAbout.moc"
+
+1468254581 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/mainWindow.h
+	<QtGui>
+	"global.h"
+	"projectData.h"
+	"wptEdit.h"
+	"dialogFind.h"
+	"dialogReplace.h"
+	"dialogSearchDup.h"
+	"dialogAbout.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+
+1468511322 /opt/qt5/5.7/gcc_64/include/QtGui
+
+1465134870 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/global.h
+	<QString>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QString
+	"qstring.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qstring.h
+	<QtCore/qchar.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qnamespace.h>
+	<string>
+	<iterator>
+	<stdarg.h>
+	<QtCore/qstringbuilder.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qchar.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qglobal.h
+	<cstddef>
+	<stddef.h>
+	<QtCore/qconfig.h>
+	<QtCore/qfeatures.h>
+	<QtCore/qsystemdetection.h>
+	<QtCore/qprocessordetection.h>
+	<QtCore/qcompilerdetection.h>
+	<algorithm>
+	<QtCore/qtypeinfo.h>
+	<QtCore/qsysinfo.h>
+	<QtCore/qlogging.h>
+	<QtCore/qflags.h>
+	<QtCore/qatomic.h>
+	<QtCore/qglobalstatic.h>
+	<QtCore/qnumeric.h>
+	<QtCore/qversiontagging.h>
+
+1465552843 /opt/qt5/5.7/gcc_64/include/QtCore/qconfig.h
+
+1465552843 /opt/qt5/5.7/gcc_64/include/QtCore/qfeatures.h
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsystemdetection.h
+	<QtCore/qglobal.h>
+	<TargetConditionals.h>
+	<Availability.h>
+	<AvailabilityMacros.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qprocessordetection.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qcompilerdetection.h
+	<QtCore/qglobal.h>
+	<utility>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtypeinfo.h
+	<QtCore/qtypetraits.h>
+	<QtCore/qisenum.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtypetraits.h
+	"QtCore/qglobal.h"
+	<utility>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qisenum.h
+	<QtCore/qglobal.h>
+	<QtCore/qtypetraits.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsysinfo.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qlogging.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qflags.h
+	<QtCore/qglobal.h>
+	<QtCore/qtypeinfo.h>
+	<QtCore/qtypetraits.h>
+	<initializer_list>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qatomic.h
+	<QtCore/qglobal.h>
+	<QtCore/qbasicatomic.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qbasicatomic.h
+	<QtCore/qatomic.h>
+	<QtCore/qatomic_bootstrap.h>
+	<QtCore/qatomic_cxx11.h>
+	<QtCore/qatomic_msvc.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qatomic_bootstrap.h
+	<QtCore/qgenericatomic.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qgenericatomic.h
+	<QtCore/qglobal.h>
+	<QtCore/qtypeinfo.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qatomic_cxx11.h
+	<QtCore/qgenericatomic.h>
+	<atomic>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qatomic_msvc.h
+	<QtCore/qgenericatomic.h>
+	<winbase.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qglobalstatic.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qmutex.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qmutex.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<new>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qnumeric.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qversiontagging.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qbytearray.h
+	<QtCore/qrefcount.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qarraydata.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<string>
+	<iterator>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qrefcount.h
+	<QtCore/qatomic.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qnamespace.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qarraydata.h
+	<QtCore/qrefcount.h>
+	<string.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qstringbuilder.h
+	<QtCore/qstring.h>
+	<QtCore/qbytearray.h>
+	<string.h>
+
+1468311828 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/projectData.h
+	"global.h"
+	<QString>
+	<QList>
+	<QVariant>
+	<QStack>
+	<QFile>
+	<QDateTime>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QList
+	"qlist.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qlist.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qiterator.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qarraydata.h>
+	<QtCore/qhashfunctions.h>
+	<iterator>
+	<list>
+	<algorithm>
+	<initializer_list>
+	<stdlib.h>
+	<new>
+	<limits.h>
+	<string.h>
+	<QtCore/qbytearraylist.h>
+	<QtCore/qstringlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qalgorithms.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qiterator.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qhashfunctions.h
+	<QtCore/qchar.h>
+	<QtCore/qpair.h>
+	<numeric>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qpair.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qbytearraylist.h
+	<QtCore/qlist.h>
+	<QtCore/qbytearray.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qstringlist.h
+	<QtCore/qlist.h>
+	<QtCore/qalgorithms.h>
+	<QtCore/qregexp.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringmatcher.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qregexp.h
+	<QtCore/qglobal.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qstringmatcher.h
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QVariant
+	"qvariant.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qvariant.h
+	<QtCore/qatomic.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qlist.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qmap.h>
+	<QtCore/qhash.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qobject.h>
+	<QtCore/qbytearraylist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qmetatype.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qvarlengtharray.h>
+	<QtCore/qisenum.h>
+	<QtCore/qtypetraits.h>
+	<QtCore/qobjectdefs.h>
+	<new>
+	<vector>
+	<list>
+	<map>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qvarlengtharray.h
+	<QtCore/qcontainerfwd.h>
+	<QtCore/qglobal.h>
+	<QtCore/qalgorithms.h>
+	<new>
+	<string.h>
+	<stdlib.h>
+	<algorithm>
+	<initializer_list>
+	<iterator>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qcontainerfwd.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qobjectdefs.h
+	<QtCore/qnamespace.h>
+	<QtCore/qobjectdefs_impl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qobjectdefs_impl.h
+	<QtCore/qnamespace.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qmap.h
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qpair.h>
+	<QtCore/qtypetraits.h>
+	<QtCore/qdebug.h>
+	<map>
+	<new>
+	<initializer_list>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qdebug.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qhash.h>
+	<QtCore/qlist.h>
+	<QtCore/qmap.h>
+	<QtCore/qpair.h>
+	<QtCore/qtextstream.h>
+	<QtCore/qstring.h>
+	<QtCore/qvector.h>
+	<QtCore/qset.h>
+	<QtCore/qcontiguouscache.h>
+	<QtCore/qsharedpointer.h>
+	<vector>
+	<list>
+	<map>
+	<utility>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qhash.h
+	<QtCore/qchar.h>
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qhashfunctions.h>
+	<initializer_list>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtextstream.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstring.h>
+	<QtCore/qchar.h>
+	<QtCore/qlocale.h>
+	<QtCore/qscopedpointer.h>
+	<stdio.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qiodevice.h
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qobject.h
+	<QtCore/qobjectdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qlist.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qobject_impl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qcoreevent.h
+	<QtCore/qnamespace.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qobjectdefs.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qscopedpointer.h
+	<QtCore/qglobal.h>
+	<stdlib.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qobject_impl.h
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qlocale.h
+	<QtCore/qvariant.h>
+	<QtCore/qstring.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qshareddata.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qshareddata.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qhash.h>
+	<QtCore/qhashfunctions.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qvector.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qarraydata.h>
+	<QtCore/qhashfunctions.h>
+	<iterator>
+	<vector>
+	<stdlib.h>
+	<string.h>
+	<initializer_list>
+	<algorithm>
+	<QtCore/qpoint.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qpoint.h
+	<QtCore/qnamespace.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qset.h
+	<QtCore/qhash.h>
+	<initializer_list>
+	<iterator>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qcontiguouscache.h
+	<QtCore/qatomic.h>
+	<limits.h>
+	<new>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsharedpointer.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qsharedpointer_impl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsharedpointer_impl.h
+	<new>
+	<QtCore/qatomic.h>
+	<QtCore/qobject.h>
+	<QtCore/qhash.h>
+	<QtCore/qhashfunctions.h>
+	<utility>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QStack
+	"qstack.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qstack.h
+	<QtCore/qvector.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QFile
+	"qfile.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfile.h
+	<QtCore/qfiledevice.h>
+	<QtCore/qstring.h>
+	<stdio.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfiledevice.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QDateTime
+	"qdatetime.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qdatetime.h
+	<QtCore/qstring.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qshareddata.h>
+	<limits>
+
+1468088638 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/wptEdit.h
+	"global.h"
+	"projectData.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+	<QTableWidget>
+	<QtGui>
+	<QtWidgets/QHeaderView>
+
+1468138252 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SlippyMapWidget.h
+	<QWidget>
+	<QCache>
+	<QSet>
+	<QList>
+	<QPixmap>
+	<QGraphicsPixmapItem>
+	<QGraphicsScene>
+	<QMenu>
+	"GeoUtils.h"
+	"../projectData.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QWidget
+	"qwidget.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qwidget.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qobject.h>
+	<QtCore/qmargins.h>
+	<QtGui/qpaintdevice.h>
+	<QtGui/qpalette.h>
+	<QtGui/qfont.h>
+	<QtGui/qfontmetrics.h>
+	<QtGui/qfontinfo.h>
+	<QtWidgets/qsizepolicy.h>
+	<QtGui/qregion.h>
+	<QtGui/qbrush.h>
+	<QtGui/qcursor.h>
+	<QtGui/qkeysequence.h>
+	<QtGui/qevent.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qwindowdefs.h
+	<QtCore/qglobal.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qnamespace.h>
+	<QtGui/qwindowdefs_win.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qwindowdefs_win.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qmargins.h
+	<QtCore/qnamespace.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpaintdevice.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qrect.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qrect.h
+	<QtCore/qmargins.h>
+	<QtCore/qsize.h>
+	<QtCore/qpoint.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsize.h
+	<QtCore/qnamespace.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpalette.h
+	<QtGui/qwindowdefs.h>
+	<QtGui/qcolor.h>
+	<QtGui/qbrush.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qcolor.h
+	<QtGui/qrgb.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstringlist.h>
+	<QtGui/qrgba64.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qrgb.h
+	<QtCore/qglobal.h>
+	<QtCore/qprocessordetection.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qrgba64.h
+	<QtCore/qglobal.h>
+	<QtCore/qprocessordetection.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qbrush.h
+	<QtCore/qpair.h>
+	<QtCore/qpoint.h>
+	<QtCore/qvector.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qcolor.h>
+	<QtGui/qmatrix.h>
+	<QtGui/qtransform.h>
+	<QtGui/qimage.h>
+	<QtGui/qpixmap.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qmatrix.h
+	<QtGui/qpolygon.h>
+	<QtGui/qregion.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qline.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpolygon.h
+	<QtCore/qvector.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qregion.h
+	<QtCore/qatomic.h>
+	<QtCore/qrect.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qdatastream.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qdatastream.h
+	<QtCore/qscopedpointer.h>
+	<QtCore/qiodevice.h>
+	<QtCore/qpair.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qline.h
+	<QtCore/qpoint.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtransform.h
+	<QtGui/qmatrix.h>
+	<QtGui/qpainterpath.h>
+	<QtGui/qpolygon.h>
+	<QtGui/qregion.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qline.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpainterpath.h
+	<QtGui/qmatrix.h>
+	<QtCore/qglobal.h>
+	<QtCore/qrect.h>
+	<QtCore/qline.h>
+	<QtCore/qvector.h>
+	<QtCore/qscopedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qimage.h
+	<QtGui/qcolor.h>
+	<QtGui/qrgb.h>
+	<QtGui/qpaintdevice.h>
+	<QtGui/qpixelformat.h>
+	<QtGui/qtransform.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qrect.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpixelformat.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpixmap.h
+	<QtGui/qpaintdevice.h>
+	<QtGui/qcolor.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtCore/qsharedpointer.h>
+	<QtGui/qimage.h>
+	<QtGui/qtransform.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qfont.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qsharedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qfontmetrics.h
+	<QtGui/qfont.h>
+	<QtCore/qsharedpointer.h>
+	<QtCore/qrect.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qfontinfo.h
+	<QtGui/qfont.h>
+	<QtCore/qsharedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qsizepolicy.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qcursor.h
+	<QtCore/qpoint.h>
+	<QtGui/qwindowdefs.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qkeysequence.h
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtCore/qobjectdefs.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qevent.h
+	<QtGui/qwindowdefs.h>
+	<QtGui/qregion.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtGui/qkeysequence.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qvariant.h>
+	<QtCore/qmap.h>
+	<QtCore/qvector.h>
+	<QtCore/qset.h>
+	<QtCore/qurl.h>
+	<QtCore/qfile.h>
+	<QtGui/qvector2d.h>
+	<QtGui/qtouchdevice.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qurl.h
+	<QtCore/qbytearray.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qlist.h>
+	<QtCore/qpair.h>
+	<QtCore/qglobal.h>
+	<QtCore/qurlquery.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qurlquery.h
+	<QtCore/qpair.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qurl.h>
+	<QtCore/qstringlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qvector2d.h
+	<QtCore/qpoint.h>
+	<QtCore/qmetatype.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtouchdevice.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QCache
+	"qcache.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qcache.h
+	<QtCore/qhash.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QSet
+	"qset.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QPixmap
+	"qpixmap.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QGraphicsPixmapItem
+	"qgraphicsitem.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicsitem.h
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtCore/qvariant.h>
+	<QtCore/qrect.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qpainterpath.h>
+	<QtGui/qpixmap.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QGraphicsScene
+	"qgraphicsscene.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicsscene.h
+	<QtCore/qobject.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+	<QtGui/qbrush.h>
+	<QtGui/qfont.h>
+	<QtGui/qtransform.h>
+	<QtGui/qmatrix.h>
+	<QtGui/qpen.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpen.h
+	<QtGui/qcolor.h>
+	<QtGui/qbrush.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QMenu
+	"qmenu.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qmenu.h
+	<QtWidgets/qwidget.h>
+	<QtCore/qstring.h>
+	<QtGui/qicon.h>
+	<QtWidgets/qaction.h>
+	<windef.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qicon.h
+	<QtCore/qglobal.h>
+	<QtCore/qsize.h>
+	<QtCore/qlist.h>
+	<QtGui/qpixmap.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qaction.h
+	<QtGui/qkeysequence.h>
+	<QtCore/qstring.h>
+	<QtWidgets/qwidget.h>
+	<QtCore/qvariant.h>
+	<QtGui/qicon.h>
+	<QtWidgets/qactiongroup.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qactiongroup.h
+	<QtWidgets/qaction.h>
+
+1433783275 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/GeoUtils.h
+	<QPointF>
+	<QVector>
+	<QString>
+	<math.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QPointF
+	"qpoint.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QVector
+	"qvector.h"
+
+1464535341 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/MapChooseWidget.h
+	<QComboBox>
+	<QList>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QComboBox
+	"qcombobox.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qcombobox.h
+	<QtWidgets/qwidget.h>
+	<QtWidgets/qabstractitemdelegate.h>
+	<QtCore/qabstractitemmodel.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qabstractitemdelegate.h
+	<QtCore/qobject.h>
+	<QtWidgets/qstyleoption.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qstyleoption.h
+	<QtCore/qvariant.h>
+	<QtWidgets/qabstractspinbox.h>
+	<QtGui/qicon.h>
+	<QtGui/qmatrix.h>
+	<QtWidgets/qslider.h>
+	<QtWidgets/qstyle.h>
+	<QtWidgets/qtabbar.h>
+	<QtWidgets/qtabwidget.h>
+	<QtWidgets/qrubberband.h>
+	<QtWidgets/qframe.h>
+	<QtCore/qabstractitemmodel.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qabstractspinbox.h
+	<QtWidgets/qwidget.h>
+	<QtGui/qvalidator.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qvalidator.h
+	<QtCore/qobject.h>
+	<QtCore/qstring.h>
+	<QtCore/qregexp.h>
+	<QtCore/qregularexpression.h>
+	<QtCore/qlocale.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qregularexpression.h
+	<QtCore/qglobal.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qslider.h
+	<QtWidgets/qabstractslider.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qabstractslider.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qstyle.h
+	<QtCore/qobject.h>
+	<QtCore/qrect.h>
+	<QtCore/qsize.h>
+	<QtGui/qicon.h>
+	<QtGui/qpixmap.h>
+	<QtGui/qpalette.h>
+	<QtWidgets/qsizepolicy.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtabbar.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtabwidget.h
+	<QtWidgets/qwidget.h>
+	<QtGui/qicon.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qrubberband.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qframe.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qabstractitemmodel.h
+	<QtCore/qvariant.h>
+	<QtCore/qobject.h>
+	<QtCore/qhash.h>
+	<QtCore/qvector.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QTableWidget
+	"qtablewidget.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtablewidget.h
+	<QtWidgets/qtableview.h>
+	<QtCore/qvariant.h>
+	<QtCore/qvector.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtableview.h
+	<QtWidgets/qabstractitemview.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qabstractitemview.h
+	<QtWidgets/qabstractscrollarea.h>
+	<QtCore/qabstractitemmodel.h>
+	<QtCore/qitemselectionmodel.h>
+	<QtWidgets/qabstractitemdelegate.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qabstractscrollarea.h
+	<QtWidgets/qframe.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qitemselectionmodel.h
+	<QtCore/qset.h>
+	<QtCore/qvector.h>
+	<QtCore/qlist.h>
+	<QtCore/qabstractitemmodel.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QHeaderView
+	"qheaderview.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qheaderview.h
+	<QtWidgets/qabstractitemview.h>
+
+1468089691 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogFind.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QDebug
+	"qdebug.h"
+
+1468511322 /opt/qt5/5.7/gcc_64/include/QtWidgets
+
+1465238226 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogReplace.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1465323346 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogSearchDup.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1465134682 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAbout.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QPushButton
+	"qpushbutton.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qpushbutton.h
+	<QtWidgets/qabstractbutton.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qabstractbutton.h
+	<QtGui/qicon.h>
+	<QtGui/qkeysequence.h>
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QDialogButtonBox
+	"qdialogbuttonbox.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qdialogbuttonbox.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QLabel
+	"qlabel.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qlabel.h
+	<QtWidgets/qframe.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QVBoxLayout
+	"qboxlayout.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qboxlayout.h
+	<QtWidgets/qlayout.h>
+	<QtWidgets/qwidget.h>
+	<limits.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qlayout.h
+	<QtCore/qobject.h>
+	<QtWidgets/qlayoutitem.h>
+	<QtWidgets/qsizepolicy.h>
+	<QtCore/qrect.h>
+	<QtCore/qmargins.h>
+	<limits.h>
+	<QtWidgets/qboxlayout.h>
+	<QtWidgets/qgridlayout.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qlayoutitem.h
+	<QtWidgets/qsizepolicy.h>
+	<QtCore/qrect.h>
+	<limits.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgridlayout.h
+	<QtWidgets/qlayout.h>
+	<QtWidgets/qwidget.h>
+	<limits.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QMessageBox
+	"qmessagebox.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qmessagebox.h
+	<QtWidgets/qdialog.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qdialog.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QLineEdit
+	"qlineedit.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qlineedit.h
+	<QtWidgets/qframe.h>
+	<QtGui/qtextcursor.h>
+	<QtCore/qstring.h>
+	<QtCore/qmargins.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtextcursor.h
+	<QtCore/qstring.h>
+	<QtCore/qshareddata.h>
+	<QtGui/qtextformat.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtextformat.h
+	<QtGui/qcolor.h>
+	<QtGui/qfont.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qvector.h>
+	<QtCore/qvariant.h>
+	<QtGui/qpen.h>
+	<QtGui/qbrush.h>
+	<QtGui/qtextoption.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtextoption.h
+	<QtCore/qnamespace.h>
+	<QtCore/qchar.h>
+	<QtCore/qmetatype.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QCheckBox
+	"qcheckbox.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qcheckbox.h
+	<QtWidgets/qabstractbutton.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QPalette
+	"qpalette.h"
+
+1468085153 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAbout.moc
+	"dialogAbout.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468246313 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAppPref.cpp
+	"global.h"
+	"dialogAppPref.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	"dialogAppPref.moc"
+
+1465924860 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAppPref.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QDialog
+	"qdialog.h"
+
+1468085153 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAppPref.moc
+	"dialogAppPref.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468088350 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogFind.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogFind.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogFind.moc"
+
+1468085153 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogFind.moc
+	"dialogFind.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468098298 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogPrint.cpp
+	"global.h"
+	"dialogPrint.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	<QFontMetrics>
+	<QtPrintSupport/QPrinterInfo>
+	"projectData.h"
+	"dialogPrint.moc"
+
+1468097976 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogPrint.h
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QtPrintSupport/QPrinter>
+	"global.h"
+	"maplib/SlippyMapWidget.h"
+	"projectData.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtPrintSupport/QPrinter
+	"qprinter.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtPrintSupport/qprinter.h
+	<QtCore/qstring.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qpagedpaintdevice.h>
+	<QtGui/qpagelayout.h>
+	<QtPrintSupport/qtprintsupportglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpagedpaintdevice.h
+	<QtGui/qpaintdevice.h>
+	<QtGui/qpagelayout.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpagelayout.h
+	<QtCore/qsharedpointer.h>
+	<QtCore/qstring.h>
+	<QtCore/qmargins.h>
+	<QtGui/qpagesize.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpagesize.h
+	<QtCore/qsharedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtPrintSupport/qtprintsupportglobal.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QFontMetrics
+	"qfontmetrics.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtPrintSupport/QPrinterInfo
+	"qprinterinfo.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtPrintSupport/qprinterinfo.h
+	<QtPrintSupport/qprinter.h>
+	<QtCore/QList>
+	<QtCore/QPair>
+	<QtGui/qpagesize.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QPair
+	"qpair.h"
+
+1468085153 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogPrint.moc
+	"dialogPrint.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1451840004 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogProjProperty.cpp
+	"dialogProjProperty.h"
+	"projectData.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogProjProperty.moc"
+
+1465134952 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogProjProperty.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1468085153 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogProjProperty.moc
+	"dialogProjProperty.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468088350 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogReplace.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogReplace.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogReplace.moc"
+
+1468085153 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogReplace.moc
+	"dialogReplace.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468088350 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogSearchDup.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogSearchDup.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogSearchDup.moc"
+
+1468085153 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogSearchDup.moc
+	"dialogSearchDup.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468088350 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogWptProp.cpp
+	"dialogWptProp.h"
+	"projectData.h"
+	"mainWindow.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogWptProp.moc"
+
+1465134952 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogWptProp.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1468085153 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogWptProp.moc
+	"dialogWptProp.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468088350 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/global.cpp
+	"global.h"
+	<QString>
+	<QDebug>
+
+1468254660 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/main.cpp
+	<QTextStream>
+	<QCommonStyle>
+	<QPlastiqueStyle>
+	<QCleanlooksStyle>
+	<QWindowsXPStyle>
+	<QWindowsVistaStyle>
+	<QMotifStyle>
+	<QCDEStyle>
+	"global.h"
+	"wptEdit.h"
+	"mainWindow.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QTextStream
+	"qtextstream.h"
+
+1468310036 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/mainWindow.cpp
+	"global.h"
+	"mainWindow.h"
+	"dialogAppPref.h"
+	"dialogProjProperty.h"
+	"dialogFind.h"
+	"dialogSearchDup.h"
+	"dialogPrint.h"
+	"dialogAbout.h"
+	<QFrame>
+	<QSplitter>
+	<QDebug>
+	<QString>
+	<QFile>
+	<QScrollArea>
+	<QTableView>
+	<QStandardItemModel>
+	<QPoint>
+	<QDate>
+	<QtGui>
+	<QComboBox>
+	"maplib/SlippyMapWidget.h"
+	"maplib/GeoUtils.h"
+	"maplib/MapChooseWidget.h"
+	"maplib/SlippyLocations.h"
+	"maplib/GeoUtils.h"
+	"maplib/SRTMv4.h"
+	"maplib/DrawITUTerrain.h"
+	<stdio.h>
+	"mainWindow.moc"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QFrame
+	"qframe.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QSplitter
+	"qsplitter.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qsplitter.h
+	<QtWidgets/qframe.h>
+	<QtWidgets/qsizepolicy.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QScrollArea
+	"qscrollarea.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qscrollarea.h
+	<QtWidgets/qabstractscrollarea.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QTableView
+	"qtableview.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QStandardItemModel
+	"qstandarditemmodel.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qstandarditemmodel.h
+	<QtCore/qabstractitemmodel.h>
+	<QtGui/qbrush.h>
+	<QtGui/qfont.h>
+	<QtGui/qicon.h>
+	<QtCore/qdatastream.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QPoint
+	"qpoint.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QDate
+	"qdatetime.h"
+
+1312020345 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SlippyLocations.h
+	"SlippyMapWidget.h"
+
+1312020345 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SRTMv4.h
+	<QObject>
+	<QRectF>
+	<QPointer>
+	<QVector>
+	<QFile>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QObject
+	"qobject.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QRectF
+	"qrect.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QPointer
+	"qpointer.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qpointer.h
+	<QtCore/qsharedpointer.h>
+	<QtCore/qtypeinfo.h>
+
+1312020345 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/DrawITUTerrain.h
+	"ProfileWidget.h"
+
+1312020345 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ProfileWidget.h
+	<QWidget>
+
+1468085153 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/mainWindow.moc
+	"mainWindow.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1465497354 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/3rdparty/qzip/qzip.cpp
+	<qglobal.h>
+	"qzipreader.h"
+	"qzipwriter.h"
+	<qdatetime.h>
+	<qendian.h>
+	<qdebug.h>
+	<qdir.h>
+	<zlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1312020345 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/3rdparty/qzip/qzipreader.h
+	<QtCore/qfile.h>
+	<QtCore/qstring.h>
+
+1312020345 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/3rdparty/qzip/qzipwriter.h
+	<QtCore/qstring.h>
+	<QtCore/qfile.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qendian.h
+	<QtCore/qglobal.h>
+	<stdlib.h>
+	<string.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qdir.h
+	<QtCore/qstring.h>
+	<QtCore/qfileinfo.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qshareddata.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfileinfo.h
+	<QtCore/qfile.h>
+	<QtCore/qlist.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qmetatype.h>
+
+1466707671 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/DemDownloader.cpp
+	"mydebug.h"
+	"DemDownloader.h"
+	"Downloader.h"
+	"3rdparty/qzip/qzipreader.h"
+	"SRTMv4.h"
+	<QNetworkReply>
+	<QBuffer>
+	<QFileInfo>
+	<QImageReader>
+	"DemDownloader.moc"
+
+1432574101 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/mydebug.h
+
+1432548150 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/DemDownloader.h
+	<QObject>
+	<QPointF>
+
+1440443717 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/Downloader.h
+	<QNetworkAccessManager>
+	<QSet>
+	<QImage>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/QNetworkAccessManager
+	"qnetworkaccessmanager.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworkaccessmanager.h
+	<QtCore/QObject>
+	<QtNetwork/QSslConfiguration>
+	<QtNetwork/QSslPreSharedKeyAuthenticator>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/QSslConfiguration
+	"qsslconfiguration.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qsslconfiguration.h
+	<QtCore/qshareddata.h>
+	<QtNetwork/qsslsocket.h>
+	<QtNetwork/qssl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qsslsocket.h
+	<QtCore/qlist.h>
+	<QtCore/qregexp.h>
+	<QtNetwork/qtcpsocket.h>
+	<QtNetwork/qsslerror.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qtcpsocket.h
+	<QtNetwork/qabstractsocket.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qabstractsocket.h
+	<QtCore/qiodevice.h>
+	<QtCore/qobject.h>
+	<QtCore/qdebug.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qsslerror.h
+	<QtCore/qvariant.h>
+	<QtNetwork/qsslcertificate.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qsslcertificate.h
+	<QtCore/qnamespace.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qcryptographichash.h>
+	<QtCore/qdatetime.h>
+	<QtCore/qregexp.h>
+	<QtCore/qsharedpointer.h>
+	<QtCore/qmap.h>
+	<QtNetwork/qssl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qcryptographichash.h
+	<QtCore/qbytearray.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qssl.h
+	<QtCore/qglobal.h>
+	<QtCore/QFlags>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QFlags
+	"qflags.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/QSslPreSharedKeyAuthenticator
+	"qsslpresharedkeyauthenticator.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h
+	<QtCore/QtGlobal>
+	<QtCore/QString>
+	<QtCore/QSharedDataPointer>
+	<QtCore/QMetaType>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QtGlobal
+	"qglobal.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QSharedDataPointer
+	"qshareddata.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QMetaType
+	"qmetatype.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QImage
+	"qimage.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/QNetworkReply
+	"qnetworkreply.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworkreply.h
+	<QtCore/QIODevice>
+	<QtCore/QString>
+	<QtCore/QVariant>
+	<QtNetwork/QNetworkRequest>
+	<QtNetwork/QNetworkAccessManager>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QIODevice
+	"qiodevice.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/QNetworkRequest
+	"qnetworkrequest.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworkrequest.h
+	<QtCore/QSharedDataPointer>
+	<QtCore/QString>
+	<QtCore/QUrl>
+	<QtCore/QVariant>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QUrl
+	"qurl.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QBuffer
+	"qbuffer.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qbuffer.h
+	<QtCore/qiodevice.h>
+	<QtCore/qbytearray.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QFileInfo
+	"qfileinfo.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QImageReader
+	"qimagereader.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qimagereader.h
+	<QtCore/qbytearray.h>
+	<QtCore/qcoreapplication.h>
+	<QtGui/qimage.h>
+	<QtGui/qimageiohandler.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qcoreapplication.h
+	<QtCore/qglobal.h>
+	<QtCore/qstring.h>
+	<QtCore/qobject.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qeventloop.h>
+	<QtCore/qscopedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qeventloop.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qimageiohandler.h
+	<QtCore/qiodevice.h>
+	<QtCore/qplugin.h>
+	<QtCore/qfactoryinterface.h>
+	<QtCore/qscopedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qplugin.h
+	<QtCore/qobject.h>
+	<QtCore/qpointer.h>
+	<QtCore/qjsonobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qjsonobject.h
+	<QtCore/qjsonvalue.h>
+	<QtCore/qiterator.h>
+	<QtCore/qpair.h>
+	<initializer_list>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qjsonvalue.h
+	<QtCore/qglobal.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfactoryinterface.h
+	<QtCore/qobject.h>
+	<QtCore/qstringlist.h>
+
+1468135128 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/DemDownloader.moc
+	"DemDownloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1465497739 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/Downloader.cpp
+	"../global.h"
+	"mydebug.h"
+	"Downloader.h"
+	<QCoreApplication>
+	<QNetworkDiskCache>
+	<QProcessEnvironment>
+	<QNetworkProxy>
+	<QNetworkReply>
+	<QNetworkRequest>
+	<QDesktopServices>
+	<QDir>
+	"Downloader.moc"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QCoreApplication
+	"qcoreapplication.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/QNetworkDiskCache
+	"qnetworkdiskcache.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworkdiskcache.h
+	<QtNetwork/qabstractnetworkcache.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qabstractnetworkcache.h
+	<QtCore/qobject.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qpair.h>
+	<QtNetwork/qnetworkrequest.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QProcessEnvironment
+	"qprocess.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qprocess.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qshareddata.h>
+	<functional>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/QNetworkProxy
+	"qnetworkproxy.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworkproxy.h
+	<QtNetwork/qhostaddress.h>
+	<QtNetwork/qnetworkrequest.h>
+	<QtCore/qshareddata.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qhostaddress.h
+	<QtCore/qpair.h>
+	<QtCore/qstring.h>
+	<QtCore/qscopedpointer.h>
+	<QtNetwork/qabstractsocket.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QDesktopServices
+	"qdesktopservices.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qdesktopservices.h
+	<QtCore/qstring.h>
+	<QtCore/qstandardpaths.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qstandardpaths.h
+	<QtCore/qstringlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QDir
+	"qdir.h"
+
+1468135128 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/Downloader.moc
+	"Downloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312020345 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/DrawITUTerrain.cpp
+	"mydebug.h"
+	"DrawITUTerrain.h"
+	"ITUTerrain.h"
+	<QPainter>
+
+1312020345 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ITUTerrain.h
+	"GeoUtils.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QPainter
+	"qpainter.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpainter.h
+	<QtCore/qnamespace.h>
+	<QtCore/qrect.h>
+	<QtCore/qpoint.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qpixmap.h>
+	<QtGui/qimage.h>
+	<QtGui/qtextoption.h>
+	<QtGui/qpolygon.h>
+	<QtGui/qpen.h>
+	<QtGui/qbrush.h>
+	<QtGui/qmatrix.h>
+	<QtGui/qtransform.h>
+	<QtGui/qfontinfo.h>
+	<QtGui/qfontmetrics.h>
+
+1468098392 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/GeoUtils.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"GeoUtils.h"
+
+1312020345 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ITUTerrain.cpp
+	"mydebug.h"
+	<math.h>
+	"ITUTerrain.h"
+
+1437491342 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/LocationMapDialog.cpp
+	"mydebug.h"
+	"LocationMapDialog.h"
+	<QFormLayout>
+	<QLineEdit>
+	"SlippyMapWidget.h"
+	"SlippyLocations.h"
+	"GeoUtils.h"
+	"LocationMapDialog.moc"
+	"locations.moc"
+
+1432545824 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/LocationMapDialog.h
+	"locations.h"
+
+1432551662 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/locations.h
+	<QString>
+	<QList>
+	<QAbstractTableModel>
+	<QTableView>
+	<QDialog>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QAbstractTableModel
+	"qabstractitemmodel.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QFormLayout
+	"qformlayout.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qformlayout.h
+	<QtWidgets/QLayout>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QLayout
+	"qlayout.h"
+
+1468135128 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/LocationMapDialog.moc
+	"LocationMapDialog.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468135128 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/locations.moc
+	"locations.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468098418 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/locations.cpp
+	"locations.h"
+	<QFile>
+	<QTextStream>
+	"ParseCSV.h"
+	<QHeaderView>
+	<QKeyEvent>
+	"LocationMapDialog.h"
+	<QLineEdit>
+	<QFormLayout>
+	<QDialogButtonBox>
+
+1312020345 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ParseCSV.h
+	<QString>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QKeyEvent
+	"qevent.h"
+
+1468244022 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/MapChooseWidget.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"MapChooseWidget.h"
+	"MapChooseWidget.moc"
+
+1468135128 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/MapChooseWidget.moc
+	"MapChooseWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468098631 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/mydebug.cpp
+	"mydebug.h"
+	<qglobal.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<syslog.h>
+
+1465497962 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ParseCSV.cpp
+	"ParseCSV.h"
+	<QFile>
+
+1312020345 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ProfileWidget.cpp
+	"mydebug.h"
+	"ProfileWidget.h"
+	"GeoUtils.h"
+	<QPainter>
+
+1312020345 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SlippyLocations.cpp
+	"mydebug.h"
+	"SlippyLocations.h"
+	"locations.h"
+	<QPainter>
+
+1468246809 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SlippyMapWidget.cpp
+	"mydebug.h"
+	"../mainWindow.h"
+	"../projectData.h"
+	"GeoUtils.h"
+	<QFont>
+	"../dialogWptProp.h"
+	<QDebug>
+	<QMenu>
+	<QFile>
+	<QPainter>
+	<QPixmap>
+	<QWheelEvent>
+	<QNetworkReply>
+	<QPaintEvent>
+	<QPainter>
+	<QTimer>
+	<math.h>
+	"SlippyMapWidget.h"
+	"Downloader.h"
+	"SlippyMapWidget.moc"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QFont
+	"qfont.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QWheelEvent
+	"qevent.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QPaintEvent
+	"qevent.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QTimer
+	"qtimer.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtimer.h
+	<QtCore/qglobal.h>
+	<QtCore/qbasictimer.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qbasictimer.h
+	<QtCore/qglobal.h>
+	<QtCore/qnamespace.h>
+
+1468135128 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SlippyMapWidget.moc
+	"SlippyMapWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312020345 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SRTMv4.cpp
+	"mydebug.h"
+	<math.h>
+	"SRTMv4.h"
+	"GeoUtils.h"
+
+1468310951 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/projectData.cpp
+	"global.h"
+	"projectData.h"
+	"maplib/3rdparty/qzip/qzipreader.h"
+	"mainWindow.h"
+	<iostream>
+	<QDebug>
+	<QFile>
+	<QStack>
+	<QXmlStreamReader>
+	<QDateTime>
+	<QRegExp>
+	<QStringList>
+	<QObject>
+	<QMessageBox>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QXmlStreamReader
+	"qxmlstream.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qxmlstream.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstring.h>
+	<QtCore/qvector.h>
+	<QtCore/qscopedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QRegExp
+	"qregexp.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QStringList
+	"qstringlist.h"
+
+1468263954 source:/home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/wptEdit.cpp
+	"global.h"
+	"wptEdit.h"
+	"dialogWptProp.h"
+	"mainWindow.h"
+	"projectData.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QMenu>
+	<QDesktopServices>
+	<QUrl>
+	"wptEdit.moc"
+
+1468085153 /home/laurent/tchome/Documents/Perso/pc - dev/Qt5/uxplore/wptEdit.moc
+	"wptEdit.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QCommonStyle
+	"qcommonstyle.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qcommonstyle.h
+	<QtWidgets/qstyle.h>
+
+1474365746 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAbout.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogAbout.h"
+	<QDebug>
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogAbout.moc"
+
+1472851830 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/mainWindow.h
+	<QtGui>
+	"global.h"
+	"projectData.h"
+	"wptEdit.h"
+	"dialogFind.h"
+	"dialogReplace.h"
+	"dialogSearchDup.h"
+	"dialogAbout.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+
+1470566494 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/global.h
+	<QString>
+
+1473695986 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/projectData.h
+	"global.h"
+	<QString>
+	<QList>
+	<QVariant>
+	<QStack>
+	<QFile>
+	<QDateTime>
+	"csvDefinition.h"
+
+1469074164 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/wptEdit.h
+	"global.h"
+	"projectData.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+	<QTableWidget>
+	<QtGui>
+	<QtWidgets/QHeaderView>
+
+1468759920 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SlippyMapWidget.h
+	<QWidget>
+	<QCache>
+	<QSet>
+	<QList>
+	<QPixmap>
+	<QGraphicsPixmapItem>
+	<QGraphicsScene>
+	<QMenu>
+	"GeoUtils.h"
+	"../projectData.h"
+
+1470901230 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/GeoUtils.h
+	<QPointF>
+	<QVector>
+	<QString>
+	<math.h>
+
+1471536620 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/MapChooseWidget.h
+	<QComboBox>
+	<QList>
+
+1474389964 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogFind.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets>
+
+1474390067 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogReplace.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1474389964 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogSearchDup.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1474361684 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAbout.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAbout.moc
+	"dialogAbout.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474116968 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAppPref.cpp
+	"global.h"
+	"dialogAppPref.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	"dialogAppPref.moc"
+
+1472851544 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAppPref.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogAppPref.moc
+	"dialogAppPref.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474389860 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogFind.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogFind.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogFind.moc"
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogFind.moc
+	"dialogFind.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474371310 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogPrint.cpp
+	"global.h"
+	"dialogPrint.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	<QFontMetrics>
+	<QtPrintSupport/QPrinterInfo>
+	"projectData.h"
+	"dialogPrint.moc"
+
+1468773922 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogPrint.h
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QtPrintSupport/QPrinter>
+	"global.h"
+	"maplib/SlippyMapWidget.h"
+	"projectData.h"
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogPrint.moc
+	"dialogPrint.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474188834 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogProjProperty.cpp
+	"dialogProjProperty.h"
+	"projectData.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogProjProperty.moc"
+
+1465127752 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogProjProperty.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogProjProperty.moc
+	"dialogProjProperty.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1471781464 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogReplace.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogReplace.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogReplace.moc"
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogReplace.moc
+	"dialogReplace.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474203974 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogSearchDup.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogSearchDup.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogSearchDup.moc"
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogSearchDup.moc
+	"dialogSearchDup.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1472374256 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogWptProp.cpp
+	"dialogWptProp.h"
+	"projectData.h"
+	"mainWindow.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogWptProp.moc"
+
+1465127752 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogWptProp.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogWptProp.moc
+	"dialogWptProp.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470847694 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/global.cpp
+	"global.h"
+	<QString>
+	<QDebug>
+	<QDir>
+	<QFileInfo>
+	<libgen.h>
+	<libgen.h>
+
+1472892638 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/main.cpp
+	<QTextStream>
+	<QCommonStyle>
+	<QPlastiqueStyle>
+	<QCleanlooksStyle>
+	<QWindowsXPStyle>
+	<QWindowsVistaStyle>
+	<QMotifStyle>
+	<QCDEStyle>
+	"global.h"
+	"wptEdit.h"
+	"mainWindow.h"
+	"envParam.h"
+
+1474203786 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/mainWindow.cpp
+	"global.h"
+	"mainWindow.h"
+	"dialogAppPref.h"
+	"dialogProjProperty.h"
+	"dialogFind.h"
+	"dialogSearchDup.h"
+	"dialogPrint.h"
+	"dialogAbout.h"
+	"dialogCsv.h"
+	<QFrame>
+	<QSplitter>
+	<QDebug>
+	<QString>
+	<QFile>
+	<QScrollArea>
+	<QTableView>
+	<QStandardItemModel>
+	<QPoint>
+	<QDate>
+	<QtGui>
+	<QComboBox>
+	"maplib/SlippyMapWidget.h"
+	"maplib/GeoUtils.h"
+	"maplib/MapChooseWidget.h"
+	"maplib/SlippyLocations.h"
+	"maplib/GeoUtils.h"
+	"maplib/SRTMv4.h"
+	"maplib/DrawITUTerrain.h"
+	<stdio.h>
+	"mainWindow.moc"
+
+1312013144 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SlippyLocations.h
+	"SlippyMapWidget.h"
+
+1312013144 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SRTMv4.h
+	<QObject>
+	<QRectF>
+	<QPointer>
+	<QVector>
+	<QFile>
+
+1312013144 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/DrawITUTerrain.h
+	"ProfileWidget.h"
+
+1312013144 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ProfileWidget.h
+	<QWidget>
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/mainWindow.moc
+	"mainWindow.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470901370 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/3rdparty/qzip/qzip.cpp
+	<qglobal.h>
+	"qzipreader.h"
+	"qzipwriter.h"
+	<qdatetime.h>
+	<qendian.h>
+	<qdebug.h>
+	<qdir.h>
+	"../../../zlib-1.2.3-lib\include/zlib.h"
+	"zlib.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1312013144 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/3rdparty/qzip/qzipreader.h
+	<QtCore/qfile.h>
+	<QtCore/qstring.h>
+
+1312013144 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/3rdparty/qzip/qzipwriter.h
+	<QtCore/qstring.h>
+	<QtCore/qfile.h>
+
+1469247954 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/DemDownloader.cpp
+	"mydebug.h"
+	"DemDownloader.h"
+	"Downloader.h"
+	"3rdparty/qzip/qzipreader.h"
+	"SRTMv4.h"
+	<QNetworkReply>
+	<QBuffer>
+	<QFileInfo>
+	<QImageReader>
+	"DemDownloader.moc"
+
+1432566900 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/mydebug.h
+
+1432540950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/DemDownloader.h
+	<QObject>
+	<QPointF>
+
+1440436516 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/Downloader.h
+	<QNetworkAccessManager>
+	<QSet>
+	<QImage>
+
+1468127928 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/DemDownloader.moc
+	"DemDownloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1465490538 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/Downloader.cpp
+	"../global.h"
+	"mydebug.h"
+	"Downloader.h"
+	<QCoreApplication>
+	<QNetworkDiskCache>
+	<QProcessEnvironment>
+	<QNetworkProxy>
+	<QNetworkReply>
+	<QNetworkRequest>
+	<QDesktopServices>
+	<QDir>
+	"Downloader.moc"
+
+1468127928 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/Downloader.moc
+	"Downloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312013144 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/DrawITUTerrain.cpp
+	"mydebug.h"
+	"DrawITUTerrain.h"
+	"ITUTerrain.h"
+	<QPainter>
+
+1312013144 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ITUTerrain.h
+	"GeoUtils.h"
+
+1468091192 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/GeoUtils.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"GeoUtils.h"
+
+1468505328 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ITUTerrain.cpp
+	"mydebug.h"
+	<math.h>
+	"ITUTerrain.h"
+
+1437484142 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/LocationMapDialog.cpp
+	"mydebug.h"
+	"LocationMapDialog.h"
+	<QFormLayout>
+	<QLineEdit>
+	"SlippyMapWidget.h"
+	"SlippyLocations.h"
+	"GeoUtils.h"
+	"LocationMapDialog.moc"
+	"locations.moc"
+
+1432538624 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/LocationMapDialog.h
+	"locations.h"
+
+1432544462 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/locations.h
+	<QString>
+	<QList>
+	<QAbstractTableModel>
+	<QTableView>
+	<QDialog>
+
+1468127928 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/LocationMapDialog.moc
+	"LocationMapDialog.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468127928 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/locations.moc
+	"locations.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468091218 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/locations.cpp
+	"locations.h"
+	<QFile>
+	<QTextStream>
+	"ParseCSV.h"
+	<QHeaderView>
+	<QKeyEvent>
+	"LocationMapDialog.h"
+	<QLineEdit>
+	<QFormLayout>
+	<QDialogButtonBox>
+
+1312013144 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ParseCSV.h
+	<QString>
+
+1471536754 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/MapChooseWidget.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"MapChooseWidget.h"
+	"MapChooseWidget.moc"
+
+1468127928 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/MapChooseWidget.moc
+	"MapChooseWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470163714 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/mydebug.cpp
+	"mydebug.h"
+	<qglobal.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<syslog.h>
+
+1465490762 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ParseCSV.cpp
+	"ParseCSV.h"
+	<QFile>
+
+1312013144 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/ProfileWidget.cpp
+	"mydebug.h"
+	"ProfileWidget.h"
+	"GeoUtils.h"
+	<QPainter>
+
+1312013144 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SlippyLocations.cpp
+	"mydebug.h"
+	"SlippyLocations.h"
+	"locations.h"
+	<QPainter>
+
+1473706210 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SlippyMapWidget.cpp
+	"mydebug.h"
+	"../mainWindow.h"
+	"../projectData.h"
+	"GeoUtils.h"
+	<QFont>
+	"../dialogWptProp.h"
+	<QDebug>
+	<QMenu>
+	<QFile>
+	<QPainter>
+	<QPixmap>
+	<QWheelEvent>
+	<QNetworkReply>
+	<QPaintEvent>
+	<QPainter>
+	<QTimer>
+	<math.h>
+	"SlippyMapWidget.h"
+	"Downloader.h"
+	"SlippyMapWidget.moc"
+
+1468127928 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SlippyMapWidget.moc
+	"SlippyMapWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312013144 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/maplib/SRTMv4.cpp
+	"mydebug.h"
+	<math.h>
+	"SRTMv4.h"
+	"GeoUtils.h"
+
+1472385816 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/projectData.cpp
+	"global.h"
+	"projectData.h"
+	"maplib/3rdparty/qzip/qzipreader.h"
+	"mainWindow.h"
+	<iostream>
+	<QDebug>
+	<QFile>
+	<QStack>
+	<QXmlStreamReader>
+	<QDateTime>
+	<QRegExp>
+	<QStringList>
+	<QObject>
+	<QMessageBox>
+
+1473695830 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/wptEdit.cpp
+	"global.h"
+	"wptEdit.h"
+	"dialogWptProp.h"
+	"mainWindow.h"
+	"projectData.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QMenu>
+	<QDesktopServices>
+	<QUrl>
+	"wptEdit.moc"
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/wptEdit.moc
+	"wptEdit.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468511327 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/QQmlApplicationEngine
+	"qqmlapplicationengine.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlapplicationengine.h
+	<QtQml/qqmlengine.h>
+	<QtCore/qurl.h>
+	<QtCore/qobject.h>
+	<QtCore/qlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlengine.h
+	<QtCore/qurl.h>
+	<QtCore/qobject.h>
+	<QtCore/qmap.h>
+	<QtQml/qjsengine.h>
+	<QtQml/qqml.h>
+	<QtQml/qqmlerror.h>
+	<QtQml/qqmldebug.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qjsengine.h
+	<QtCore/qmetatype.h>
+	<QtCore/qvariant.h>
+	<QtCore/qsharedpointer.h>
+	<QtCore/qobject.h>
+	<QtQml/qjsvalue.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qjsvalue.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qstring.h>
+	<QtCore/qlist.h>
+	<QtCore/qmetatype.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qtqmlglobal.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqml.h
+	<QtQml/qqmlprivate.h>
+	<QtQml/qqmlparserstatus.h>
+	<QtQml/qqmlpropertyvaluesource.h>
+	<QtQml/qqmllist.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qmetaobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlprivate.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qglobal.h>
+	<QtCore/qvariant.h>
+	<QtCore/qurl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlparserstatus.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlpropertyvaluesource.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmllist.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qlist.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qmetaobject.h
+	<QtCore/qobjectdefs.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlerror.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qurl.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmldebug.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qstring.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngine/qtwebengineglobal.h
+	<QtCore/qglobal.h>
+
+1465777963 /opt/qt5/5.7/gcc_64/include/QtWebView/QtWebView
+	<QtWebView/QtWebViewDepends>
+	"qtwebviewfunctions.h"
+	"qtwebviewversion.h"
+
+1465777963 /opt/qt5/5.7/gcc_64/include/QtWebView/QtWebViewDepends
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebView/qtwebviewfunctions.h
+	<QtWebView/qwebview_global.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebView/qwebview_global.h
+	<QtCore/qglobal.h>
+
+1465777963 /opt/qt5/5.7/gcc_64/include/QtWebView/qtwebviewversion.h
+
+1473695898 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogCsv.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogCsv.h"
+	"wptEdit.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	<QFile>
+	<QStringList>
+	<QDebug>
+	"dialogCsv.moc"
+
+1472850524 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogCsv.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets/QHeaderView>
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/dialogCsv.moc
+	"dialogCsv.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1465777763 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/QtWebEngineWidgets
+	<QtWebEngineWidgets/QtWebEngineWidgetsDepends>
+	"qtwebenginewidgetsglobal.h"
+	"qwebenginecertificateerror.h"
+	"qwebenginecontextmenudata.h"
+	"qwebenginedownloaditem.h"
+	"qwebenginefullscreenrequest.h"
+	"qwebenginehistory.h"
+	"qwebenginepage.h"
+	"qwebengineprofile.h"
+	"qwebenginescript.h"
+	"qwebenginescriptcollection.h"
+	"qwebenginesettings.h"
+	"qwebengineview.h"
+	"qtwebenginewidgetsversion.h"
+
+1465777763 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/QtWebEngineWidgetsDepends
+	<QtCore/QtCore>
+	<QtGui/QtGui>
+	<QtWebEngineCore/QtWebEngineCore>
+	<QtWidgets/QtWidgets>
+	<QtNetwork/QtNetwork>
+	<QtQuick/QtQuick>
+
+1465552895 /opt/qt5/5.7/gcc_64/include/QtCore/QtCore
+	<QtCore/QtCoreDepends>
+	"qabstractanimation.h"
+	"qanimationgroup.h"
+	"qparallelanimationgroup.h"
+	"qpauseanimation.h"
+	"qpropertyanimation.h"
+	"qsequentialanimationgroup.h"
+	"qvariantanimation.h"
+	"qtextcodec.h"
+	"qcompilerdetection.h"
+	"qendian.h"
+	"qflags.h"
+	"qglobal.h"
+	"qglobalstatic.h"
+	"qisenum.h"
+	"qlibraryinfo.h"
+	"qnamespace.h"
+	"qnumeric.h"
+	"qprocessordetection.h"
+	"qsysinfo.h"
+	"qsystemdetection.h"
+	"qtypeinfo.h"
+	"qtypetraits.h"
+	"qversiontagging.h"
+	"qbuffer.h"
+	"qdatastream.h"
+	"qdebug.h"
+	"qdir.h"
+	"qdiriterator.h"
+	"qfile.h"
+	"qfiledevice.h"
+	"qfileinfo.h"
+	"qfileselector.h"
+	"qfilesystemwatcher.h"
+	"qiodevice.h"
+	"qlockfile.h"
+	"qloggingcategory.h"
+	"qprocess.h"
+	"qresource.h"
+	"qsavefile.h"
+	"qsettings.h"
+	"qstandardpaths.h"
+	"qstorageinfo.h"
+	"qtemporarydir.h"
+	"qtemporaryfile.h"
+	"qtextstream.h"
+	"qurl.h"
+	"qurlquery.h"
+	"qabstractitemmodel.h"
+	"qabstractproxymodel.h"
+	"qidentityproxymodel.h"
+	"qitemselectionmodel.h"
+	"qsortfilterproxymodel.h"
+	"qstringlistmodel.h"
+	"qjsonarray.h"
+	"qjsondocument.h"
+	"qjsonobject.h"
+	"qjsonvalue.h"
+	"qabstracteventdispatcher.h"
+	"qabstractnativeeventfilter.h"
+	"qbasictimer.h"
+	"qcoreapplication.h"
+	"qcoreevent.h"
+	"qeventloop.h"
+	"qmath.h"
+	"qmetaobject.h"
+	"qmetatype.h"
+	"qmimedata.h"
+	"qobject.h"
+	"qobjectcleanuphandler.h"
+	"qobjectdefs.h"
+	"qpointer.h"
+	"qsharedmemory.h"
+	"qsignalmapper.h"
+	"qsocketnotifier.h"
+	"qsystemsemaphore.h"
+	"qtimer.h"
+	"qtranslator.h"
+	"qvariant.h"
+	"qwineventnotifier.h"
+	"qmimedatabase.h"
+	"qmimetype.h"
+	"qfactoryinterface.h"
+	"qlibrary.h"
+	"qplugin.h"
+	"qpluginloader.h"
+	"quuid.h"
+	"qabstractstate.h"
+	"qabstracttransition.h"
+	"qeventtransition.h"
+	"qfinalstate.h"
+	"qhistorystate.h"
+	"qsignaltransition.h"
+	"qstate.h"
+	"qstatemachine.h"
+	"qatomic.h"
+	"qexception.h"
+	"qfuture.h"
+	"qfutureinterface.h"
+	"qfuturesynchronizer.h"
+	"qfuturewatcher.h"
+	"qgenericatomic.h"
+	"qmutex.h"
+	"qreadwritelock.h"
+	"qresultstore.h"
+	"qrunnable.h"
+	"qsemaphore.h"
+	"qthread.h"
+	"qthreadpool.h"
+	"qthreadstorage.h"
+	"qwaitcondition.h"
+	"qalgorithms.h"
+	"qarraydata.h"
+	"qarraydataops.h"
+	"qarraydatapointer.h"
+	"qbitarray.h"
+	"qbytearray.h"
+	"qbytearraylist.h"
+	"qbytearraymatcher.h"
+	"qcache.h"
+	"qchar.h"
+	"qcollator.h"
+	"qcommandlineoption.h"
+	"qcommandlineparser.h"
+	"qcontainerfwd.h"
+	"qcontiguouscache.h"
+	"qcryptographichash.h"
+	"qdatetime.h"
+	"qeasingcurve.h"
+	"qelapsedtimer.h"
+	"qhash.h"
+	"qhashfunctions.h"
+	"qiterator.h"
+	"qline.h"
+	"qlinkedlist.h"
+	"qlist.h"
+	"qlocale.h"
+	"qmap.h"
+	"qmargins.h"
+	"qmessageauthenticationcode.h"
+	"qpair.h"
+	"qpoint.h"
+	"qqueue.h"
+	"qrect.h"
+	"qrefcount.h"
+	"qregexp.h"
+	"qregularexpression.h"
+	"qscopedpointer.h"
+	"qscopedvaluerollback.h"
+	"qset.h"
+	"qshareddata.h"
+	"qsharedpointer.h"
+	"qsize.h"
+	"qstack.h"
+	"qstring.h"
+	"qstringbuilder.h"
+	"qstringlist.h"
+	"qstringmatcher.h"
+	"qtextboundaryfinder.h"
+	"qtimeline.h"
+	"qtimezone.h"
+	"qvarlengtharray.h"
+	"qvector.h"
+	"qversionnumber.h"
+	"qxmlstream.h"
+	"qtcoreversion.h"
+
+1465552895 /opt/qt5/5.7/gcc_64/include/QtCore/QtCoreDepends
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qabstractanimation.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qanimationgroup.h
+	<QtCore/qabstractanimation.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qparallelanimationgroup.h
+	<QtCore/qanimationgroup.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qpauseanimation.h
+	<QtCore/qanimationgroup.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qpropertyanimation.h
+	<QtCore/qvariantanimation.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qvariantanimation.h
+	<QtCore/qeasingcurve.h>
+	<QtCore/qabstractanimation.h>
+	<QtCore/qvector.h>
+	<QtCore/qvariant.h>
+	<QtCore/qpair.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qeasingcurve.h
+	<QtCore/qglobal.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qvector.h>
+	<QtCore/qlist.h>
+	<QtCore/qpoint.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsequentialanimationgroup.h
+	<QtCore/qanimationgroup.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtextcodec.h
+	<QtCore/qstring.h>
+	<QtCore/qlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qlibraryinfo.h
+	<QtCore/qstring.h>
+	<QtCore/qdatetime.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qdiriterator.h
+	<QtCore/qdir.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfileselector.h
+	<QtCore/QObject>
+	<QtCore/QStringList>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfilesystemwatcher.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qlockfile.h
+	<QtCore/qstring.h>
+	<QtCore/qscopedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qloggingcategory.h
+	<QtCore/qglobal.h>
+	<QtCore/qdebug.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qresource.h
+	<QtCore/qstring.h>
+	<QtCore/qlocale.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qlist.h>
+	<QtCore/qscopedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsavefile.h
+	<QtCore/qglobal.h>
+	<QtCore/qfiledevice.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsettings.h
+	<QtCore/qobject.h>
+	<QtCore/qvariant.h>
+	<QtCore/qstring.h>
+	<QtCore/qscopedpointer.h>
+	<ctype.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qstorageinfo.h
+	<QtCore/qbytearray.h>
+	<QtCore/qdir.h>
+	<QtCore/qlist.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qstring.h>
+	<QtCore/qshareddata.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtemporarydir.h
+	<QtCore/qdir.h>
+	<QtCore/QScopedPointer>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QScopedPointer
+	"qscopedpointer.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtemporaryfile.h
+	<QtCore/qiodevice.h>
+	<QtCore/qfile.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qabstractproxymodel.h
+	<QtCore/qabstractitemmodel.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qidentityproxymodel.h
+	<QtCore/qabstractproxymodel.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsortfilterproxymodel.h
+	<QtCore/qabstractproxymodel.h>
+	<QtCore/qregexp.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qstringlistmodel.h
+	<QtCore/qabstractitemmodel.h>
+	<QtCore/qstringlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qjsonarray.h
+	<QtCore/qjsonvalue.h>
+	<QtCore/qiterator.h>
+	<initializer_list>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qjsondocument.h
+	<QtCore/qjsonvalue.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qabstracteventdispatcher.h
+	<QtCore/qobject.h>
+	<QtCore/qeventloop.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qabstractnativeeventfilter.h
+	<QtCore/qnamespace.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qmath.h
+	<QtCore/qglobal.h>
+	<cmath>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qmimedata.h
+	<QtCore/qvariant.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qobjectcleanuphandler.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsharedmemory.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsignalmapper.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsocketnotifier.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsystemsemaphore.h
+	<QtCore/qstring.h>
+	<QtCore/qscopedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtranslator.h
+	<QtCore/qobject.h>
+	<QtCore/qbytearray.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qwineventnotifier.h
+	"QtCore/qobject.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qmimedatabase.h
+	<QtCore/qmimetype.h>
+	<QtCore/qstringlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qmimetype.h
+	<QtCore/qglobal.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qlibrary.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qpluginloader.h
+	<QtCore/qlibrary.h>
+	<QtCore/qplugin.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/quuid.h
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qabstractstate.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qabstracttransition.h
+	<QtCore/qobject.h>
+	<QtCore/qlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qeventtransition.h
+	<QtCore/qabstracttransition.h>
+	<QtCore/qcoreevent.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfinalstate.h
+	<QtCore/qabstractstate.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qhistorystate.h
+	<QtCore/qabstractstate.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsignaltransition.h
+	<QtCore/qabstracttransition.h>
+	<QtCore/qmetaobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qstate.h
+	<QtCore/qabstractstate.h>
+	<QtCore/qlist.h>
+	<QtCore/qmetaobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qstatemachine.h
+	<QtCore/qstate.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qlist.h>
+	<QtCore/qobject.h>
+	<QtCore/qset.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qexception.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qshareddata.h>
+	<exception>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfuture.h
+	<QtCore/qglobal.h>
+	<QtCore/qfutureinterface.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfutureinterface.h
+	<QtCore/qrunnable.h>
+	<QtCore/qmutex.h>
+	<QtCore/qexception.h>
+	<QtCore/qresultstore.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qrunnable.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qresultstore.h
+	<QtCore/qglobal.h>
+	<QtCore/qmap.h>
+	<QtCore/qdebug.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfuturesynchronizer.h
+	<QtCore/qfuture.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qfuturewatcher.h
+	<QtCore/qfuture.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qreadwritelock.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qsemaphore.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qthread.h
+	<QtCore/qobject.h>
+	<limits.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qthreadpool.h
+	<QtCore/qglobal.h>
+	<QtCore/qthread.h>
+	<QtCore/qrunnable.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qthreadstorage.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qwaitcondition.h
+	<QtCore/qglobal.h>
+	<limits.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qarraydataops.h
+	<QtCore/qarraydata.h>
+	<new>
+	<string.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qarraydatapointer.h
+	<QtCore/qarraydataops.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qbitarray.h
+	<QtCore/qbytearray.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qbytearraymatcher.h
+	<QtCore/qbytearray.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qcollator.h
+	<QtCore/qstring.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qlocale.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qcommandlineoption.h
+	<QtCore/qstringlist.h>
+	<QtCore/qshareddata.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qcommandlineparser.h
+	<QtCore/qstringlist.h>
+	<QtCore/qcoreapplication.h>
+	<QtCore/qcommandlineoption.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qelapsedtimer.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qlinkedlist.h
+	<QtCore/qiterator.h>
+	<QtCore/qrefcount.h>
+	<iterator>
+	<list>
+	<algorithm>
+	<initializer_list>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qmessageauthenticationcode.h
+	<QtCore/qcryptographichash.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qqueue.h
+	<QtCore/qlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qscopedvaluerollback.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtextboundaryfinder.h
+	<QtCore/qchar.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtimeline.h
+	<QtCore/qeasingcurve.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qtimezone.h
+	<QtCore/qshareddata.h>
+	<QtCore/qlocale.h>
+	<QtCore/qdatetime.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qversionnumber.h
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtCore/qvector.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qtypeinfo.h>
+
+1465552895 /opt/qt5/5.7/gcc_64/include/QtCore/qtcoreversion.h
+
+1465553050 /opt/qt5/5.7/gcc_64/include/QtGui/QtGui
+	<QtGui/QtGuiDepends>
+	"qaccessible.h"
+	"qaccessiblebridge.h"
+	"qaccessibleobject.h"
+	"qaccessibleplugin.h"
+	"qbitmap.h"
+	"qicon.h"
+	"qiconengine.h"
+	"qiconengineplugin.h"
+	"qimage.h"
+	"qimageiohandler.h"
+	"qimagereader.h"
+	"qimagewriter.h"
+	"qmovie.h"
+	"qpicture.h"
+	"qpictureformatplugin.h"
+	"qpixmap.h"
+	"qpixmapcache.h"
+	"qstandarditemmodel.h"
+	"qclipboard.h"
+	"qcursor.h"
+	"qdrag.h"
+	"qevent.h"
+	"qgenericplugin.h"
+	"qgenericpluginfactory.h"
+	"qguiapplication.h"
+	"qinputmethod.h"
+	"qkeysequence.h"
+	"qoffscreensurface.h"
+	"qopenglcontext.h"
+	"qopenglwindow.h"
+	"qpaintdevicewindow.h"
+	"qpalette.h"
+	"qpixelformat.h"
+	"qrasterwindow.h"
+	"qscreen.h"
+	"qsessionmanager.h"
+	"qstylehints.h"
+	"qsurface.h"
+	"qsurfaceformat.h"
+	"qtouchdevice.h"
+	"qwindow.h"
+	"qwindowdefs.h"
+	"qgenericmatrix.h"
+	"qmatrix4x4.h"
+	"qquaternion.h"
+	"qvector2d.h"
+	"qvector3d.h"
+	"qvector4d.h"
+	"qopengl.h"
+	"qopenglbuffer.h"
+	"qopengldebug.h"
+	"qopenglextrafunctions.h"
+	"qopenglframebufferobject.h"
+	"qopenglfunctions.h"
+	"qopenglpaintdevice.h"
+	"qopenglpixeltransferoptions.h"
+	"qopenglshaderprogram.h"
+	"qopengltexture.h"
+	"qopengltimerquery.h"
+	"qopenglversionfunctions.h"
+	"qopenglvertexarrayobject.h"
+	"qbackingstore.h"
+	"qbrush.h"
+	"qcolor.h"
+	"qmatrix.h"
+	"qpagedpaintdevice.h"
+	"qpagelayout.h"
+	"qpagesize.h"
+	"qpaintdevice.h"
+	"qpaintengine.h"
+	"qpainter.h"
+	"qpainterpath.h"
+	"qpdfwriter.h"
+	"qpen.h"
+	"qpolygon.h"
+	"qregion.h"
+	"qrgb.h"
+	"qrgba64.h"
+	"qtransform.h"
+	"qabstracttextdocumentlayout.h"
+	"qfont.h"
+	"qfontdatabase.h"
+	"qfontinfo.h"
+	"qfontmetrics.h"
+	"qglyphrun.h"
+	"qrawfont.h"
+	"qstatictext.h"
+	"qsyntaxhighlighter.h"
+	"qtextcursor.h"
+	"qtextdocument.h"
+	"qtextdocumentfragment.h"
+	"qtextdocumentwriter.h"
+	"qtextformat.h"
+	"qtextlayout.h"
+	"qtextlist.h"
+	"qtextobject.h"
+	"qtextoption.h"
+	"qtexttable.h"
+	"qdesktopservices.h"
+	"qvalidator.h"
+	"qtguiversion.h"
+
+1465553050 /opt/qt5/5.7/gcc_64/include/QtGui/QtGuiDepends
+	<QtCore/QtCore>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qaccessible.h
+	<QtCore/qglobal.h>
+	<QtCore/qcoreapplication.h>
+	<QtCore/qdebug.h>
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtCore/qrect.h>
+	<QtCore/qset.h>
+	<QtCore/qvector.h>
+	<QtCore/qvariant.h>
+	<QtGui/qcolor.h>
+	<QtGui/qevent.h>
+	<stdlib.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qaccessiblebridge.h
+	<QtCore/qplugin.h>
+	<QtCore/qfactoryinterface.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qaccessibleobject.h
+	<QtGui/qaccessible.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qaccessibleplugin.h
+	<QtGui/qaccessible.h>
+	<QtCore/qfactoryinterface.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qbitmap.h
+	<QtGui/qpixmap.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qiconengine.h
+	<QtCore/qglobal.h>
+	<QtCore/qlist.h>
+	<QtGui/qicon.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qiconengineplugin.h
+	<QtCore/qplugin.h>
+	<QtCore/qfactoryinterface.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qimagewriter.h
+	<QtCore/qbytearray.h>
+	<QtCore/qcoreapplication.h>
+	<QtCore/qlist.h>
+	<QtGui/qimageiohandler.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qmovie.h
+	<QtCore/qobject.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qlist.h>
+	<QtGui/qimagereader.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpicture.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qsharedpointer.h>
+	<QtGui/qpaintdevice.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpictureformatplugin.h
+	<QtCore/qplugin.h>
+	<QtCore/qfactoryinterface.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpixmapcache.h
+	<QtGui/qpixmap.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qclipboard.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qdrag.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qgenericplugin.h
+	<QtCore/qplugin.h>
+	<QtCore/qfactoryinterface.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qgenericpluginfactory.h
+	<QtCore/qstringlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qguiapplication.h
+	<QtCore/qcoreapplication.h>
+	<QtGui/qwindowdefs.h>
+	<QtGui/qinputmethod.h>
+	<QtCore/qlocale.h>
+	<QtCore/qpoint.h>
+	<QtCore/qsize.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qinputmethod.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qoffscreensurface.h
+	<QtCore/QObject>
+	<QtGui/qsurface.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qsurface.h
+	<QtCore/qnamespace.h>
+	<QtGui/qsurfaceformat.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qsize.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qsurfaceformat.h
+	<QtCore/qglobal.h>
+	<QtCore/qpair.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglcontext.h
+	<QtCore/qglobal.h>
+	<QtCore/qnamespace.h>
+	<QtCore/QObject>
+	<QtCore/QScopedPointer>
+	<QtGui/QSurfaceFormat>
+	<QtGui/qopengl.h>
+	<QtGui/qopenglversionfunctions.h>
+	<QtCore/qhash.h>
+	<QtCore/qhashfunctions.h>
+	<QtCore/qpair.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QSurfaceFormat
+	"qsurfaceformat.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopengl.h
+	<QtCore/qglobal.h>
+	<QtCore/qt_windows.h>
+	<OpenGLES/ES3/gl.h>
+	<OpenGLES/ES3/glext.h>
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+	<GLES3/gl31.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2.h>
+	<QtGui/qopengles2ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/gl3.h>
+	<OpenGL/glext.h>
+	<GL/gl.h>
+	<QtGui/qopenglext.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/qt_windows.h
+	<windows.h>
+	<ceconfig.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopengles2ext.h
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglversionfunctions.h
+	<QtCore/qglobal.h>
+	<QtCore/qhash.h>
+	<QtCore/qhashfunctions.h>
+	<QtCore/qpair.h>
+	<QtGui/qopengl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglwindow.h
+	<QtCore/qglobal.h>
+	<QtGui/QPaintDeviceWindow>
+	<QtGui/QOpenGLContext>
+	<QtGui/QImage>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QPaintDeviceWindow
+	"qpaintdevicewindow.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpaintdevicewindow.h
+	<QtGui/QWindow>
+	<QtGui/QPaintDevice>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QWindow
+	"qwindow.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qwindow.h
+	<QtCore/QObject>
+	<QtCore/QEvent>
+	<QtCore/QMargins>
+	<QtCore/QRect>
+	<QtCore/qnamespace.h>
+	<QtGui/qsurface.h>
+	<QtGui/qsurfaceformat.h>
+	<QtGui/qwindowdefs.h>
+	<QtGui/qicon.h>
+	<QtGui/qcursor.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QEvent
+	"qcoreevent.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QMargins
+	"qmargins.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QRect
+	"qrect.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QPaintDevice
+	"qpaintdevice.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QOpenGLContext
+	"qopenglcontext.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qrasterwindow.h
+	<QtGui/QPaintDeviceWindow>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qscreen.h
+	<QtCore/QList>
+	<QtCore/QObject>
+	<QtCore/QRect>
+	<QtCore/QSize>
+	<QtCore/QSizeF>
+	<QtGui/QTransform>
+	<QtCore/qnamespace.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QSize
+	"qsize.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QSizeF
+	"qsize.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QTransform
+	"qtransform.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qsessionmanager.h
+	<QtCore/qobject.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qstylehints.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qgenericmatrix.h
+	<QtCore/qmetatype.h>
+	<QtCore/qdebug.h>
+	<QtCore/qdatastream.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qmatrix4x4.h
+	<QtGui/qvector3d.h>
+	<QtGui/qvector4d.h>
+	<QtGui/qquaternion.h>
+	<QtGui/qgenericmatrix.h>
+	<QtCore/qrect.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qvector3d.h
+	<QtCore/qpoint.h>
+	<QtCore/qmetatype.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qvector4d.h
+	<QtCore/qpoint.h>
+	<QtCore/qmetatype.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qquaternion.h
+	<QtGui/qgenericmatrix.h>
+	<QtGui/qvector3d.h>
+	<QtGui/qvector4d.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglbuffer.h
+	<QtCore/qglobal.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qopengl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopengldebug.h
+	<QtCore/qglobal.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qflags.h>
+	<QtCore/qlist.h>
+	<QtCore/qvector.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qdebug.h>
+	<QtGui/qopenglcontext.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglextrafunctions.h
+	<QtCore/qglobal.h>
+	<QtGui/qopenglfunctions.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglfunctions.h
+	<QtCore/qglobal.h>
+	<QtGui/qopengl.h>
+	<QtGui/qopenglcontext.h>
+	<stdio.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglframebufferobject.h
+	<QtCore/qglobal.h>
+	<QtGui/qopengl.h>
+	<QtGui/qpaintdevice.h>
+	<QtCore/qscopedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglpaintdevice.h
+	<QtCore/qglobal.h>
+	<QtGui/qpaintdevice.h>
+	<QtGui/qopengl.h>
+	<QtGui/qopenglcontext.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglpixeltransferoptions.h
+	<QtCore/qglobal.h>
+	<QtCore/QSharedDataPointer>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglshaderprogram.h
+	<QtCore/qglobal.h>
+	<QtGui/qopengl.h>
+	<QtGui/qvector2d.h>
+	<QtGui/qvector3d.h>
+	<QtGui/qvector4d.h>
+	<QtGui/qmatrix4x4.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopengltexture.h
+	<QtCore/qglobal.h>
+	<QtGui/qopengl.h>
+	<QtGui/qimage.h>
+	<QtCore/QScopedPointer>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopengltimerquery.h
+	<QtCore/qglobal.h>
+	<QtCore/QObject>
+	<QtGui/qopengl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qopenglvertexarrayobject.h
+	<QtCore/qglobal.h>
+	<QtCore/QObject>
+	<QtGui/qopengl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qbackingstore.h
+	<QtCore/qrect.h>
+	<QtGui/qwindow.h>
+	<QtGui/qregion.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpaintengine.h
+	<QtCore/qnamespace.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qpainter.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qpdfwriter.h
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtGui/qpagedpaintdevice.h>
+	<QtGui/qpagelayout.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qabstracttextdocumentlayout.h
+	<QtCore/qobject.h>
+	<QtGui/qtextlayout.h>
+	<QtGui/qtextdocument.h>
+	<QtGui/qtextcursor.h>
+	<QtGui/qpalette.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtextlayout.h
+	<QtCore/qstring.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qrect.h>
+	<QtCore/qvector.h>
+	<QtGui/qcolor.h>
+	<QtCore/qobject.h>
+	<QtGui/qevent.h>
+	<QtGui/qtextformat.h>
+	<QtGui/qglyphrun.h>
+	<QtGui/qtextcursor.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qglyphrun.h
+	<QtCore/qsharedpointer.h>
+	<QtCore/qvector.h>
+	<QtCore/qpoint.h>
+	<QtGui/qrawfont.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qrawfont.h
+	<QtCore/qstring.h>
+	<QtCore/qiodevice.h>
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtCore/qpoint.h>
+	<QtGui/qfont.h>
+	<QtGui/qtransform.h>
+	<QtGui/qfontdatabase.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qfontdatabase.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qstring.h>
+	<QtGui/qfont.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtextdocument.h
+	<QtCore/qobject.h>
+	<QtCore/qsize.h>
+	<QtCore/qrect.h>
+	<QtCore/qvariant.h>
+	<QtGui/qfont.h>
+	<QtCore/qurl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qstatictext.h
+	<QtCore/qsize.h>
+	<QtCore/qstring.h>
+	<QtCore/qmetatype.h>
+	<QtGui/qtransform.h>
+	<QtGui/qfont.h>
+	<QtGui/qtextoption.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qsyntaxhighlighter.h
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtGui/qtextobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtextobject.h
+	<QtCore/qobject.h>
+	<QtGui/qtextformat.h>
+	<QtGui/qtextlayout.h>
+	<QtGui/qglyphrun.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtextdocumentfragment.h
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtextdocumentwriter.h
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtextlist.h
+	<QtGui/qtextobject.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/qtexttable.h
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtGui/qtextobject.h>
+
+1465553050 /opt/qt5/5.7/gcc_64/include/QtGui/qtguiversion.h
+
+1465771583 /opt/qt5/5.7/gcc_64/include/QtWebEngineCore/QtWebEngineCore
+	<QtWebEngineCore/QtWebEngineCoreDepends>
+	"qtwebenginecoreglobal.h"
+	"qwebenginecallback.h"
+	"qwebenginecookiestore.h"
+	"qwebengineurlrequestinfo.h"
+	"qwebengineurlrequestinterceptor.h"
+	"qwebengineurlrequestjob.h"
+	"qwebengineurlschemehandler.h"
+	"qtwebenginecoreversion.h"
+
+1465777717 /opt/qt5/5.7/gcc_64/include/QtWebEngineCore/QtWebEngineCoreDepends
+	<QtCore/QtCore>
+	<QtGui/QtGui>
+	<QtQml/QtQml>
+	<QtQuick/QtQuick>
+	<QtWebChannel/QtWebChannel>
+
+1465657914 /opt/qt5/5.7/gcc_64/include/QtQml/QtQml
+	<QtQml/QtQmlDepends>
+	"qtqmlglobal.h"
+	"qqmldebug.h"
+	"qjsengine.h"
+	"qjsvalue.h"
+	"qjsvalueiterator.h"
+	"qqml.h"
+	"qqmlabstracturlinterceptor.h"
+	"qqmlapplicationengine.h"
+	"qqmlcomponent.h"
+	"qqmlcontext.h"
+	"qqmlengine.h"
+	"qqmlerror.h"
+	"qqmlexpression.h"
+	"qqmlextensioninterface.h"
+	"qqmlextensionplugin.h"
+	"qqmlfile.h"
+	"qqmlfileselector.h"
+	"qqmlincubator.h"
+	"qqmlinfo.h"
+	"qqmllist.h"
+	"qqmlnetworkaccessmanagerfactory.h"
+	"qqmlparserstatus.h"
+	"qqmlprivate.h"
+	"qqmlproperty.h"
+	"qqmlpropertyvaluesource.h"
+	"qqmlscriptstring.h"
+	"qqmlpropertymap.h"
+	"qtqmlversion.h"
+
+1465657914 /opt/qt5/5.7/gcc_64/include/QtQml/QtQmlDepends
+	<QtCore/QtCore>
+	<QtNetwork/QtNetwork>
+
+1465552975 /opt/qt5/5.7/gcc_64/include/QtNetwork/QtNetwork
+	<QtNetwork/QtNetworkDepends>
+	"qabstractnetworkcache.h"
+	"qhttpmultipart.h"
+	"qnetworkaccessmanager.h"
+	"qnetworkcookie.h"
+	"qnetworkcookiejar.h"
+	"qnetworkdiskcache.h"
+	"qnetworkreply.h"
+	"qnetworkrequest.h"
+	"qnetworkconfigmanager.h"
+	"qnetworkconfiguration.h"
+	"qnetworksession.h"
+	"qauthenticator.h"
+	"qdnslookup.h"
+	"qhostaddress.h"
+	"qhostinfo.h"
+	"qnetworkinterface.h"
+	"qnetworkproxy.h"
+	"qabstractsocket.h"
+	"qlocalserver.h"
+	"qlocalsocket.h"
+	"qtcpserver.h"
+	"qtcpsocket.h"
+	"qudpsocket.h"
+	"qssl.h"
+	"qsslcertificate.h"
+	"qsslcertificateextension.h"
+	"qsslcipher.h"
+	"qsslconfiguration.h"
+	"qsslellipticcurve.h"
+	"qsslerror.h"
+	"qsslkey.h"
+	"qsslpresharedkeyauthenticator.h"
+	"qsslsocket.h"
+	"qtnetworkversion.h"
+
+1465552975 /opt/qt5/5.7/gcc_64/include/QtNetwork/QtNetworkDepends
+	<QtCore/QtCore>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qhttpmultipart.h
+	<QtCore/QSharedDataPointer>
+	<QtCore/QByteArray>
+	<QtCore/QIODevice>
+	<QtNetwork/QNetworkRequest>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QByteArray
+	"qbytearray.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworkcookie.h
+	<QtCore/QSharedDataPointer>
+	<QtCore/QList>
+	<QtCore/QMetaType>
+	<QtCore/QObject>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworkcookiejar.h
+	<QtCore/QObject>
+	<QtCore/QUrl>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworkconfigmanager.h
+	<QtCore/qobject.h>
+	<QtNetwork/qnetworkconfiguration.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworkconfiguration.h
+	<QtCore/qglobal.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qstring.h>
+	<QtCore/qlist.h>
+	<QtCore/qmetatype.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworksession.h
+	<QtCore/qobject.h>
+	<QtCore/qstring.h>
+	<QtNetwork/qnetworkinterface.h>
+	<QtCore/qvariant.h>
+	<QtNetwork/qnetworkconfiguration.h>
+	<QtCore/qshareddata.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qnetworkinterface.h
+	<QtCore/qshareddata.h>
+	<QtCore/qscopedpointer.h>
+	<QtNetwork/qhostaddress.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qauthenticator.h
+	<QtCore/qstring.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qdnslookup.h
+	<QtCore/qlist.h>
+	<QtCore/qobject.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qsharedpointer.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qhostinfo.h
+	<QtCore/qlist.h>
+	<QtCore/qscopedpointer.h>
+	<QtNetwork/qhostaddress.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qlocalserver.h
+	<QtNetwork/qabstractsocket.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qlocalsocket.h
+	<QtCore/qiodevice.h>
+	<QtNetwork/qabstractsocket.h>
+	<QtCore/qdebug.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qtcpserver.h
+	<QtCore/qobject.h>
+	<QtNetwork/qabstractsocket.h>
+	<QtNetwork/qhostaddress.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qudpsocket.h
+	<QtNetwork/qabstractsocket.h>
+	<QtNetwork/qhostaddress.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qsslcertificateextension.h
+	<QtCore/qnamespace.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qstring.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qsslcipher.h
+	<QtCore/qstring.h>
+	<QtCore/qscopedpointer.h>
+	<QtNetwork/qssl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qsslellipticcurve.h
+	<QtCore/QtGlobal>
+	<QtCore/QString>
+	<QtCore/QMetaType>
+	<QtCore/QHash>
+	<QtCore/qhashfunctions.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QHash
+	"qhash.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtNetwork/qsslkey.h
+	<QtCore/qnamespace.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qsharedpointer.h>
+	<QtNetwork/qssl.h>
+
+1465552975 /opt/qt5/5.7/gcc_64/include/QtNetwork/qtnetworkversion.h
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qjsvalueiterator.h
+	<QtQml/qjsvalue.h>
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qscopedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlabstracturlinterceptor.h
+	<QtCore/qurl.h>
+	<QtQml/qtqmlglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlcomponent.h
+	<QtQml/qqml.h>
+	<QtQml/qqmlerror.h>
+	<QtCore/qobject.h>
+	<QtCore/qstring.h>
+	<QtQml/qjsvalue.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlcontext.h
+	<QtCore/qurl.h>
+	<QtCore/qobject.h>
+	<QtQml/qjsvalue.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlexpression.h
+	<QtQml/qqmlerror.h>
+	<QtQml/qqmlscriptstring.h>
+	<QtCore/qobject.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlscriptstring.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qstring.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qmetatype.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlextensioninterface.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlextensionplugin.h
+	<QtCore/qplugin.h>
+	<QtCore/QUrl>
+	<QtQml/qqmlextensioninterface.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlfile.h
+	<QtQml/qtqmlglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlfileselector.h
+	<QtCore/QObject>
+	<QtCore/QUrl>
+	<QtQml/QQmlEngine>
+	<QtQml/qtqmlglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/QQmlEngine
+	"qqmlengine.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlincubator.h
+	<QtQml/qtqmlglobal.h>
+	<QtQml/qqmlerror.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlinfo.h
+	<QtCore/qdebug.h>
+	<QtCore/qurl.h>
+	<QtQml/qqmlerror.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlnetworkaccessmanagerfactory.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlproperty.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/qmetaobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/qqmlpropertymap.h
+	<QtQml/qtqmlglobal.h>
+	<QtCore/QObject>
+	<QtCore/QHash>
+	<QtCore/QStringList>
+	<QtCore/QVariant>
+
+1465657914 /opt/qt5/5.7/gcc_64/include/QtQml/qtqmlversion.h
+
+1465658023 /opt/qt5/5.7/gcc_64/include/QtQuick/QtQuick
+	<QtQuick/QtQuickDepends>
+	"qtquickglobal.h"
+	"qquickframebufferobject.h"
+	"qquickitem.h"
+	"qquickitemgrabresult.h"
+	"qquickpainteditem.h"
+	"qquickrendercontrol.h"
+	"qquicktextdocument.h"
+	"qquickview.h"
+	"qquickwindow.h"
+	"qquickimageprovider.h"
+	"qsgabstractrenderer.h"
+	"qsggeometry.h"
+	"qsgmaterial.h"
+	"qsgnode.h"
+	"qsgengine.h"
+	"qsgflatcolormaterial.h"
+	"qsgsimplematerial.h"
+	"qsgsimplerectnode.h"
+	"qsgsimpletexturenode.h"
+	"qsgtexture.h"
+	"qsgtexturematerial.h"
+	"qsgtextureprovider.h"
+	"qsgvertexcolormaterial.h"
+	"qtquickversion.h"
+
+1465658023 /opt/qt5/5.7/gcc_64/include/QtQuick/QtQuickDepends
+	<QtCore/QtCore>
+	<QtGui/QtGui>
+	<QtQml/QtQml>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qtquickglobal.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qquickframebufferobject.h
+	<QtQuick/QQuickItem>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/QQuickItem
+	"qquickitem.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qquickitem.h
+	<QtQuick/qtquickglobal.h>
+	<QtQml/qqml.h>
+	<QtQml/qqmlcomponent.h>
+	<QtCore/QObject>
+	<QtCore/QList>
+	<QtGui/qevent.h>
+	<QtGui/qfont.h>
+	<QtGui/qaccessible.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qquickitemgrabresult.h
+	<QtCore/QObject>
+	<QtCore/QSize>
+	<QtCore/QUrl>
+	<QtGui/QImage>
+	<QtQml/QJSValue>
+	<QtQuick/qtquickglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/QJSValue
+	"qjsvalue.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qquickpainteditem.h
+	<QtQuick/qquickitem.h>
+	<QtGui/qcolor.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qquickrendercontrol.h
+	<QtQuick/qtquickglobal.h>
+	<QtGui/QImage>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qquicktextdocument.h
+	<QtGui/QTextDocument>
+	<QtQuick/QQuickItem>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QTextDocument
+	"qtextdocument.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qquickview.h
+	<QtQuick/qquickwindow.h>
+	<QtCore/qurl.h>
+	<QtQml/qqmldebug.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qquickwindow.h
+	<QtQuick/qtquickglobal.h>
+	<QtCore/qmetatype.h>
+	<QtGui/qopengl.h>
+	<QtGui/qwindow.h>
+	<QtGui/qevent.h>
+	<QtQml/qqml.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qquickimageprovider.h
+	<QtQuick/qtquickglobal.h>
+	<QtGui/qimage.h>
+	<QtGui/qpixmap.h>
+	<QtQml/qqmlengine.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgabstractrenderer.h
+	<QtQuick/qsgnode.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgnode.h
+	<QtQuick/qsggeometry.h>
+	<QtGui/QMatrix4x4>
+	<float.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsggeometry.h
+	<QtQuick/qtquickglobal.h>
+	<QtGui/qopengl.h>
+	<QtCore/QRectF>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QMatrix4x4
+	"qmatrix4x4.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgmaterial.h
+	<QtQuick/qtquickglobal.h>
+	<QtGui/qopenglshaderprogram.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgengine.h
+	<QtCore/QObject>
+	<QtQuick/qtquickglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgflatcolormaterial.h
+	<QtQuick/qsgmaterial.h>
+	<QtGui/qcolor.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgsimplematerial.h
+	<QtQuick/qsgmaterial.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgsimplerectnode.h
+	<QtQuick/qsgnode.h>
+	<QtQuick/qsgflatcolormaterial.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgsimpletexturenode.h
+	<QtQuick/qsgnode.h>
+	<QtQuick/qsggeometry.h>
+	<QtQuick/qsgtexturematerial.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgtexturematerial.h
+	<QtQuick/qsgmaterial.h>
+	<QtQuick/qsgtexture.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgtexture.h
+	<QtQuick/qtquickglobal.h>
+	<QtCore/QObject>
+	<QtGui/QImage>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgtextureprovider.h
+	<QtQuick/qsgtexture.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQuick/qsgvertexcolormaterial.h
+	<QtQuick/qsgmaterial.h>
+
+1465658023 /opt/qt5/5.7/gcc_64/include/QtQuick/qtquickversion.h
+
+1465774693 /opt/qt5/5.7/gcc_64/include/QtWebChannel/QtWebChannel
+	<QtWebChannel/QtWebChannelDepends>
+	"qqmlwebchannel.h"
+	"qwebchannel.h"
+	"qwebchannelabstracttransport.h"
+	"qwebchannelglobal.h"
+	"qtwebchannelversion.h"
+
+1465774693 /opt/qt5/5.7/gcc_64/include/QtWebChannel/QtWebChannelDepends
+	<QtCore/QtCore>
+	<QtQml/QtQml>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebChannel/qqmlwebchannel.h
+	<QtWebChannel/QWebChannel>
+	<QtWebChannel/qwebchannelglobal.h>
+	<QtQml/qqml.h>
+	<QtQml/QQmlListProperty>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebChannel/QWebChannel
+	"qwebchannel.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebChannel/qwebchannel.h
+	<QtCore/QObject>
+	<QtCore/QJsonValue>
+	<QtWebChannel/qwebchannelglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QJsonValue
+	"qjsonvalue.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebChannel/qwebchannelglobal.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtQml/QQmlListProperty
+	"qqmllist.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebChannel/qwebchannelabstracttransport.h
+	<QtCore/QObject>
+	<QtWebChannel/qwebchannelglobal.h>
+
+1465774693 /opt/qt5/5.7/gcc_64/include/QtWebChannel/qtwebchannelversion.h
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineCore/qtwebenginecoreglobal.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineCore/qwebenginecallback.h
+	<QtWebEngineCore/qtwebenginecoreglobal.h>
+	<QtCore/qcompilerdetection.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qstring.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineCore/qwebenginecookiestore.h
+	<QtWebEngineCore/qtwebenginecoreglobal.h>
+	<QtWebEngineCore/qwebenginecallback.h>
+	<QtCore/qobject.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qurl.h>
+	<QtNetwork/qnetworkcookie.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineCore/qwebengineurlrequestinfo.h
+	<QtWebEngineCore/qtwebenginecoreglobal.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qurl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineCore/qwebengineurlrequestinterceptor.h
+	<QtWebEngineCore/qtwebenginecoreglobal.h>
+	<QtWebEngineCore/qwebengineurlrequestinfo.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qhash.h>
+	<QtCore/qobject.h>
+	<QtCore/qurl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineCore/qwebengineurlrequestjob.h
+	<QtWebEngineCore/qtwebenginecoreglobal.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qobject.h>
+	<QtCore/qurl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineCore/qwebengineurlschemehandler.h
+	<QtWebEngineCore/qtwebenginecoreglobal.h>
+	<QtCore/qobject.h>
+
+1465771583 /opt/qt5/5.7/gcc_64/include/QtWebEngineCore/qtwebenginecoreversion.h
+
+1465553176 /opt/qt5/5.7/gcc_64/include/QtWidgets/QtWidgets
+	<QtWidgets/QtWidgetsDepends>
+	"qaccessiblewidget.h"
+	"qcolordialog.h"
+	"qdialog.h"
+	"qerrormessage.h"
+	"qfiledialog.h"
+	"qfilesystemmodel.h"
+	"qfontdialog.h"
+	"qinputdialog.h"
+	"qmessagebox.h"
+	"qprogressdialog.h"
+	"qwizard.h"
+	"qgraphicseffect.h"
+	"qgraphicsanchorlayout.h"
+	"qgraphicsgridlayout.h"
+	"qgraphicsitem.h"
+	"qgraphicsitemanimation.h"
+	"qgraphicslayout.h"
+	"qgraphicslayoutitem.h"
+	"qgraphicslinearlayout.h"
+	"qgraphicsproxywidget.h"
+	"qgraphicsscene.h"
+	"qgraphicssceneevent.h"
+	"qgraphicstransform.h"
+	"qgraphicsview.h"
+	"qgraphicswidget.h"
+	"qabstractitemdelegate.h"
+	"qabstractitemview.h"
+	"qcolumnview.h"
+	"qdatawidgetmapper.h"
+	"qdirmodel.h"
+	"qfileiconprovider.h"
+	"qheaderview.h"
+	"qitemdelegate.h"
+	"qitemeditorfactory.h"
+	"qlistview.h"
+	"qlistwidget.h"
+	"qstyleditemdelegate.h"
+	"qtableview.h"
+	"qtablewidget.h"
+	"qtreeview.h"
+	"qtreewidget.h"
+	"qtreewidgetitemiterator.h"
+	"qaction.h"
+	"qactiongroup.h"
+	"qapplication.h"
+	"qboxlayout.h"
+	"qdesktopwidget.h"
+	"qformlayout.h"
+	"qgesture.h"
+	"qgesturerecognizer.h"
+	"qgridlayout.h"
+	"qlayout.h"
+	"qlayoutitem.h"
+	"qopenglwidget.h"
+	"qshortcut.h"
+	"qsizepolicy.h"
+	"qstackedlayout.h"
+	"qtooltip.h"
+	"qwhatsthis.h"
+	"qwidget.h"
+	"qwidgetaction.h"
+	"qkeyeventtransition.h"
+	"qmouseeventtransition.h"
+	"qcommonstyle.h"
+	"qdrawutil.h"
+	"qproxystyle.h"
+	"qstyle.h"
+	"qstylefactory.h"
+	"qstyleoption.h"
+	"qstylepainter.h"
+	"qstyleplugin.h"
+	"qcolormap.h"
+	"qcompleter.h"
+	"qscroller.h"
+	"qscrollerproperties.h"
+	"qsystemtrayicon.h"
+	"qundogroup.h"
+	"qundostack.h"
+	"qundoview.h"
+	"qabstractbutton.h"
+	"qabstractscrollarea.h"
+	"qabstractslider.h"
+	"qabstractspinbox.h"
+	"qbuttongroup.h"
+	"qcalendarwidget.h"
+	"qcheckbox.h"
+	"qcombobox.h"
+	"qcommandlinkbutton.h"
+	"qdatetimeedit.h"
+	"qdial.h"
+	"qdialogbuttonbox.h"
+	"qdockwidget.h"
+	"qfocusframe.h"
+	"qfontcombobox.h"
+	"qframe.h"
+	"qgroupbox.h"
+	"qkeysequenceedit.h"
+	"qlabel.h"
+	"qlcdnumber.h"
+	"qlineedit.h"
+	"qmainwindow.h"
+	"qmdiarea.h"
+	"qmdisubwindow.h"
+	"qmenu.h"
+	"qmenubar.h"
+	"qplaintextedit.h"
+	"qprogressbar.h"
+	"qpushbutton.h"
+	"qradiobutton.h"
+	"qrubberband.h"
+	"qscrollarea.h"
+	"qscrollbar.h"
+	"qsizegrip.h"
+	"qslider.h"
+	"qspinbox.h"
+	"qsplashscreen.h"
+	"qsplitter.h"
+	"qstackedwidget.h"
+	"qstatusbar.h"
+	"qtabbar.h"
+	"qtabwidget.h"
+	"qtextbrowser.h"
+	"qtextedit.h"
+	"qtoolbar.h"
+	"qtoolbox.h"
+	"qtoolbutton.h"
+	"qtwidgetsversion.h"
+
+1465553176 /opt/qt5/5.7/gcc_64/include/QtWidgets/QtWidgetsDepends
+	<QtCore/QtCore>
+	<QtGui/QtGui>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qaccessiblewidget.h
+	<QtGui/qaccessibleobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qcolordialog.h
+	<QtWidgets/qdialog.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qerrormessage.h
+	<QtWidgets/qdialog.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qfiledialog.h
+	<QtCore/qdir.h>
+	<QtCore/qstring.h>
+	<QtCore/qurl.h>
+	<QtWidgets/qdialog.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qfilesystemmodel.h
+	<QtCore/qabstractitemmodel.h>
+	<QtCore/qpair.h>
+	<QtCore/qdir.h>
+	<QtGui/qicon.h>
+	<QtCore/qdiriterator.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qfontdialog.h
+	<QtGui/qwindowdefs.h>
+	<QtWidgets/qdialog.h>
+	<QtGui/qfont.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qinputdialog.h
+	<QtWidgets/qdialog.h>
+	<QtCore/qstring.h>
+	<QtWidgets/qlineedit.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qprogressdialog.h
+	<QtWidgets/qdialog.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qwizard.h
+	<QtWidgets/qdialog.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicseffect.h
+	<QtCore/qobject.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+	<QtGui/qcolor.h>
+	<QtGui/qbrush.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicsanchorlayout.h
+	<QtWidgets/qgraphicsitem.h>
+	<QtWidgets/qgraphicslayout.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicslayout.h
+	<QtWidgets/qgraphicslayoutitem.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicslayoutitem.h
+	<QtCore/qscopedpointer.h>
+	<QtWidgets/qsizepolicy.h>
+	<QtGui/qevent.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicsgridlayout.h
+	<QtWidgets/qgraphicsitem.h>
+	<QtWidgets/qgraphicslayout.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicsitemanimation.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicslinearlayout.h
+	<QtWidgets/qgraphicsitem.h>
+	<QtWidgets/qgraphicslayout.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicsproxywidget.h
+	<QtWidgets/qgraphicswidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicswidget.h
+	<QtGui/qfont.h>
+	<QtWidgets/qgraphicslayoutitem.h>
+	<QtWidgets/qgraphicsitem.h>
+	<QtGui/qpalette.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicssceneevent.h
+	<QtCore/qcoreevent.h>
+	<QtCore/qpoint.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qrect.h>
+	<QtGui/qpolygon.h>
+	<QtCore/qset.h>
+	<QtCore/qhash.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicstransform.h
+	<QtCore/QObject>
+	<QtGui/QVector3D>
+	<QtGui/QTransform>
+	<QtGui/QMatrix4x4>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtGui/QVector3D
+	"qvector3d.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgraphicsview.h
+	<QtCore/qmetatype.h>
+	<QtGui/qpainter.h>
+	<QtWidgets/qscrollarea.h>
+	<QtWidgets/qgraphicsscene.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qcolumnview.h
+	<QtWidgets/qabstractitemview.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qdatawidgetmapper.h
+	"QtCore/qobject.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qdirmodel.h
+	<QtCore/qabstractitemmodel.h>
+	<QtCore/qdir.h>
+	<QtWidgets/qfileiconprovider.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qfileiconprovider.h
+	<QtCore/qfileinfo.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qicon.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qitemdelegate.h
+	<QtWidgets/qabstractitemdelegate.h>
+	<QtCore/qstring.h>
+	<QtGui/qpixmap.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qitemeditorfactory.h
+	<QtCore/qmetaobject.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qhash.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qlistview.h
+	<QtWidgets/qabstractitemview.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qlistwidget.h
+	<QtWidgets/qlistview.h>
+	<QtCore/qvariant.h>
+	<QtCore/qvector.h>
+	<QtCore/qitemselectionmodel.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qstyleditemdelegate.h
+	<QtWidgets/qabstractitemdelegate.h>
+	<QtCore/qstring.h>
+	<QtGui/qpixmap.h>
+	<QtCore/qvariant.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtreeview.h
+	<QtWidgets/qabstractitemview.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtreewidget.h
+	<QtWidgets/qtreeview.h>
+	<QtWidgets/qtreewidgetitemiterator.h>
+	<QtCore/qvariant.h>
+	<QtCore/qvector.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtreewidgetitemiterator.h
+	<QtCore/qglobal.h>
+	<QtCore/qscopedpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qapplication.h
+	<QtCore/qcoreapplication.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qpoint.h>
+	<QtCore/qsize.h>
+	<QtGui/qcursor.h>
+	<QtWidgets/qdesktopwidget.h>
+	<QtGui/qguiapplication.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qdesktopwidget.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgesture.h
+	<QtCore/qobject.h>
+	<QtCore/qlist.h>
+	<QtCore/qdatetime.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+	<QtCore/qmetatype.h>
+	<QtGui/qevent.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgesturerecognizer.h
+	<QtCore/qglobal.h>
+	<QtCore/qnamespace.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qopenglwidget.h
+	<QtCore/qglobal.h>
+	<QtWidgets/QWidget>
+	<QtGui/QSurfaceFormat>
+	<QtGui/qopengl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qshortcut.h
+	<QtWidgets/qwidget.h>
+	<QtGui/qkeysequence.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qstackedlayout.h
+	<QtWidgets/qlayout.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtooltip.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qwhatsthis.h
+	<QtCore/qobject.h>
+	<QtGui/qcursor.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qwidgetaction.h
+	<QtWidgets/qaction.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qkeyeventtransition.h
+	<QtCore/qeventtransition.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qmouseeventtransition.h
+	<QtCore/qeventtransition.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qdrawutil.h
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtCore/qmargins.h>
+	<QtGui/qpixmap.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qproxystyle.h
+	<QtWidgets/QCommonStyle>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qstylefactory.h
+	<QtCore/qstringlist.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qstylepainter.h
+	<QtGui/qpainter.h>
+	<QtWidgets/qstyle.h>
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qstyleplugin.h
+	<QtCore/qplugin.h>
+	<QtCore/qfactoryinterface.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qcolormap.h
+	<QtCore/qatomic.h>
+	<QtGui/qrgb.h>
+	<QtCore/qvector.h>
+	<QtGui/qwindowdefs.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qcompleter.h
+	<QtCore/qobject.h>
+	<QtCore/qpoint.h>
+	<QtCore/qstring.h>
+	<QtCore/qabstractitemmodel.h>
+	<QtCore/qrect.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qscroller.h
+	<QtCore/QObject>
+	<QtCore/QPointF>
+	<QtWidgets/QScrollerProperties>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QScrollerProperties
+	"qscrollerproperties.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qscrollerproperties.h
+	<QtCore/QScopedPointer>
+	<QtCore/QMetaType>
+	<QtCore/QVariant>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qsystemtrayicon.h
+	<QtCore/qobject.h>
+	<QtGui/qicon.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qundogroup.h
+	<QtCore/qobject.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qundostack.h
+	<QtCore/qobject.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qundoview.h
+	<QtWidgets/qlistview.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qbuttongroup.h
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qcalendarwidget.h
+	<QtWidgets/qwidget.h>
+	<QtCore/qdatetime.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qcommandlinkbutton.h
+	<QtWidgets/qpushbutton.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qdatetimeedit.h
+	<QtCore/qdatetime.h>
+	<QtCore/qvariant.h>
+	<QtWidgets/qabstractspinbox.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qdial.h
+	<QtWidgets/qabstractslider.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qdockwidget.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qfocusframe.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qfontcombobox.h
+	<QtWidgets/qcombobox.h>
+	<QtGui/qfontdatabase.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qgroupbox.h
+	<QtWidgets/qframe.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qkeysequenceedit.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qlcdnumber.h
+	<QtWidgets/qframe.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qmainwindow.h
+	<QtWidgets/qwidget.h>
+	<QtWidgets/qtabwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qmdiarea.h
+	<QtWidgets/qabstractscrollarea.h>
+	<QtWidgets/qtabwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qmdisubwindow.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qmenubar.h
+	<QtWidgets/qmenu.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qplaintextedit.h
+	<QtWidgets/qtextedit.h>
+	<QtWidgets/qabstractscrollarea.h>
+	<QtGui/qtextdocument.h>
+	<QtGui/qtextoption.h>
+	<QtGui/qtextcursor.h>
+	<QtGui/qtextformat.h>
+	<QtGui/qabstracttextdocumentlayout.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtextedit.h
+	<QtWidgets/qabstractscrollarea.h>
+	<QtGui/qtextdocument.h>
+	<QtGui/qtextoption.h>
+	<QtGui/qtextcursor.h>
+	<QtGui/qtextformat.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qprogressbar.h
+	<QtWidgets/qframe.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qradiobutton.h
+	<QtWidgets/qabstractbutton.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qscrollbar.h
+	<QtWidgets/qwidget.h>
+	<QtWidgets/qabstractslider.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qsizegrip.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qspinbox.h
+	<QtWidgets/qabstractspinbox.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qsplashscreen.h
+	<QtGui/qpixmap.h>
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qstackedwidget.h
+	<QtWidgets/qframe.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qstatusbar.h
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtextbrowser.h
+	<QtWidgets/qtextedit.h>
+	<QtCore/qurl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtoolbar.h
+	<QtWidgets/qaction.h>
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtoolbox.h
+	<QtWidgets/qframe.h>
+	<QtGui/qicon.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtoolbutton.h
+	<QtWidgets/qabstractbutton.h>
+
+1465553176 /opt/qt5/5.7/gcc_64/include/QtWidgets/qtwidgetsversion.h
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qtwebenginewidgetsglobal.h
+	<QtCore/qglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebenginecertificateerror.h
+	<QtWebEngineWidgets/qtwebenginewidgetsglobal.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qurl.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebenginecontextmenudata.h
+	<qtwebenginewidgetsglobal.h>
+	<QtCore/QPoint>
+	<QtCore/QString>
+	<QtCore/QUrl>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebenginedownloaditem.h
+	<QtWebEngineWidgets/qtwebenginewidgetsglobal.h>
+	<QtCore/qobject.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebenginefullscreenrequest.h
+	<qtwebenginewidgetsglobal.h>
+	<qurl.h>
+	<qpointer.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebenginehistory.h
+	<QtCore/qurl.h>
+	<QtCore/qstring.h>
+	<QtCore/qdatetime.h>
+	<QtCore/qshareddata.h>
+	<QtGui/qicon.h>
+	<QtWebEngineWidgets/qtwebenginewidgetsglobal.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebenginepage.h
+	<QtWebEngineWidgets/qtwebenginewidgetsglobal.h>
+	<QtWebEngineWidgets/qwebenginecertificateerror.h>
+	<QtWebEngineCore/qwebenginecallback.h>
+	<QtCore/qobject.h>
+	<QtCore/qurl.h>
+	<QtCore/qvariant.h>
+	<QtGui/qpagelayout.h>
+	<QtNetwork/qnetworkaccessmanager.h>
+	<QtWidgets/qwidget.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebengineprofile.h
+	<QtWebEngineWidgets/qtwebenginewidgetsglobal.h>
+	<QtCore/qobject.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebenginescript.h
+	<QtWebEngineWidgets/qtwebenginewidgetsglobal.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebenginescriptcollection.h
+	<QtWebEngineWidgets/qtwebenginewidgetsglobal.h>
+	<QtWebEngineWidgets/qwebenginescript.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qlist.h>
+	<QtCore/qset.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebenginesettings.h
+	<QtWebEngineWidgets/qtwebenginewidgetsglobal.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qstring.h>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qwebengineview.h
+	<QtGui/qpainter.h>
+	<QtNetwork/qnetworkaccessmanager.h>
+	<QtWidgets/qwidget.h>
+	<QtWebEngineWidgets/qtwebenginewidgetsglobal.h>
+	<QtWebEngineWidgets/qwebenginepage.h>
+
+1465777763 /opt/qt5/5.7/gcc_64/include/QtWebEngineWidgets/qtwebenginewidgetsversion.h
+
+1470575054 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/envParam.cpp
+	"envParam.h"
+	"envParam.moc"
+
+1470571282 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/envParam.h
+	"global.h"
+	<QSettings>
+	<QProcessEnvironment>
+	<QFileInfo>
+	<QApplication>
+	<QDir>
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtCore/QSettings
+	"qsettings.h"
+
+429073200 /opt/qt5/5.7/gcc_64/include/QtWidgets/QApplication
+	"qapplication.h"
+
+1471764950 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/envParam.moc
+
+1471076838 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore/csvDefinition.h
+
+1474372946 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogAbout.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogAbout.h"
+	<QDebug>
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogAbout.moc"
+
+1472859030 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/mainWindow.h
+	<QtGui>
+	"global.h"
+	"projectData.h"
+	"wptEdit.h"
+	"dialogFind.h"
+	"dialogReplace.h"
+	"dialogSearchDup.h"
+	"dialogAbout.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+
+1470573694 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/global.h
+	<QString>
+
+1473703186 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/projectData.h
+	"global.h"
+	<QString>
+	<QList>
+	<QVariant>
+	<QStack>
+	<QFile>
+	<QDateTime>
+	"csvDefinition.h"
+
+1471084038 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/csvDefinition.h
+
+1469081364 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/wptEdit.h
+	"global.h"
+	"projectData.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+	<QTableWidget>
+	<QtGui>
+	<QtWidgets/QHeaderView>
+
+1468767120 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/SlippyMapWidget.h
+	<QWidget>
+	<QCache>
+	<QSet>
+	<QList>
+	<QPixmap>
+	<QGraphicsPixmapItem>
+	<QGraphicsScene>
+	<QMenu>
+	"GeoUtils.h"
+	"../projectData.h"
+
+1470908430 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/GeoUtils.h
+	<QPointF>
+	<QVector>
+	<QString>
+	<math.h>
+
+1471543820 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/MapChooseWidget.h
+	<QComboBox>
+	<QList>
+
+1474397164 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogFind.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets>
+
+1474397268 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogReplace.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1474397164 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogSearchDup.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1474368884 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogAbout.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogAbout.moc
+	"dialogAbout.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474562175 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogAppPref.cpp
+	"global.h"
+	"dialogAppPref.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	"dialogAppPref.moc"
+
+1472858744 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogAppPref.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogAppPref.moc
+	"dialogAppPref.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1473703098 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogCsv.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogCsv.h"
+	"wptEdit.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	<QFile>
+	<QStringList>
+	<QDebug>
+	"dialogCsv.moc"
+
+1472857724 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogCsv.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets/QHeaderView>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogCsv.moc
+	"dialogCsv.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474397060 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogFind.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogFind.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogFind.moc"
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogFind.moc
+	"dialogFind.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474378510 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogPrint.cpp
+	"global.h"
+	"dialogPrint.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	<QFontMetrics>
+	<QtPrintSupport/QPrinterInfo>
+	"projectData.h"
+	"dialogPrint.moc"
+
+1468781122 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogPrint.h
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QtPrintSupport/QPrinter>
+	"global.h"
+	"maplib/SlippyMapWidget.h"
+	"projectData.h"
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogPrint.moc
+	"dialogPrint.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474196034 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogProjProperty.cpp
+	"dialogProjProperty.h"
+	"projectData.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogProjProperty.moc"
+
+1465134952 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogProjProperty.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogProjProperty.moc
+	"dialogProjProperty.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474397060 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogReplace.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogReplace.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogReplace.moc"
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogReplace.moc
+	"dialogReplace.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474397060 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogSearchDup.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogSearchDup.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogSearchDup.moc"
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogSearchDup.moc
+	"dialogSearchDup.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1472381456 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogWptProp.cpp
+	"dialogWptProp.h"
+	"projectData.h"
+	"mainWindow.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogWptProp.moc"
+
+1465134952 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogWptProp.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/dialogWptProp.moc
+	"dialogWptProp.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470582254 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/envParam.cpp
+	"envParam.h"
+	"envParam.moc"
+
+1470578482 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/envParam.h
+	"global.h"
+	<QSettings>
+	<QProcessEnvironment>
+	<QFileInfo>
+	<QApplication>
+	<QDir>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/envParam.moc
+
+1470854894 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/global.cpp
+	"global.h"
+	<QString>
+	<QDebug>
+	<QDir>
+	<QFileInfo>
+	<libgen.h>
+	<libgen.h>
+
+1472899838 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/main.cpp
+	<QTextStream>
+	<QCommonStyle>
+	<QPlastiqueStyle>
+	<QCleanlooksStyle>
+	<QWindowsXPStyle>
+	<QWindowsVistaStyle>
+	<QMotifStyle>
+	<QCDEStyle>
+	"global.h"
+	"wptEdit.h"
+	"mainWindow.h"
+	"envParam.h"
+
+1474562594 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/mainWindow.cpp
+	"global.h"
+	"mainWindow.h"
+	"dialogAppPref.h"
+	"dialogProjProperty.h"
+	"dialogFind.h"
+	"dialogSearchDup.h"
+	"dialogPrint.h"
+	"dialogAbout.h"
+	"dialogCsv.h"
+	<QFrame>
+	<QSplitter>
+	<QDebug>
+	<QString>
+	<QFile>
+	<QScrollArea>
+	<QTableView>
+	<QStandardItemModel>
+	<QPoint>
+	<QDate>
+	<QtGui>
+	<QComboBox>
+	"maplib/SlippyMapWidget.h"
+	"maplib/GeoUtils.h"
+	"maplib/MapChooseWidget.h"
+	"maplib/SlippyLocations.h"
+	"maplib/GeoUtils.h"
+	"maplib/SRTMv4.h"
+	"maplib/DrawITUTerrain.h"
+	<stdio.h>
+	"mainWindow.moc"
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/SlippyLocations.h
+	"SlippyMapWidget.h"
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/SRTMv4.h
+	<QObject>
+	<QRectF>
+	<QPointer>
+	<QVector>
+	<QFile>
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/DrawITUTerrain.h
+	"ProfileWidget.h"
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/ProfileWidget.h
+	<QWidget>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/mainWindow.moc
+	"mainWindow.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470908570 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/3rdparty/qzip/qzip.cpp
+	<qglobal.h>
+	"qzipreader.h"
+	"qzipwriter.h"
+	<qdatetime.h>
+	<qendian.h>
+	<qdebug.h>
+	<qdir.h>
+	"../../../zlib-1.2.3-lib\include/zlib.h"
+	"zlib.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/3rdparty/qzip/qzipreader.h
+	<QtCore/qfile.h>
+	<QtCore/qstring.h>
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/3rdparty/qzip/qzipwriter.h
+	<QtCore/qstring.h>
+	<QtCore/qfile.h>
+
+1469255154 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/DemDownloader.cpp
+	"mydebug.h"
+	"DemDownloader.h"
+	"Downloader.h"
+	"3rdparty/qzip/qzipreader.h"
+	"SRTMv4.h"
+	<QNetworkReply>
+	<QBuffer>
+	<QFileInfo>
+	<QImageReader>
+	"DemDownloader.moc"
+
+1432574100 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/mydebug.h
+
+1432548150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/DemDownloader.h
+	<QObject>
+	<QPointF>
+
+1440443716 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/Downloader.h
+	<QNetworkAccessManager>
+	<QSet>
+	<QImage>
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/DemDownloader.moc
+	"DemDownloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1465497738 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/Downloader.cpp
+	"../global.h"
+	"mydebug.h"
+	"Downloader.h"
+	<QCoreApplication>
+	<QNetworkDiskCache>
+	<QProcessEnvironment>
+	<QNetworkProxy>
+	<QNetworkReply>
+	<QNetworkRequest>
+	<QDesktopServices>
+	<QDir>
+	"Downloader.moc"
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/Downloader.moc
+	"Downloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312020344 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/DrawITUTerrain.cpp
+	"mydebug.h"
+	"DrawITUTerrain.h"
+	"ITUTerrain.h"
+	<QPainter>
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/ITUTerrain.h
+	"GeoUtils.h"
+
+1468098392 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/GeoUtils.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"GeoUtils.h"
+
+1468512528 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/ITUTerrain.cpp
+	"mydebug.h"
+	<math.h>
+	"ITUTerrain.h"
+
+1437491342 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/LocationMapDialog.cpp
+	"mydebug.h"
+	"LocationMapDialog.h"
+	<QFormLayout>
+	<QLineEdit>
+	"SlippyMapWidget.h"
+	"SlippyLocations.h"
+	"GeoUtils.h"
+	"LocationMapDialog.moc"
+	"locations.moc"
+
+1432545824 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/LocationMapDialog.h
+	"locations.h"
+
+1432551662 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/locations.h
+	<QString>
+	<QList>
+	<QAbstractTableModel>
+	<QTableView>
+	<QDialog>
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/LocationMapDialog.moc
+	"LocationMapDialog.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/locations.moc
+	"locations.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468098418 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/locations.cpp
+	"locations.h"
+	<QFile>
+	<QTextStream>
+	"ParseCSV.h"
+	<QHeaderView>
+	<QKeyEvent>
+	"LocationMapDialog.h"
+	<QLineEdit>
+	<QFormLayout>
+	<QDialogButtonBox>
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/ParseCSV.h
+	<QString>
+
+1471543954 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/MapChooseWidget.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"MapChooseWidget.h"
+	"MapChooseWidget.moc"
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/MapChooseWidget.moc
+	"MapChooseWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470170914 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/mydebug.cpp
+	"mydebug.h"
+	<qglobal.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<syslog.h>
+
+1465497962 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/ParseCSV.cpp
+	"ParseCSV.h"
+	<QFile>
+
+1312020344 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/ProfileWidget.cpp
+	"mydebug.h"
+	"ProfileWidget.h"
+	"GeoUtils.h"
+	<QPainter>
+
+1312020344 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/SlippyLocations.cpp
+	"mydebug.h"
+	"SlippyLocations.h"
+	"locations.h"
+	<QPainter>
+
+1473713410 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/SlippyMapWidget.cpp
+	"mydebug.h"
+	"../mainWindow.h"
+	"../projectData.h"
+	"GeoUtils.h"
+	<QFont>
+	"../dialogWptProp.h"
+	<QDebug>
+	<QMenu>
+	<QFile>
+	<QPainter>
+	<QPixmap>
+	<QWheelEvent>
+	<QNetworkReply>
+	<QPaintEvent>
+	<QPainter>
+	<QTimer>
+	<math.h>
+	"SlippyMapWidget.h"
+	"Downloader.h"
+	"SlippyMapWidget.moc"
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/SlippyMapWidget.moc
+	"SlippyMapWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312020344 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/maplib/SRTMv4.cpp
+	"mydebug.h"
+	<math.h>
+	"SRTMv4.h"
+	"GeoUtils.h"
+
+1472393016 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/projectData.cpp
+	"global.h"
+	"projectData.h"
+	"maplib/3rdparty/qzip/qzipreader.h"
+	"mainWindow.h"
+	<iostream>
+	<QDebug>
+	<QFile>
+	<QStack>
+	<QXmlStreamReader>
+	<QDateTime>
+	<QRegExp>
+	<QStringList>
+	<QObject>
+	<QMessageBox>
+
+1473703030 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/wptEdit.cpp
+	"global.h"
+	"wptEdit.h"
+	"dialogWptProp.h"
+	"mainWindow.h"
+	"projectData.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QMenu>
+	<QDesktopServices>
+	<QUrl>
+	"wptEdit.moc"
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/src_uxplore.0.1/wptEdit.moc
+	"wptEdit.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474372946 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogAbout.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogAbout.h"
+	<QDebug>
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogAbout.moc"
+
+1472859030 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/mainWindow.h
+	<QtGui>
+	"global.h"
+	"projectData.h"
+	"wptEdit.h"
+	"dialogFind.h"
+	"dialogReplace.h"
+	"dialogSearchDup.h"
+	"dialogAbout.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+
+1470573694 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/global.h
+	<QString>
+
+1473703186 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/projectData.h
+	"global.h"
+	<QString>
+	<QList>
+	<QVariant>
+	<QStack>
+	<QFile>
+	<QDateTime>
+	"csvDefinition.h"
+
+1471084038 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/csvDefinition.h
+
+1469081364 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/wptEdit.h
+	"global.h"
+	"projectData.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+	<QTableWidget>
+	<QtGui>
+	<QtWidgets/QHeaderView>
+
+1468767120 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/SlippyMapWidget.h
+	<QWidget>
+	<QCache>
+	<QSet>
+	<QList>
+	<QPixmap>
+	<QGraphicsPixmapItem>
+	<QGraphicsScene>
+	<QMenu>
+	"GeoUtils.h"
+	"../projectData.h"
+
+1470908430 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/GeoUtils.h
+	<QPointF>
+	<QVector>
+	<QString>
+	<math.h>
+
+1471543820 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/MapChooseWidget.h
+	<QComboBox>
+	<QList>
+
+1474397164 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogFind.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets>
+
+1474397268 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogReplace.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1474397164 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogSearchDup.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1474368884 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogAbout.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogAbout.moc
+	"dialogAbout.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474562175 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogAppPref.cpp
+	"global.h"
+	"dialogAppPref.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	"dialogAppPref.moc"
+
+1472858744 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogAppPref.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogAppPref.moc
+	"dialogAppPref.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1473703098 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogCsv.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogCsv.h"
+	"wptEdit.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	<QFile>
+	<QStringList>
+	<QDebug>
+	"dialogCsv.moc"
+
+1472857724 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogCsv.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets/QHeaderView>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogCsv.moc
+	"dialogCsv.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474397060 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogFind.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogFind.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogFind.moc"
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogFind.moc
+	"dialogFind.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474911592 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogPrint.cpp
+	"global.h"
+	"dialogPrint.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	<QFontMetrics>
+	<QtPrintSupport/QPrinterInfo>
+	"projectData.h"
+	"dialogPrint.moc"
+
+1468781122 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogPrint.h
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QtPrintSupport/QPrinter>
+	"global.h"
+	"maplib/SlippyMapWidget.h"
+	"projectData.h"
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogPrint.moc
+	"dialogPrint.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474196034 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogProjProperty.cpp
+	"dialogProjProperty.h"
+	"projectData.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogProjProperty.moc"
+
+1465134952 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogProjProperty.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogProjProperty.moc
+	"dialogProjProperty.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474397060 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogReplace.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogReplace.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogReplace.moc"
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogReplace.moc
+	"dialogReplace.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474397060 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogSearchDup.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogSearchDup.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogSearchDup.moc"
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogSearchDup.moc
+	"dialogSearchDup.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1472381456 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogWptProp.cpp
+	"dialogWptProp.h"
+	"projectData.h"
+	"mainWindow.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogWptProp.moc"
+
+1465134952 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogWptProp.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/dialogWptProp.moc
+	"dialogWptProp.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470582254 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/envParam.cpp
+	"envParam.h"
+	"envParam.moc"
+
+1470578482 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/envParam.h
+	"global.h"
+	<QSettings>
+	<QProcessEnvironment>
+	<QFileInfo>
+	<QApplication>
+	<QDir>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/envParam.moc
+
+1470854894 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/global.cpp
+	"global.h"
+	<QString>
+	<QDebug>
+	<QDir>
+	<QFileInfo>
+	<libgen.h>
+	<libgen.h>
+
+1475254853 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/main.cpp
+	<QTextStream>
+	<QCommonStyle>
+	<QPlastiqueStyle>
+	<QCleanlooksStyle>
+	<QWindowsXPStyle>
+	<QWindowsVistaStyle>
+	<QMotifStyle>
+	<QCDEStyle>
+	"global.h"
+	"wptEdit.h"
+	"mainWindow.h"
+	"envParam.h"
+
+1474562594 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/mainWindow.cpp
+	"global.h"
+	"mainWindow.h"
+	"dialogAppPref.h"
+	"dialogProjProperty.h"
+	"dialogFind.h"
+	"dialogSearchDup.h"
+	"dialogPrint.h"
+	"dialogAbout.h"
+	"dialogCsv.h"
+	<QFrame>
+	<QSplitter>
+	<QDebug>
+	<QString>
+	<QFile>
+	<QScrollArea>
+	<QTableView>
+	<QStandardItemModel>
+	<QPoint>
+	<QDate>
+	<QtGui>
+	<QComboBox>
+	"maplib/SlippyMapWidget.h"
+	"maplib/GeoUtils.h"
+	"maplib/MapChooseWidget.h"
+	"maplib/SlippyLocations.h"
+	"maplib/GeoUtils.h"
+	"maplib/SRTMv4.h"
+	"maplib/DrawITUTerrain.h"
+	<stdio.h>
+	"mainWindow.moc"
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/SlippyLocations.h
+	"SlippyMapWidget.h"
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/SRTMv4.h
+	<QObject>
+	<QRectF>
+	<QPointer>
+	<QVector>
+	<QFile>
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/DrawITUTerrain.h
+	"ProfileWidget.h"
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/ProfileWidget.h
+	<QWidget>
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/mainWindow.moc
+	"mainWindow.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470908570 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/3rdparty/qzip/qzip.cpp
+	<qglobal.h>
+	"qzipreader.h"
+	"qzipwriter.h"
+	<qdatetime.h>
+	<qendian.h>
+	<qdebug.h>
+	<qdir.h>
+	"../../../zlib-1.2.3-lib\include/zlib.h"
+	"zlib.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/3rdparty/qzip/qzipreader.h
+	<QtCore/qfile.h>
+	<QtCore/qstring.h>
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/3rdparty/qzip/qzipwriter.h
+	<QtCore/qstring.h>
+	<QtCore/qfile.h>
+
+1469255154 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/DemDownloader.cpp
+	"mydebug.h"
+	"DemDownloader.h"
+	"Downloader.h"
+	"3rdparty/qzip/qzipreader.h"
+	"SRTMv4.h"
+	<QNetworkReply>
+	<QBuffer>
+	<QFileInfo>
+	<QImageReader>
+	"DemDownloader.moc"
+
+1432574100 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/mydebug.h
+
+1432548150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/DemDownloader.h
+	<QObject>
+	<QPointF>
+
+1440443716 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/Downloader.h
+	<QNetworkAccessManager>
+	<QSet>
+	<QImage>
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/DemDownloader.moc
+	"DemDownloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1465497738 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/Downloader.cpp
+	"../global.h"
+	"mydebug.h"
+	"Downloader.h"
+	<QCoreApplication>
+	<QNetworkDiskCache>
+	<QProcessEnvironment>
+	<QNetworkProxy>
+	<QNetworkReply>
+	<QNetworkRequest>
+	<QDesktopServices>
+	<QDir>
+	"Downloader.moc"
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/Downloader.moc
+	"Downloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312020344 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/DrawITUTerrain.cpp
+	"mydebug.h"
+	"DrawITUTerrain.h"
+	"ITUTerrain.h"
+	<QPainter>
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/ITUTerrain.h
+	"GeoUtils.h"
+
+1468098392 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/GeoUtils.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"GeoUtils.h"
+
+1468512528 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/ITUTerrain.cpp
+	"mydebug.h"
+	<math.h>
+	"ITUTerrain.h"
+
+1437491342 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/LocationMapDialog.cpp
+	"mydebug.h"
+	"LocationMapDialog.h"
+	<QFormLayout>
+	<QLineEdit>
+	"SlippyMapWidget.h"
+	"SlippyLocations.h"
+	"GeoUtils.h"
+	"LocationMapDialog.moc"
+	"locations.moc"
+
+1432545824 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/LocationMapDialog.h
+	"locations.h"
+
+1432551662 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/locations.h
+	<QString>
+	<QList>
+	<QAbstractTableModel>
+	<QTableView>
+	<QDialog>
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/LocationMapDialog.moc
+	"LocationMapDialog.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/locations.moc
+	"locations.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468098418 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/locations.cpp
+	"locations.h"
+	<QFile>
+	<QTextStream>
+	"ParseCSV.h"
+	<QHeaderView>
+	<QKeyEvent>
+	"LocationMapDialog.h"
+	<QLineEdit>
+	<QFormLayout>
+	<QDialogButtonBox>
+
+1312020344 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/ParseCSV.h
+	<QString>
+
+1471543954 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/MapChooseWidget.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"MapChooseWidget.h"
+	"MapChooseWidget.moc"
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/MapChooseWidget.moc
+	"MapChooseWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470170914 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/mydebug.cpp
+	"mydebug.h"
+	<qglobal.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<syslog.h>
+
+1465497962 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/ParseCSV.cpp
+	"ParseCSV.h"
+	<QFile>
+
+1312020344 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/ProfileWidget.cpp
+	"mydebug.h"
+	"ProfileWidget.h"
+	"GeoUtils.h"
+	<QPainter>
+
+1312020344 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/SlippyLocations.cpp
+	"mydebug.h"
+	"SlippyLocations.h"
+	"locations.h"
+	<QPainter>
+
+1473713410 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/SlippyMapWidget.cpp
+	"mydebug.h"
+	"../mainWindow.h"
+	"../projectData.h"
+	"GeoUtils.h"
+	<QFont>
+	"../dialogWptProp.h"
+	<QDebug>
+	<QMenu>
+	<QFile>
+	<QPainter>
+	<QPixmap>
+	<QWheelEvent>
+	<QNetworkReply>
+	<QPaintEvent>
+	<QPainter>
+	<QTimer>
+	<math.h>
+	"SlippyMapWidget.h"
+	"Downloader.h"
+	"SlippyMapWidget.moc"
+
+1468135128 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/SlippyMapWidget.moc
+	"SlippyMapWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312020344 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/maplib/SRTMv4.cpp
+	"mydebug.h"
+	<math.h>
+	"SRTMv4.h"
+	"GeoUtils.h"
+
+1472393016 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/projectData.cpp
+	"global.h"
+	"projectData.h"
+	"maplib/3rdparty/qzip/qzipreader.h"
+	"mainWindow.h"
+	<iostream>
+	<QDebug>
+	<QFile>
+	<QStack>
+	<QXmlStreamReader>
+	<QDateTime>
+	<QRegExp>
+	<QStringList>
+	<QObject>
+	<QMessageBox>
+
+1473703030 source:/home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/wptEdit.cpp
+	"global.h"
+	"wptEdit.h"
+	"dialogWptProp.h"
+	"mainWindow.h"
+	"projectData.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QMenu>
+	<QDesktopServices>
+	<QUrl>
+	"wptEdit.moc"
+
+1471772150 /home/laurent/mount/tchome/Documents/Perso/pc - dev/Qt5/uxplore_pack/uxplore.0.1_src/wptEdit.moc
+	"wptEdit.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+

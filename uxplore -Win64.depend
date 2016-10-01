@@ -1,0 +1,2596 @@
+# depslib dependency file v1.0
+1474365745 source:c:\users\localadmin\desktop\uxplore\uxplore\dialogabout.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogAbout.h"
+	<QDebug>
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogAbout.moc"
+
+1472851830 c:\users\localadmin\desktop\uxplore\uxplore\mainwindow.h
+	<QtGui>
+	"global.h"
+	"projectData.h"
+	"wptEdit.h"
+	"dialogFind.h"
+	"dialogReplace.h"
+	"dialogSearchDup.h"
+	"dialogAbout.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+
+1469799173 c:\qt\5.7\mingw53_32\include\qtgui
+
+1470566494 c:\users\localadmin\desktop\uxplore\uxplore\global.h
+	<QString>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qstring
+	"qstring.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qstring.h
+	<QtCore/qchar.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qnamespace.h>
+	<string>
+	<iterator>
+	<stdarg.h>
+	<QtCore/qstringbuilder.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qchar.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qglobal.h
+	<cstddef>
+	<stddef.h>
+	<QtCore/qconfig.h>
+	<QtCore/qfeatures.h>
+	<QtCore/qsystemdetection.h>
+	<QtCore/qprocessordetection.h>
+	<QtCore/qcompilerdetection.h>
+	<algorithm>
+	<QtCore/qtypeinfo.h>
+	<QtCore/qsysinfo.h>
+	<QtCore/qlogging.h>
+	<QtCore/qflags.h>
+	<QtCore/qatomic.h>
+	<QtCore/qglobalstatic.h>
+	<QtCore/qnumeric.h>
+	<QtCore/qversiontagging.h>
+
+1465542352 c:\qt\5.7\mingw53_32\include\qtcore\qconfig.h
+
+1465542352 c:\qt\5.7\mingw53_32\include\qtcore\qfeatures.h
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qsystemdetection.h
+	<QtCore/qglobal.h>
+	<TargetConditionals.h>
+	<Availability.h>
+	<AvailabilityMacros.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qprocessordetection.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qcompilerdetection.h
+	<QtCore/qglobal.h>
+	<utility>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qtypeinfo.h
+	<QtCore/qtypetraits.h>
+	<QtCore/qisenum.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qtypetraits.h
+	"QtCore/qglobal.h"
+	<utility>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qisenum.h
+	<QtCore/qglobal.h>
+	<QtCore/qtypetraits.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qsysinfo.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qlogging.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qflags.h
+	<QtCore/qglobal.h>
+	<QtCore/qtypeinfo.h>
+	<QtCore/qtypetraits.h>
+	<initializer_list>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qatomic.h
+	<QtCore/qglobal.h>
+	<QtCore/qbasicatomic.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qbasicatomic.h
+	<QtCore/qatomic.h>
+	<QtCore/qatomic_bootstrap.h>
+	<QtCore/qatomic_cxx11.h>
+	<QtCore/qatomic_msvc.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qatomic_bootstrap.h
+	<QtCore/qgenericatomic.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qgenericatomic.h
+	<QtCore/qglobal.h>
+	<QtCore/qtypeinfo.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qatomic_cxx11.h
+	<QtCore/qgenericatomic.h>
+	<atomic>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qatomic_msvc.h
+	<QtCore/qgenericatomic.h>
+	<winbase.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qglobalstatic.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qmutex.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qmutex.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<new>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qnumeric.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qversiontagging.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qbytearray.h
+	<QtCore/qrefcount.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qarraydata.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<string>
+	<iterator>
+	<QtCore/qstring.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qrefcount.h
+	<QtCore/qatomic.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qnamespace.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qarraydata.h
+	<QtCore/qrefcount.h>
+	<string.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qstringbuilder.h
+	<QtCore/qstring.h>
+	<QtCore/qbytearray.h>
+	<string.h>
+
+1473695986 c:\users\localadmin\desktop\uxplore\uxplore\projectdata.h
+	"global.h"
+	<QString>
+	<QList>
+	<QVariant>
+	<QStack>
+	<QFile>
+	<QDateTime>
+	"csvDefinition.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qlist
+	"qlist.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qlist.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qiterator.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qarraydata.h>
+	<QtCore/qhashfunctions.h>
+	<iterator>
+	<list>
+	<algorithm>
+	<initializer_list>
+	<stdlib.h>
+	<new>
+	<limits.h>
+	<string.h>
+	<QtCore/qbytearraylist.h>
+	<QtCore/qstringlist.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qalgorithms.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qiterator.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qhashfunctions.h
+	<QtCore/qchar.h>
+	<QtCore/qpair.h>
+	<numeric>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qpair.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qbytearraylist.h
+	<QtCore/qlist.h>
+	<QtCore/qbytearray.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qstringlist.h
+	<QtCore/qlist.h>
+	<QtCore/qalgorithms.h>
+	<QtCore/qregexp.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringmatcher.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qregexp.h
+	<QtCore/qglobal.h>
+	<QtCore/qstring.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qstringmatcher.h
+	<QtCore/qstring.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qvariant
+	"qvariant.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qvariant.h
+	<QtCore/qatomic.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qlist.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qmap.h>
+	<QtCore/qhash.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qobject.h>
+	<QtCore/qbytearraylist.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qmetatype.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qvarlengtharray.h>
+	<QtCore/qisenum.h>
+	<QtCore/qtypetraits.h>
+	<QtCore/qobjectdefs.h>
+	<new>
+	<vector>
+	<list>
+	<map>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qvarlengtharray.h
+	<QtCore/qcontainerfwd.h>
+	<QtCore/qglobal.h>
+	<QtCore/qalgorithms.h>
+	<new>
+	<string.h>
+	<stdlib.h>
+	<algorithm>
+	<initializer_list>
+	<iterator>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qcontainerfwd.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qobjectdefs.h
+	<QtCore/qnamespace.h>
+	<QtCore/qobjectdefs_impl.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qobjectdefs_impl.h
+	<QtCore/qnamespace.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qmap.h
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qpair.h>
+	<QtCore/qtypetraits.h>
+	<QtCore/qdebug.h>
+	<map>
+	<new>
+	<initializer_list>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qdebug.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qhash.h>
+	<QtCore/qlist.h>
+	<QtCore/qmap.h>
+	<QtCore/qpair.h>
+	<QtCore/qtextstream.h>
+	<QtCore/qstring.h>
+	<QtCore/qvector.h>
+	<QtCore/qset.h>
+	<QtCore/qcontiguouscache.h>
+	<QtCore/qsharedpointer.h>
+	<vector>
+	<list>
+	<map>
+	<utility>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qhash.h
+	<QtCore/qchar.h>
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qhashfunctions.h>
+	<initializer_list>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qtextstream.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstring.h>
+	<QtCore/qchar.h>
+	<QtCore/qlocale.h>
+	<QtCore/qscopedpointer.h>
+	<stdio.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qiodevice.h
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qstring.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qobject.h
+	<QtCore/qobjectdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qlist.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qobject_impl.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qcoreevent.h
+	<QtCore/qnamespace.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qobjectdefs.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qscopedpointer.h
+	<QtCore/qglobal.h>
+	<stdlib.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qobject_impl.h
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qlocale.h
+	<QtCore/qvariant.h>
+	<QtCore/qstring.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qshareddata.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qshareddata.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qhash.h>
+	<QtCore/qhashfunctions.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qvector.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qarraydata.h>
+	<QtCore/qhashfunctions.h>
+	<iterator>
+	<vector>
+	<stdlib.h>
+	<string.h>
+	<initializer_list>
+	<algorithm>
+	<QtCore/qpoint.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qpoint.h
+	<QtCore/qnamespace.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qset.h
+	<QtCore/qhash.h>
+	<initializer_list>
+	<iterator>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qcontiguouscache.h
+	<QtCore/qatomic.h>
+	<limits.h>
+	<new>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qsharedpointer.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qsharedpointer_impl.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qsharedpointer_impl.h
+	<new>
+	<QtCore/qatomic.h>
+	<QtCore/qobject.h>
+	<QtCore/qhash.h>
+	<QtCore/qhashfunctions.h>
+	<utility>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qstack
+	"qstack.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qstack.h
+	<QtCore/qvector.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qfile
+	"qfile.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qfile.h
+	<QtCore/qfiledevice.h>
+	<QtCore/qstring.h>
+	<stdio.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qfiledevice.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstring.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qdatetime
+	"qdatetime.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qdatetime.h
+	<QtCore/qstring.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qshareddata.h>
+	<limits>
+
+1469074164 c:\users\localadmin\desktop\uxplore\uxplore\wptedit.h
+	"global.h"
+	"projectData.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+	<QTableWidget>
+	<QtGui>
+	<QtWidgets/QHeaderView>
+
+1468759920 c:\users\localadmin\desktop\uxplore\uxplore\maplib\slippymapwidget.h
+	<QWidget>
+	<QCache>
+	<QSet>
+	<QList>
+	<QPixmap>
+	<QGraphicsPixmapItem>
+	<QGraphicsScene>
+	<QMenu>
+	"GeoUtils.h"
+	"../projectData.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qwidget
+	"qwidget.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qwidget.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qobject.h>
+	<QtCore/qmargins.h>
+	<QtGui/qpaintdevice.h>
+	<QtGui/qpalette.h>
+	<QtGui/qfont.h>
+	<QtGui/qfontmetrics.h>
+	<QtGui/qfontinfo.h>
+	<QtWidgets/qsizepolicy.h>
+	<QtGui/qregion.h>
+	<QtGui/qbrush.h>
+	<QtGui/qcursor.h>
+	<QtGui/qkeysequence.h>
+	<QtGui/qevent.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qwindowdefs.h
+	<QtCore/qglobal.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qnamespace.h>
+	<QtGui/qwindowdefs_win.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qwindowdefs_win.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qmargins.h
+	<QtCore/qnamespace.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpaintdevice.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qrect.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qrect.h
+	<QtCore/qmargins.h>
+	<QtCore/qsize.h>
+	<QtCore/qpoint.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qsize.h
+	<QtCore/qnamespace.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpalette.h
+	<QtGui/qwindowdefs.h>
+	<QtGui/qcolor.h>
+	<QtGui/qbrush.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qcolor.h
+	<QtGui/qrgb.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstringlist.h>
+	<QtGui/qrgba64.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qrgb.h
+	<QtCore/qglobal.h>
+	<QtCore/qprocessordetection.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qrgba64.h
+	<QtCore/qglobal.h>
+	<QtCore/qprocessordetection.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qbrush.h
+	<QtCore/qpair.h>
+	<QtCore/qpoint.h>
+	<QtCore/qvector.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qcolor.h>
+	<QtGui/qmatrix.h>
+	<QtGui/qtransform.h>
+	<QtGui/qimage.h>
+	<QtGui/qpixmap.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qmatrix.h
+	<QtGui/qpolygon.h>
+	<QtGui/qregion.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qline.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpolygon.h
+	<QtCore/qvector.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qregion.h
+	<QtCore/qatomic.h>
+	<QtCore/qrect.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qdatastream.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qdatastream.h
+	<QtCore/qscopedpointer.h>
+	<QtCore/qiodevice.h>
+	<QtCore/qpair.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qline.h
+	<QtCore/qpoint.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qtransform.h
+	<QtGui/qmatrix.h>
+	<QtGui/qpainterpath.h>
+	<QtGui/qpolygon.h>
+	<QtGui/qregion.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qline.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpainterpath.h
+	<QtGui/qmatrix.h>
+	<QtCore/qglobal.h>
+	<QtCore/qrect.h>
+	<QtCore/qline.h>
+	<QtCore/qvector.h>
+	<QtCore/qscopedpointer.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qimage.h
+	<QtGui/qcolor.h>
+	<QtGui/qrgb.h>
+	<QtGui/qpaintdevice.h>
+	<QtGui/qpixelformat.h>
+	<QtGui/qtransform.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qrect.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringlist.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpixelformat.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpixmap.h
+	<QtGui/qpaintdevice.h>
+	<QtGui/qcolor.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtCore/qsharedpointer.h>
+	<QtGui/qimage.h>
+	<QtGui/qtransform.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qfont.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qsharedpointer.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qfontmetrics.h
+	<QtGui/qfont.h>
+	<QtCore/qsharedpointer.h>
+	<QtCore/qrect.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qfontinfo.h
+	<QtGui/qfont.h>
+	<QtCore/qsharedpointer.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qsizepolicy.h
+	<QtCore/qobject.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qcursor.h
+	<QtCore/qpoint.h>
+	<QtGui/qwindowdefs.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qkeysequence.h
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtCore/qobjectdefs.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qevent.h
+	<QtGui/qwindowdefs.h>
+	<QtGui/qregion.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtGui/qkeysequence.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qvariant.h>
+	<QtCore/qmap.h>
+	<QtCore/qvector.h>
+	<QtCore/qset.h>
+	<QtCore/qurl.h>
+	<QtCore/qfile.h>
+	<QtGui/qvector2d.h>
+	<QtGui/qtouchdevice.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qurl.h
+	<QtCore/qbytearray.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qlist.h>
+	<QtCore/qpair.h>
+	<QtCore/qglobal.h>
+	<QtCore/qurlquery.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qurlquery.h
+	<QtCore/qpair.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qurl.h>
+	<QtCore/qstringlist.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qvector2d.h
+	<QtCore/qpoint.h>
+	<QtCore/qmetatype.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qtouchdevice.h
+	<QtCore/qobject.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qcache
+	"qcache.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qcache.h
+	<QtCore/qhash.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qset
+	"qset.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpixmap
+	"qpixmap.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qgraphicspixmapitem
+	"qgraphicsitem.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qgraphicsitem.h
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtCore/qvariant.h>
+	<QtCore/qrect.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qpainterpath.h>
+	<QtGui/qpixmap.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qgraphicsscene
+	"qgraphicsscene.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qgraphicsscene.h
+	<QtCore/qobject.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+	<QtGui/qbrush.h>
+	<QtGui/qfont.h>
+	<QtGui/qtransform.h>
+	<QtGui/qmatrix.h>
+	<QtGui/qpen.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpen.h
+	<QtGui/qcolor.h>
+	<QtGui/qbrush.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qmenu
+	"qmenu.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qmenu.h
+	<QtWidgets/qwidget.h>
+	<QtCore/qstring.h>
+	<QtGui/qicon.h>
+	<QtWidgets/qaction.h>
+	<windef.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qicon.h
+	<QtCore/qglobal.h>
+	<QtCore/qsize.h>
+	<QtCore/qlist.h>
+	<QtGui/qpixmap.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qaction.h
+	<QtGui/qkeysequence.h>
+	<QtCore/qstring.h>
+	<QtWidgets/qwidget.h>
+	<QtCore/qvariant.h>
+	<QtGui/qicon.h>
+	<QtWidgets/qactiongroup.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qactiongroup.h
+	<QtWidgets/qaction.h>
+
+1470901230 c:\users\localadmin\desktop\uxplore\uxplore\maplib\geoutils.h
+	<QPointF>
+	<QVector>
+	<QString>
+	<math.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qpointf
+	"qpoint.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qvector
+	"qvector.h"
+
+1471536620 c:\users\localadmin\desktop\uxplore\uxplore\maplib\mapchoosewidget.h
+	<QComboBox>
+	<QList>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qcombobox
+	"qcombobox.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qcombobox.h
+	<QtWidgets/qwidget.h>
+	<QtWidgets/qabstractitemdelegate.h>
+	<QtCore/qabstractitemmodel.h>
+	<QtCore/qvariant.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qabstractitemdelegate.h
+	<QtCore/qobject.h>
+	<QtWidgets/qstyleoption.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qstyleoption.h
+	<QtCore/qvariant.h>
+	<QtWidgets/qabstractspinbox.h>
+	<QtGui/qicon.h>
+	<QtGui/qmatrix.h>
+	<QtWidgets/qslider.h>
+	<QtWidgets/qstyle.h>
+	<QtWidgets/qtabbar.h>
+	<QtWidgets/qtabwidget.h>
+	<QtWidgets/qrubberband.h>
+	<QtWidgets/qframe.h>
+	<QtCore/qabstractitemmodel.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qabstractspinbox.h
+	<QtWidgets/qwidget.h>
+	<QtGui/qvalidator.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qvalidator.h
+	<QtCore/qobject.h>
+	<QtCore/qstring.h>
+	<QtCore/qregexp.h>
+	<QtCore/qregularexpression.h>
+	<QtCore/qlocale.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qregularexpression.h
+	<QtCore/qglobal.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qvariant.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qslider.h
+	<QtWidgets/qabstractslider.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qabstractslider.h
+	<QtWidgets/qwidget.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qstyle.h
+	<QtCore/qobject.h>
+	<QtCore/qrect.h>
+	<QtCore/qsize.h>
+	<QtGui/qicon.h>
+	<QtGui/qpixmap.h>
+	<QtGui/qpalette.h>
+	<QtWidgets/qsizepolicy.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qtabbar.h
+	<QtWidgets/qwidget.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qtabwidget.h
+	<QtWidgets/qwidget.h>
+	<QtGui/qicon.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qrubberband.h
+	<QtWidgets/qwidget.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qframe.h
+	<QtWidgets/qwidget.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qabstractitemmodel.h
+	<QtCore/qvariant.h>
+	<QtCore/qobject.h>
+	<QtCore/qhash.h>
+	<QtCore/qvector.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qtablewidget
+	"qtablewidget.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qtablewidget.h
+	<QtWidgets/qtableview.h>
+	<QtCore/qvariant.h>
+	<QtCore/qvector.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qtableview.h
+	<QtWidgets/qabstractitemview.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qabstractitemview.h
+	<QtWidgets/qabstractscrollarea.h>
+	<QtCore/qabstractitemmodel.h>
+	<QtCore/qitemselectionmodel.h>
+	<QtWidgets/qabstractitemdelegate.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qabstractscrollarea.h
+	<QtWidgets/qframe.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qitemselectionmodel.h
+	<QtCore/qset.h>
+	<QtCore/qvector.h>
+	<QtCore/qlist.h>
+	<QtCore/qabstractitemmodel.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qheaderview
+	"qheaderview.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qheaderview.h
+	<QtWidgets/qabstractitemview.h>
+
+1468082490 c:\users\localadmin\desktop\uxplore\uxplore\dialogfind.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qdebug
+	"qdebug.h"
+
+1469799173 c:\qt\5.7\mingw53_32\include\qtwidgets
+
+1465231026 c:\users\localadmin\desktop\uxplore\uxplore\dialogreplace.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1474203998 c:\users\localadmin\desktop\uxplore\uxplore\dialogsearchdup.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1474361682 c:\users\localadmin\desktop\uxplore\uxplore\dialogabout.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qpushbutton
+	"qpushbutton.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qpushbutton.h
+	<QtWidgets/qabstractbutton.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qabstractbutton.h
+	<QtGui/qicon.h>
+	<QtGui/qkeysequence.h>
+	<QtWidgets/qwidget.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qdialogbuttonbox
+	"qdialogbuttonbox.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qdialogbuttonbox.h
+	<QtWidgets/qwidget.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qlabel
+	"qlabel.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qlabel.h
+	<QtWidgets/qframe.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qvboxlayout
+	"qboxlayout.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qboxlayout.h
+	<QtWidgets/qlayout.h>
+	<QtWidgets/qwidget.h>
+	<limits.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qlayout.h
+	<QtCore/qobject.h>
+	<QtWidgets/qlayoutitem.h>
+	<QtWidgets/qsizepolicy.h>
+	<QtCore/qrect.h>
+	<QtCore/qmargins.h>
+	<limits.h>
+	<QtWidgets/qboxlayout.h>
+	<QtWidgets/qgridlayout.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qlayoutitem.h
+	<QtWidgets/qsizepolicy.h>
+	<QtCore/qrect.h>
+	<limits.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qgridlayout.h
+	<QtWidgets/qlayout.h>
+	<QtWidgets/qwidget.h>
+	<limits.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qmessagebox
+	"qmessagebox.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qmessagebox.h
+	<QtWidgets/qdialog.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qdialog.h
+	<QtWidgets/qwidget.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qlineedit
+	"qlineedit.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qlineedit.h
+	<QtWidgets/qframe.h>
+	<QtGui/qtextcursor.h>
+	<QtCore/qstring.h>
+	<QtCore/qmargins.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qtextcursor.h
+	<QtCore/qstring.h>
+	<QtCore/qshareddata.h>
+	<QtGui/qtextformat.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qtextformat.h
+	<QtGui/qcolor.h>
+	<QtGui/qfont.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qvector.h>
+	<QtCore/qvariant.h>
+	<QtGui/qpen.h>
+	<QtGui/qbrush.h>
+	<QtGui/qtextoption.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qtextoption.h
+	<QtCore/qnamespace.h>
+	<QtCore/qchar.h>
+	<QtCore/qmetatype.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qcheckbox
+	"qcheckbox.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qcheckbox.h
+	<QtWidgets/qabstractbutton.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpalette
+	"qpalette.h"
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\dialogabout.moc
+	"dialogAbout.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474116968 source:c:\users\localadmin\desktop\uxplore\uxplore\dialogapppref.cpp
+	"global.h"
+	"dialogAppPref.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	"dialogAppPref.moc"
+
+1472851544 c:\users\localadmin\desktop\uxplore\uxplore\dialogapppref.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qdialog
+	"qdialog.h"
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\dialogapppref.moc
+	"dialogAppPref.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1473695898 source:c:\users\localadmin\desktop\uxplore\uxplore\dialogcsv.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogCsv.h"
+	"wptEdit.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	<QFile>
+	<QStringList>
+	<QDebug>
+	"dialogCsv.moc"
+
+1472850524 c:\users\localadmin\desktop\uxplore\uxplore\dialogcsv.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets/QHeaderView>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qstringlist
+	"qstringlist.h"
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\dialogcsv.moc
+	"dialogCsv.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1471781266 source:c:\users\localadmin\desktop\uxplore\uxplore\dialogfind.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogFind.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogFind.moc"
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\dialogfind.moc
+	"dialogFind.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474365627 source:c:\users\localadmin\desktop\uxplore\uxplore\dialogprint.cpp
+	"global.h"
+	"dialogPrint.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	<QFontMetrics>
+	<QtPrintSupport/QPrinterInfo>
+	"projectData.h"
+	"dialogPrint.moc"
+
+1468773922 c:\users\localadmin\desktop\uxplore\uxplore\dialogprint.h
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QtPrintSupport/QPrinter>
+	"global.h"
+	"maplib/SlippyMapWidget.h"
+	"projectData.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtprintsupport\qprinter
+	"qprinter.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtprintsupport\qprinter.h
+	<QtCore/qstring.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qpagedpaintdevice.h>
+	<QtGui/qpagelayout.h>
+	<QtPrintSupport/qtprintsupportglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpagedpaintdevice.h
+	<QtGui/qpaintdevice.h>
+	<QtGui/qpagelayout.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpagelayout.h
+	<QtCore/qsharedpointer.h>
+	<QtCore/qstring.h>
+	<QtCore/qmargins.h>
+	<QtGui/qpagesize.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpagesize.h
+	<QtCore/qsharedpointer.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtprintsupport\qtprintsupportglobal.h
+	<QtCore/qglobal.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qfontmetrics
+	"qfontmetrics.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtprintsupport\qprinterinfo
+	"qprinterinfo.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtprintsupport\qprinterinfo.h
+	<QtPrintSupport/qprinter.h>
+	<QtCore/QList>
+	<QtCore/QPair>
+	<QtGui/qpagesize.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qpair
+	"qpair.h"
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\dialogprint.moc
+	"dialogPrint.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474188834 source:c:\users\localadmin\desktop\uxplore\uxplore\dialogprojproperty.cpp
+	"dialogProjProperty.h"
+	"projectData.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogProjProperty.moc"
+
+1465127752 c:\users\localadmin\desktop\uxplore\uxplore\dialogprojproperty.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\dialogprojproperty.moc
+	"dialogProjProperty.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1471781464 source:c:\users\localadmin\desktop\uxplore\uxplore\dialogreplace.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogReplace.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogReplace.moc"
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\dialogreplace.moc
+	"dialogReplace.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1474203974 source:c:\users\localadmin\desktop\uxplore\uxplore\dialogsearchdup.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogSearchDup.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogSearchDup.moc"
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\dialogsearchdup.moc
+	"dialogSearchDup.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1472374256 source:c:\users\localadmin\desktop\uxplore\uxplore\dialogwptprop.cpp
+	"dialogWptProp.h"
+	"projectData.h"
+	"mainWindow.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogWptProp.moc"
+
+1465127752 c:\users\localadmin\desktop\uxplore\uxplore\dialogwptprop.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\dialogwptprop.moc
+	"dialogWptProp.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470847694 source:c:\users\localadmin\desktop\uxplore\uxplore\global.cpp
+	"global.h"
+	<QString>
+	<QDebug>
+	<QDir>
+	<QFileInfo>
+	<libgen.h>
+	<libgen.h>
+
+1472892638 source:c:\users\localadmin\desktop\uxplore\uxplore\main.cpp
+	<QTextStream>
+	<QCommonStyle>
+	<QPlastiqueStyle>
+	<QCleanlooksStyle>
+	<QWindowsXPStyle>
+	<QWindowsVistaStyle>
+	<QMotifStyle>
+	<QCDEStyle>
+	"global.h"
+	"wptEdit.h"
+	"mainWindow.h"
+	"envParam.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qtextstream
+	"qtextstream.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qcommonstyle
+	"qcommonstyle.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qcommonstyle.h
+	<QtWidgets/qstyle.h>
+
+1474203786 source:c:\users\localadmin\desktop\uxplore\uxplore\mainwindow.cpp
+	"global.h"
+	"mainWindow.h"
+	"dialogAppPref.h"
+	"dialogProjProperty.h"
+	"dialogFind.h"
+	"dialogSearchDup.h"
+	"dialogPrint.h"
+	"dialogAbout.h"
+	"dialogCsv.h"
+	<QFrame>
+	<QSplitter>
+	<QDebug>
+	<QString>
+	<QFile>
+	<QScrollArea>
+	<QTableView>
+	<QStandardItemModel>
+	<QPoint>
+	<QDate>
+	<QtGui>
+	<QComboBox>
+	"maplib/SlippyMapWidget.h"
+	"maplib/GeoUtils.h"
+	"maplib/MapChooseWidget.h"
+	"maplib/SlippyLocations.h"
+	"maplib/GeoUtils.h"
+	"maplib/SRTMv4.h"
+	"maplib/DrawITUTerrain.h"
+	<stdio.h>
+	"mainWindow.moc"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qframe
+	"qframe.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qsplitter
+	"qsplitter.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qsplitter.h
+	<QtWidgets/qframe.h>
+	<QtWidgets/qsizepolicy.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qscrollarea
+	"qscrollarea.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qscrollarea.h
+	<QtWidgets/qabstractscrollarea.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qtableview
+	"qtableview.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qstandarditemmodel
+	"qstandarditemmodel.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qstandarditemmodel.h
+	<QtCore/qabstractitemmodel.h>
+	<QtGui/qbrush.h>
+	<QtGui/qfont.h>
+	<QtGui/qicon.h>
+	<QtCore/qdatastream.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qpoint
+	"qpoint.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qdate
+	"qdatetime.h"
+
+1312013144 c:\users\localadmin\desktop\uxplore\uxplore\maplib\slippylocations.h
+	"SlippyMapWidget.h"
+
+1312013144 c:\users\localadmin\desktop\uxplore\uxplore\maplib\srtmv4.h
+	<QObject>
+	<QRectF>
+	<QPointer>
+	<QVector>
+	<QFile>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qobject
+	"qobject.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qrectf
+	"qrect.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qpointer
+	"qpointer.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qpointer.h
+	<QtCore/qsharedpointer.h>
+	<QtCore/qtypeinfo.h>
+
+1312013144 c:\users\localadmin\desktop\uxplore\uxplore\maplib\drawituterrain.h
+	"ProfileWidget.h"
+
+1312013144 c:\users\localadmin\desktop\uxplore\uxplore\maplib\profilewidget.h
+	<QWidget>
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\mainwindow.moc
+	"mainWindow.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470901370 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\3rdparty\qzip\qzip.cpp
+	<qglobal.h>
+	"qzipreader.h"
+	"qzipwriter.h"
+	<qdatetime.h>
+	<qendian.h>
+	<qdebug.h>
+	<qdir.h>
+	"../../../zlib-1.2.3-lib\include/zlib.h"
+	"zlib.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1312013144 c:\users\localadmin\desktop\uxplore\uxplore\maplib\3rdparty\qzip\qzipreader.h
+	<QtCore/qfile.h>
+	<QtCore/qstring.h>
+
+1312013144 c:\users\localadmin\desktop\uxplore\uxplore\maplib\3rdparty\qzip\qzipwriter.h
+	<QtCore/qstring.h>
+	<QtCore/qfile.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qendian.h
+	<QtCore/qglobal.h>
+	<stdlib.h>
+	<string.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qdir.h
+	<QtCore/qstring.h>
+	<QtCore/qfileinfo.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qshareddata.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qfileinfo.h
+	<QtCore/qfile.h>
+	<QtCore/qlist.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qmetatype.h>
+
+1469247954 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\demdownloader.cpp
+	"mydebug.h"
+	"DemDownloader.h"
+	"Downloader.h"
+	"3rdparty/qzip/qzipreader.h"
+	"SRTMv4.h"
+	<QNetworkReply>
+	<QBuffer>
+	<QFileInfo>
+	<QImageReader>
+	"DemDownloader.moc"
+
+1432566900 c:\users\localadmin\desktop\uxplore\uxplore\maplib\mydebug.h
+
+1432540950 c:\users\localadmin\desktop\uxplore\uxplore\maplib\demdownloader.h
+	<QObject>
+	<QPointF>
+
+1440436516 c:\users\localadmin\desktop\uxplore\uxplore\maplib\downloader.h
+	<QNetworkAccessManager>
+	<QSet>
+	<QImage>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qnetworkaccessmanager
+	"qnetworkaccessmanager.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qnetworkaccessmanager.h
+	<QtCore/QObject>
+	<QtNetwork/QSslConfiguration>
+	<QtNetwork/QSslPreSharedKeyAuthenticator>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qsslconfiguration
+	"qsslconfiguration.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qsslconfiguration.h
+	<QtCore/qshareddata.h>
+	<QtNetwork/qsslsocket.h>
+	<QtNetwork/qssl.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qsslsocket.h
+	<QtCore/qlist.h>
+	<QtCore/qregexp.h>
+	<QtNetwork/qtcpsocket.h>
+	<QtNetwork/qsslerror.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qtcpsocket.h
+	<QtNetwork/qabstractsocket.h>
+	<QtCore/qvariant.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qabstractsocket.h
+	<QtCore/qiodevice.h>
+	<QtCore/qobject.h>
+	<QtCore/qdebug.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qsslerror.h
+	<QtCore/qvariant.h>
+	<QtNetwork/qsslcertificate.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qsslcertificate.h
+	<QtCore/qnamespace.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qcryptographichash.h>
+	<QtCore/qdatetime.h>
+	<QtCore/qregexp.h>
+	<QtCore/qsharedpointer.h>
+	<QtCore/qmap.h>
+	<QtNetwork/qssl.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qcryptographichash.h
+	<QtCore/qbytearray.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qssl.h
+	<QtCore/qglobal.h>
+	<QtCore/QFlags>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qflags
+	"qflags.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qsslpresharedkeyauthenticator
+	"qsslpresharedkeyauthenticator.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qsslpresharedkeyauthenticator.h
+	<QtCore/QtGlobal>
+	<QtCore/QString>
+	<QtCore/QSharedDataPointer>
+	<QtCore/QMetaType>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qtglobal
+	"qglobal.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qshareddatapointer
+	"qshareddata.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qmetatype
+	"qmetatype.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qimage
+	"qimage.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qnetworkreply
+	"qnetworkreply.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qnetworkreply.h
+	<QtCore/QIODevice>
+	<QtCore/QString>
+	<QtCore/QVariant>
+	<QtNetwork/QNetworkRequest>
+	<QtNetwork/QNetworkAccessManager>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qiodevice
+	"qiodevice.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qnetworkrequest
+	"qnetworkrequest.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qnetworkrequest.h
+	<QtCore/QSharedDataPointer>
+	<QtCore/QString>
+	<QtCore/QUrl>
+	<QtCore/QVariant>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qurl
+	"qurl.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qbuffer
+	"qbuffer.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qbuffer.h
+	<QtCore/qiodevice.h>
+	<QtCore/qbytearray.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qfileinfo
+	"qfileinfo.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qimagereader
+	"qimagereader.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qimagereader.h
+	<QtCore/qbytearray.h>
+	<QtCore/qcoreapplication.h>
+	<QtGui/qimage.h>
+	<QtGui/qimageiohandler.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qcoreapplication.h
+	<QtCore/qglobal.h>
+	<QtCore/qstring.h>
+	<QtCore/qobject.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qeventloop.h>
+	<QtCore/qscopedpointer.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qeventloop.h
+	<QtCore/qobject.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qimageiohandler.h
+	<QtCore/qiodevice.h>
+	<QtCore/qplugin.h>
+	<QtCore/qfactoryinterface.h>
+	<QtCore/qscopedpointer.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qplugin.h
+	<QtCore/qobject.h>
+	<QtCore/qpointer.h>
+	<QtCore/qjsonobject.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qjsonobject.h
+	<QtCore/qjsonvalue.h>
+	<QtCore/qiterator.h>
+	<QtCore/qpair.h>
+	<initializer_list>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qjsonvalue.h
+	<QtCore/qglobal.h>
+	<QtCore/qstring.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qfactoryinterface.h
+	<QtCore/qobject.h>
+	<QtCore/qstringlist.h>
+
+1468127928 c:\users\localadmin\desktop\uxplore\uxplore\maplib\demdownloader.moc
+	"DemDownloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1465490538 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\downloader.cpp
+	"../global.h"
+	"mydebug.h"
+	"Downloader.h"
+	<QCoreApplication>
+	<QNetworkDiskCache>
+	<QProcessEnvironment>
+	<QNetworkProxy>
+	<QNetworkReply>
+	<QNetworkRequest>
+	<QDesktopServices>
+	<QDir>
+	"Downloader.moc"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qcoreapplication
+	"qcoreapplication.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qnetworkdiskcache
+	"qnetworkdiskcache.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qnetworkdiskcache.h
+	<QtNetwork/qabstractnetworkcache.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qabstractnetworkcache.h
+	<QtCore/qobject.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qpair.h>
+	<QtNetwork/qnetworkrequest.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qprocessenvironment
+	"qprocess.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qprocess.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qshareddata.h>
+	<functional>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qnetworkproxy
+	"qnetworkproxy.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qnetworkproxy.h
+	<QtNetwork/qhostaddress.h>
+	<QtNetwork/qnetworkrequest.h>
+	<QtCore/qshareddata.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtnetwork\qhostaddress.h
+	<QtCore/qpair.h>
+	<QtCore/qstring.h>
+	<QtCore/qscopedpointer.h>
+	<QtNetwork/qabstractsocket.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qdesktopservices
+	"qdesktopservices.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qdesktopservices.h
+	<QtCore/qstring.h>
+	<QtCore/qstandardpaths.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qstandardpaths.h
+	<QtCore/qstringlist.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qdir
+	"qdir.h"
+
+1468127928 c:\users\localadmin\desktop\uxplore\uxplore\maplib\downloader.moc
+	"Downloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312013144 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\drawituterrain.cpp
+	"mydebug.h"
+	"DrawITUTerrain.h"
+	"ITUTerrain.h"
+	<QPainter>
+
+1312013144 c:\users\localadmin\desktop\uxplore\uxplore\maplib\ituterrain.h
+	"GeoUtils.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpainter
+	"qpainter.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpainter.h
+	<QtCore/qnamespace.h>
+	<QtCore/qrect.h>
+	<QtCore/qpoint.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qpixmap.h>
+	<QtGui/qimage.h>
+	<QtGui/qtextoption.h>
+	<QtGui/qpolygon.h>
+	<QtGui/qpen.h>
+	<QtGui/qbrush.h>
+	<QtGui/qmatrix.h>
+	<QtGui/qtransform.h>
+	<QtGui/qfontinfo.h>
+	<QtGui/qfontmetrics.h>
+
+1468091192 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\geoutils.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"GeoUtils.h"
+
+1468505328 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\ituterrain.cpp
+	"mydebug.h"
+	<math.h>
+	"ITUTerrain.h"
+
+1437484142 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\locationmapdialog.cpp
+	"mydebug.h"
+	"LocationMapDialog.h"
+	<QFormLayout>
+	<QLineEdit>
+	"SlippyMapWidget.h"
+	"SlippyLocations.h"
+	"GeoUtils.h"
+	"LocationMapDialog.moc"
+	"locations.moc"
+
+1432538624 c:\users\localadmin\desktop\uxplore\uxplore\maplib\locationmapdialog.h
+	"locations.h"
+
+1432544462 c:\users\localadmin\desktop\uxplore\uxplore\maplib\locations.h
+	<QString>
+	<QList>
+	<QAbstractTableModel>
+	<QTableView>
+	<QDialog>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qabstracttablemodel
+	"qabstractitemmodel.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qformlayout
+	"qformlayout.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qformlayout.h
+	<QtWidgets/QLayout>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qlayout
+	"qlayout.h"
+
+1468127928 c:\users\localadmin\desktop\uxplore\uxplore\maplib\locationmapdialog.moc
+	"LocationMapDialog.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468127928 c:\users\localadmin\desktop\uxplore\uxplore\maplib\locations.moc
+	"locations.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468091218 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\locations.cpp
+	"locations.h"
+	<QFile>
+	<QTextStream>
+	"ParseCSV.h"
+	<QHeaderView>
+	<QKeyEvent>
+	"LocationMapDialog.h"
+	<QLineEdit>
+	<QFormLayout>
+	<QDialogButtonBox>
+
+1312013144 c:\users\localadmin\desktop\uxplore\uxplore\maplib\parsecsv.h
+	<QString>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qkeyevent
+	"qevent.h"
+
+1471536754 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\mapchoosewidget.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"MapChooseWidget.h"
+	"MapChooseWidget.moc"
+
+1468127928 c:\users\localadmin\desktop\uxplore\uxplore\maplib\mapchoosewidget.moc
+	"MapChooseWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470163714 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\mydebug.cpp
+	"mydebug.h"
+	<qglobal.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<syslog.h>
+
+1465490762 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\parsecsv.cpp
+	"ParseCSV.h"
+	<QFile>
+
+1312013144 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\profilewidget.cpp
+	"mydebug.h"
+	"ProfileWidget.h"
+	"GeoUtils.h"
+	<QPainter>
+
+1312013144 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\slippylocations.cpp
+	"mydebug.h"
+	"SlippyLocations.h"
+	"locations.h"
+	<QPainter>
+
+1473706210 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\slippymapwidget.cpp
+	"mydebug.h"
+	"../mainWindow.h"
+	"../projectData.h"
+	"GeoUtils.h"
+	<QFont>
+	"../dialogWptProp.h"
+	<QDebug>
+	<QMenu>
+	<QFile>
+	<QPainter>
+	<QPixmap>
+	<QWheelEvent>
+	<QNetworkReply>
+	<QPaintEvent>
+	<QPainter>
+	<QTimer>
+	<math.h>
+	"SlippyMapWidget.h"
+	"Downloader.h"
+	"SlippyMapWidget.moc"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qfont
+	"qfont.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qwheelevent
+	"qevent.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qpaintevent
+	"qevent.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qtimer
+	"qtimer.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qtimer.h
+	<QtCore/qglobal.h>
+	<QtCore/qbasictimer.h>
+	<QtCore/qobject.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qbasictimer.h
+	<QtCore/qglobal.h>
+	<QtCore/qnamespace.h>
+
+1468127928 c:\users\localadmin\desktop\uxplore\uxplore\maplib\slippymapwidget.moc
+	"SlippyMapWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312013144 source:c:\users\localadmin\desktop\uxplore\uxplore\maplib\srtmv4.cpp
+	"mydebug.h"
+	<math.h>
+	"SRTMv4.h"
+	"GeoUtils.h"
+
+1472385816 source:c:\users\localadmin\desktop\uxplore\uxplore\projectdata.cpp
+	"global.h"
+	"projectData.h"
+	"maplib/3rdparty/qzip/qzipreader.h"
+	"mainWindow.h"
+	<iostream>
+	<QDebug>
+	<QFile>
+	<QStack>
+	<QXmlStreamReader>
+	<QDateTime>
+	<QRegExp>
+	<QStringList>
+	<QObject>
+	<QMessageBox>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qxmlstreamreader
+	"qxmlstream.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qxmlstream.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstring.h>
+	<QtCore/qvector.h>
+	<QtCore/qscopedpointer.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qregexp
+	"qregexp.h"
+
+1473695830 source:c:\users\localadmin\desktop\uxplore\uxplore\wptedit.cpp
+	"global.h"
+	"wptEdit.h"
+	"dialogWptProp.h"
+	"mainWindow.h"
+	"projectData.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QMenu>
+	<QDesktopServices>
+	<QUrl>
+	"wptEdit.moc"
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\wptedit.moc
+	"wptEdit.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470052146 c:\users\localadmin\desktop\uxplore\uxplore\zlib-1.2.3-lib\include\zlib.h
+	"zconf.h"
+
+1470052146 c:\users\localadmin\desktop\uxplore\uxplore\zlib-1.2.3-lib\include\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1468081128 source:c:\users\localadmin\desktop\uxplore\dialogabout.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogAbout.h"
+	<QDebug>
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogAbout.moc"
+
+1470571625 c:\users\localadmin\desktop\uxplore\mainwindow.h
+	<QtGui>
+	"global.h"
+	"projectData.h"
+	"wptEdit.h"
+	"dialogFind.h"
+	"dialogReplace.h"
+	"dialogSearchDup.h"
+	"dialogAbout.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+
+1470566494 c:\users\localadmin\desktop\uxplore\global.h
+	<QString>
+
+1470682283 c:\users\localadmin\desktop\uxplore\projectdata.h
+	"global.h"
+	<QString>
+	<QList>
+	<QVariant>
+	<QStack>
+	<QFile>
+	<QDateTime>
+	"csvDefinition.h"
+
+1470681760 c:\users\localadmin\desktop\uxplore\csvdefinition.h
+
+1469074164 c:\users\localadmin\desktop\uxplore\wptedit.h
+	"global.h"
+	"projectData.h"
+	"maplib/SlippyMapWidget.h"
+	"maplib/MapChooseWidget.h"
+	<QTableWidget>
+	<QtGui>
+	<QtWidgets/QHeaderView>
+
+1468759920 c:\users\localadmin\desktop\uxplore\maplib\slippymapwidget.h
+	<QWidget>
+	<QCache>
+	<QSet>
+	<QList>
+	<QPixmap>
+	<QGraphicsPixmapItem>
+	<QGraphicsScene>
+	<QMenu>
+	"GeoUtils.h"
+	"../projectData.h"
+
+1470901230 c:\users\localadmin\desktop\uxplore\maplib\geoutils.h
+	<QPointF>
+	<QVector>
+	<QString>
+	<math.h>
+
+1464528140 c:\users\localadmin\desktop\uxplore\maplib\mapchoosewidget.h
+	<QComboBox>
+	<QList>
+
+1468082490 c:\users\localadmin\desktop\uxplore\dialogfind.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets>
+
+1465231026 c:\users\localadmin\desktop\uxplore\dialogreplace.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1465316146 c:\users\localadmin\desktop\uxplore\dialogsearchdup.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1465127482 c:\users\localadmin\desktop\uxplore\dialogabout.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+
+1470558027 c:\users\localadmin\desktop\uxplore\dialogabout.moc
+	"dialogAbout.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1469456510 source:c:\users\localadmin\desktop\uxplore\dialogapppref.cpp
+	"global.h"
+	"dialogAppPref.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	"dialogAppPref.moc"
+
+1469204224 c:\users\localadmin\desktop\uxplore\dialogapppref.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+
+1470558027 c:\users\localadmin\desktop\uxplore\dialogapppref.moc
+	"dialogAppPref.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470853673 source:c:\users\localadmin\desktop\uxplore\dialogcsv.cpp
+	"mainWindow.h"
+	"projectData.h"
+	"dialogCsv.h"
+	"wptEdit.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	<QFile>
+	<QStringList>
+	<QDebug>
+	"dialogCsv.moc"
+
+1470681795 c:\users\localadmin\desktop\uxplore\dialogcsv.h
+	"global.h"
+	<QtGui>
+	<QDebug>
+	<QtWidgets/QHeaderView>
+
+1470558027 c:\users\localadmin\desktop\uxplore\dialogcsv.moc
+	"dialogCsv.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468081150 source:c:\users\localadmin\desktop\uxplore\dialogfind.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogFind.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogFind.moc"
+
+1470558027 c:\users\localadmin\desktop\uxplore\dialogfind.moc
+	"dialogFind.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468774980 source:c:\users\localadmin\desktop\uxplore\dialogprint.cpp
+	"global.h"
+	"dialogPrint.h"
+	"mainWindow.h"
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QTableWidget>
+	<QFontMetrics>
+	<QtPrintSupport/QPrinterInfo>
+	"projectData.h"
+	"dialogPrint.moc"
+
+1468773922 c:\users\localadmin\desktop\uxplore\dialogprint.h
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QtPrintSupport/QPrinter>
+	"global.h"
+	"maplib/SlippyMapWidget.h"
+	"projectData.h"
+
+1470558027 c:\users\localadmin\desktop\uxplore\dialogprint.moc
+	"dialogPrint.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1451836404 source:c:\users\localadmin\desktop\uxplore\dialogprojproperty.cpp
+	"dialogProjProperty.h"
+	"projectData.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogProjProperty.moc"
+
+1465127752 c:\users\localadmin\desktop\uxplore\dialogprojproperty.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1470558027 c:\users\localadmin\desktop\uxplore\dialogprojproperty.moc
+	"dialogProjProperty.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468081150 source:c:\users\localadmin\desktop\uxplore\dialogreplace.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogReplace.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogReplace.moc"
+
+1470558027 c:\users\localadmin\desktop\uxplore\dialogreplace.moc
+	"dialogReplace.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468081150 source:c:\users\localadmin\desktop\uxplore\dialogsearchdup.cpp
+	"global.h"
+	"mainWindow.h"
+	"projectData.h"
+	"dialogSearchDup.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	<QPalette>
+	"dialogSearchDup.moc"
+
+1470558027 c:\users\localadmin\desktop\uxplore\dialogsearchdup.moc
+	"dialogSearchDup.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468081150 source:c:\users\localadmin\desktop\uxplore\dialogwptprop.cpp
+	"dialogWptProp.h"
+	"projectData.h"
+	"mainWindow.h"
+	<QDebug>
+	<QPushButton>
+	<QDialogButtonBox>
+	<QLabel>
+	<QVBoxLayout>
+	<QMessageBox>
+	<QLineEdit>
+	<QCheckBox>
+	"dialogWptProp.moc"
+
+1465127752 c:\users\localadmin\desktop\uxplore\dialogwptprop.h
+	"global.h"
+	"mainWindow.h"
+	<QDialog>
+	<QCheckBox>
+
+1470558027 c:\users\localadmin\desktop\uxplore\dialogwptprop.moc
+	"dialogWptProp.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470847693 source:c:\users\localadmin\desktop\uxplore\global.cpp
+	"global.h"
+	<QString>
+	<QDebug>
+	<QDir>
+	<QFileInfo>
+	<libgen.h>
+	<libgen.h>
+
+1470848492 source:c:\users\localadmin\desktop\uxplore\main.cpp
+	<QTextStream>
+	<QCommonStyle>
+	<QPlastiqueStyle>
+	<QCleanlooksStyle>
+	<QWindowsXPStyle>
+	<QWindowsVistaStyle>
+	<QMotifStyle>
+	<QCDEStyle>
+	"global.h"
+	"wptEdit.h"
+	"mainWindow.h"
+	"envParam.h"
+
+1470571282 c:\users\localadmin\desktop\uxplore\envparam.h
+	"global.h"
+	<QSettings>
+	<QProcessEnvironment>
+	<QFileInfo>
+	<QApplication>
+	<QDir>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qsettings
+	"qsettings.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtcore\qsettings.h
+	<QtCore/qobject.h>
+	<QtCore/qvariant.h>
+	<QtCore/qstring.h>
+	<QtCore/qscopedpointer.h>
+	<ctype.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qapplication
+	"qapplication.h"
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qapplication.h
+	<QtCore/qcoreapplication.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qpoint.h>
+	<QtCore/qsize.h>
+	<QtGui/qcursor.h>
+	<QtWidgets/qdesktopwidget.h>
+	<QtGui/qguiapplication.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtwidgets\qdesktopwidget.h
+	<QtWidgets/qwidget.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qguiapplication.h
+	<QtCore/qcoreapplication.h>
+	<QtGui/qwindowdefs.h>
+	<QtGui/qinputmethod.h>
+	<QtCore/qlocale.h>
+	<QtCore/qpoint.h>
+	<QtCore/qsize.h>
+
+429062400 c:\qt\5.7\mingw53_32\include\qtgui\qinputmethod.h
+	<QtCore/qobject.h>
+
+1470901342 source:c:\users\localadmin\desktop\uxplore\mainwindow.cpp
+	"global.h"
+	"mainWindow.h"
+	"dialogAppPref.h"
+	"dialogProjProperty.h"
+	"dialogFind.h"
+	"dialogSearchDup.h"
+	"dialogPrint.h"
+	"dialogAbout.h"
+	"dialogCsv.h"
+	<QFrame>
+	<QSplitter>
+	<QDebug>
+	<QString>
+	<QFile>
+	<QScrollArea>
+	<QTableView>
+	<QStandardItemModel>
+	<QPoint>
+	<QDate>
+	<QtGui>
+	<QComboBox>
+	"maplib/SlippyMapWidget.h"
+	"maplib/GeoUtils.h"
+	"maplib/MapChooseWidget.h"
+	"maplib/SlippyLocations.h"
+	"maplib/GeoUtils.h"
+	"maplib/SRTMv4.h"
+	"maplib/DrawITUTerrain.h"
+	<stdio.h>
+	"mainWindow.moc"
+
+1312013144 c:\users\localadmin\desktop\uxplore\maplib\slippylocations.h
+	"SlippyMapWidget.h"
+
+1312013144 c:\users\localadmin\desktop\uxplore\maplib\srtmv4.h
+	<QObject>
+	<QRectF>
+	<QPointer>
+	<QVector>
+	<QFile>
+
+1312013144 c:\users\localadmin\desktop\uxplore\maplib\drawituterrain.h
+	"ProfileWidget.h"
+
+1312013144 c:\users\localadmin\desktop\uxplore\maplib\profilewidget.h
+	<QWidget>
+
+1470558027 c:\users\localadmin\desktop\uxplore\mainwindow.moc
+	"mainWindow.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470575053 source:c:\users\localadmin\desktop\uxplore\envparam.cpp
+	"envParam.h"
+	"envParam.moc"
+
+1470558027 c:\users\localadmin\desktop\uxplore\envparam.moc
+
+1470901370 source:c:\users\localadmin\desktop\uxplore\maplib\3rdparty\qzip\qzip.cpp
+	<qglobal.h>
+	"qzipreader.h"
+	"qzipwriter.h"
+	<qdatetime.h>
+	<qendian.h>
+	<qdebug.h>
+	<qdir.h>
+	"../../../zlib-1.2.3-lib\include/zlib.h"
+	"zlib.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1312013144 c:\users\localadmin\desktop\uxplore\maplib\3rdparty\qzip\qzipreader.h
+	<QtCore/qfile.h>
+	<QtCore/qstring.h>
+
+1312013144 c:\users\localadmin\desktop\uxplore\maplib\3rdparty\qzip\qzipwriter.h
+	<QtCore/qstring.h>
+	<QtCore/qfile.h>
+
+1470052145 c:\users\localadmin\desktop\uxplore\zlib-1.2.3-lib\include\zlib.h
+	"zconf.h"
+
+1470052145 c:\users\localadmin\desktop\uxplore\zlib-1.2.3-lib\include\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1469247954 source:c:\users\localadmin\desktop\uxplore\maplib\demdownloader.cpp
+	"mydebug.h"
+	"DemDownloader.h"
+	"Downloader.h"
+	"3rdparty/qzip/qzipreader.h"
+	"SRTMv4.h"
+	<QNetworkReply>
+	<QBuffer>
+	<QFileInfo>
+	<QImageReader>
+	"DemDownloader.moc"
+
+1432566900 c:\users\localadmin\desktop\uxplore\maplib\mydebug.h
+
+1432540950 c:\users\localadmin\desktop\uxplore\maplib\demdownloader.h
+	<QObject>
+	<QPointF>
+
+1440436516 c:\users\localadmin\desktop\uxplore\maplib\downloader.h
+	<QNetworkAccessManager>
+	<QSet>
+	<QImage>
+
+1468127928 c:\users\localadmin\desktop\uxplore\maplib\demdownloader.moc
+	"DemDownloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1465490538 source:c:\users\localadmin\desktop\uxplore\maplib\downloader.cpp
+	"../global.h"
+	"mydebug.h"
+	"Downloader.h"
+	<QCoreApplication>
+	<QNetworkDiskCache>
+	<QProcessEnvironment>
+	<QNetworkProxy>
+	<QNetworkReply>
+	<QNetworkRequest>
+	<QDesktopServices>
+	<QDir>
+	"Downloader.moc"
+
+1468127928 c:\users\localadmin\desktop\uxplore\maplib\downloader.moc
+	"Downloader.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312013144 source:c:\users\localadmin\desktop\uxplore\maplib\drawituterrain.cpp
+	"mydebug.h"
+	"DrawITUTerrain.h"
+	"ITUTerrain.h"
+	<QPainter>
+
+1312013144 c:\users\localadmin\desktop\uxplore\maplib\ituterrain.h
+	"GeoUtils.h"
+
+1468091192 source:c:\users\localadmin\desktop\uxplore\maplib\geoutils.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"GeoUtils.h"
+
+1468505328 source:c:\users\localadmin\desktop\uxplore\maplib\ituterrain.cpp
+	"mydebug.h"
+	<math.h>
+	"ITUTerrain.h"
+
+1437484142 source:c:\users\localadmin\desktop\uxplore\maplib\locationmapdialog.cpp
+	"mydebug.h"
+	"LocationMapDialog.h"
+	<QFormLayout>
+	<QLineEdit>
+	"SlippyMapWidget.h"
+	"SlippyLocations.h"
+	"GeoUtils.h"
+	"LocationMapDialog.moc"
+	"locations.moc"
+
+1432538624 c:\users\localadmin\desktop\uxplore\maplib\locationmapdialog.h
+	"locations.h"
+
+1432544462 c:\users\localadmin\desktop\uxplore\maplib\locations.h
+	<QString>
+	<QList>
+	<QAbstractTableModel>
+	<QTableView>
+	<QDialog>
+
+1468127928 c:\users\localadmin\desktop\uxplore\maplib\locationmapdialog.moc
+	"LocationMapDialog.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468127928 c:\users\localadmin\desktop\uxplore\maplib\locations.moc
+	"locations.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1468091218 source:c:\users\localadmin\desktop\uxplore\maplib\locations.cpp
+	"locations.h"
+	<QFile>
+	<QTextStream>
+	"ParseCSV.h"
+	<QHeaderView>
+	<QKeyEvent>
+	"LocationMapDialog.h"
+	<QLineEdit>
+	<QFormLayout>
+	<QDialogButtonBox>
+
+1312013144 c:\users\localadmin\desktop\uxplore\maplib\parsecsv.h
+	<QString>
+
+1469248026 source:c:\users\localadmin\desktop\uxplore\maplib\mapchoosewidget.cpp
+	"../global.h"
+	"mydebug.h"
+	<QDebug>
+	"MapChooseWidget.h"
+	"MapChooseWidget.moc"
+
+1468127928 c:\users\localadmin\desktop\uxplore\maplib\mapchoosewidget.moc
+	"MapChooseWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1470163714 source:c:\users\localadmin\desktop\uxplore\maplib\mydebug.cpp
+	"mydebug.h"
+	<qglobal.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<syslog.h>
+
+1465490762 source:c:\users\localadmin\desktop\uxplore\maplib\parsecsv.cpp
+	"ParseCSV.h"
+	<QFile>
+
+1312013144 source:c:\users\localadmin\desktop\uxplore\maplib\profilewidget.cpp
+	"mydebug.h"
+	"ProfileWidget.h"
+	"GeoUtils.h"
+	<QPainter>
+
+1312013144 source:c:\users\localadmin\desktop\uxplore\maplib\slippylocations.cpp
+	"mydebug.h"
+	"SlippyLocations.h"
+	"locations.h"
+	<QPainter>
+
+1469248308 source:c:\users\localadmin\desktop\uxplore\maplib\slippymapwidget.cpp
+	"mydebug.h"
+	"../mainWindow.h"
+	"../projectData.h"
+	"GeoUtils.h"
+	<QFont>
+	"../dialogWptProp.h"
+	<QDebug>
+	<QMenu>
+	<QFile>
+	<QPainter>
+	<QPixmap>
+	<QWheelEvent>
+	<QNetworkReply>
+	<QPaintEvent>
+	<QPainter>
+	<QTimer>
+	<math.h>
+	"SlippyMapWidget.h"
+	"Downloader.h"
+	"SlippyMapWidget.moc"
+
+1468127928 c:\users\localadmin\desktop\uxplore\maplib\slippymapwidget.moc
+	"SlippyMapWidget.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1312013144 source:c:\users\localadmin\desktop\uxplore\maplib\srtmv4.cpp
+	"mydebug.h"
+	<math.h>
+	"SRTMv4.h"
+	"GeoUtils.h"
+
+1470764739 source:c:\users\localadmin\desktop\uxplore\projectdata.cpp
+	"global.h"
+	"projectData.h"
+	"maplib/3rdparty/qzip/qzipreader.h"
+	"mainWindow.h"
+	<iostream>
+	<QDebug>
+	<QFile>
+	<QStack>
+	<QXmlStreamReader>
+	<QDateTime>
+	<QRegExp>
+	<QStringList>
+	<QObject>
+	<QMessageBox>
+
+1469268780 source:c:\users\localadmin\desktop\uxplore\wptedit.cpp
+	"global.h"
+	"wptEdit.h"
+	"dialogWptProp.h"
+	"mainWindow.h"
+	"projectData.h"
+	<QDialog>
+	<QCheckBox>
+	<QTableWidget>
+	<QMenu>
+	<QDesktopServices>
+	<QUrl>
+	"wptEdit.moc"
+
+1470558027 c:\users\localadmin\desktop\uxplore\wptedit.moc
+	"wptEdit.h"
+	<QtCore/qbytearray.h>
+	<QtCore/qmetatype.h>
+
+1471076838 c:\users\localadmin\desktop\uxplore\uxplore\csvdefinition.h
+
+1470575054 source:c:\users\localadmin\desktop\uxplore\uxplore\envparam.cpp
+	"envParam.h"
+	"envParam.moc"
+
+1470571282 c:\users\localadmin\desktop\uxplore\uxplore\envparam.h
+	"global.h"
+	<QSettings>
+	<QProcessEnvironment>
+	<QFileInfo>
+	<QApplication>
+	<QDir>
+
+1471764950 c:\users\localadmin\desktop\uxplore\uxplore\envparam.moc
+

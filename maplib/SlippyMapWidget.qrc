@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/SlippyMap">
+        <file>000.png</file>
+        <file>100.png</file>
+        <file>101.png</file>
+        <file>110.png</file>
+        <file>111.png</file>
+    </qresource>
+</RCC>

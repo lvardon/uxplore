@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="uxplore w7 64" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="0">
+			<notes>
+				<![CDATA[// WIN64ADD
+]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/uxplore" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-fPIC" />
+					<Add option="-static-libstdc++" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include/QtGui" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include/QtCore" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include/QtNetwork" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include/QtWidgets" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include/QtWebEngineWidgets" />
+				</Compiler>
+				<Linker>
+					<Add option="-lpthread" />
+					<Add library="C:/Qt/5.7/mingw53_32/lib/libQt5Core.a" />
+					<Add library="C:/Qt/5.7/mingw53_32/lib/libQt5Gui.a" />
+					<Add library="C:/Qt/5.7/mingw53_32/lib/libQt5Network.a" />
+					<Add library="C:/Qt/5.7/mingw53_32/lib/libQt5Widgets.a" />
+					<Add library="C:/Qt/5.7/mingw53_32/lib/libQt5PrintSupport.a" />
+					<Add library="C:/Qt/5.7/mingw53_32/lib/libQt5WebChannel.a" />
+					<Add library="C:/Qt/5.7/mingw53_32/lib/libQt5WebSockets.a" />
+					<Add library="C:/Qt/5.7/mingw53_32/lib/libQt5Qml.a" />
+					<Add library="C:/Qt/5.7/mingw53_32/lib/libQt5Quick.a" />
+					<Add library="zlib-1.2.3-lib/lib/libz.a" />
+					<Add directory="C:/Qt/5.7/mingw53_32/lib" />
+				</Linker>
+				<Environment>
+					<Variable name="QT +" value="webenginewidgets" />
+				</Environment>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/uxplore" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include/QtGui" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include/QtCore" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include/QtNetwork" />
+					<Add directory="C:/Qt/5.7/mingw53_32/include/QtWidgets" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lpthread" />
+					<Add option="-lz" />
+					<Add library="C:/Qt/5.7/mingw53_32/lib" />
+				</Linker>
+				<Environment>
+					<Variable name="QT+" value="printsupport" />
+				</Environment>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="alire.txt" />
+		<Unit filename="dialogAbout.cpp" />
+		<Unit filename="dialogAbout.h" />
+		<Unit filename="dialogAppPref.cpp" />
+		<Unit filename="dialogAppPref.h" />
+		<Unit filename="dialogCsv.cpp" />
+		<Unit filename="dialogCsv.h" />
+		<Unit filename="dialogFind.cpp" />
+		<Unit filename="dialogFind.h" />
+		<Unit filename="dialogPrint.cpp" />
+		<Unit filename="dialogPrint.h" />
+		<Unit filename="dialogProjProperty.cpp" />
+		<Unit filename="dialogProjProperty.h" />
+		<Unit filename="dialogReplace.cpp" />
+		<Unit filename="dialogReplace.h" />
+		<Unit filename="dialogSearchDup.cpp" />
+		<Unit filename="dialogSearchDup.h" />
+		<Unit filename="dialogWptProp.cpp" />
+		<Unit filename="dialogWptProp.h" />
+		<Unit filename="envParam.cpp" />
+		<Unit filename="envParam.h" />
+		<Unit filename="global.cpp" />
+		<Unit filename="global.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mainWindow.cpp" />
+		<Unit filename="mainWindow.h" />
+		<Unit filename="maplib/3rdparty/qzip/qzip.cpp" />
+		<Unit filename="maplib/3rdparty/qzip/qzipreader.h" />
+		<Unit filename="maplib/3rdparty/qzip/qzipwriter.h" />
+		<Unit filename="maplib/DemDownloader.cpp" />
+		<Unit filename="maplib/DemDownloader.h" />
+		<Unit filename="maplib/Downloader.cpp" />
+		<Unit filename="maplib/DrawITUTerrain.cpp" />
+		<Unit filename="maplib/DrawITUTerrain.h" />
+		<Unit filename="maplib/GeoUtils.cpp" />
+		<Unit filename="maplib/GeoUtils.h" />
+		<Unit filename="maplib/ITUTerrain.cpp" />
+		<Unit filename="maplib/ITUTerrain.h" />
+		<Unit filename="maplib/LocationMapDialog.cpp" />
+		<Unit filename="maplib/LocationMapDialog.h" />
+		<Unit filename="maplib/MapChooseWidget.cpp" />
+		<Unit filename="maplib/MapChooseWidget.h" />
+		<Unit filename="maplib/ParseCSV.cpp" />
+		<Unit filename="maplib/ParseCSV.h" />
+		<Unit filename="maplib/ProfileWidget.cpp" />
+		<Unit filename="maplib/ProfileWidget.h" />
+		<Unit filename="maplib/SRTMv4.cpp" />
+		<Unit filename="maplib/SRTMv4.h" />
+		<Unit filename="maplib/SlippyLocations.cpp" />
+		<Unit filename="maplib/SlippyLocations.h" />
+		<Unit filename="maplib/SlippyMapWidget.cpp" />
+		<Unit filename="maplib/SlippyMapWidget.h" />
+		<Unit filename="maplib/locations.cpp" />
+		<Unit filename="maplib/locations.h" />
+		<Unit filename="maplib/mydebug.cpp" />
+		<Unit filename="maplib/mydebug.h" />
+		<Unit filename="projectData.cpp" />
+		<Unit filename="projectData.h" />
+		<Unit filename="wptEdit.cpp" />
+		<Unit filename="wptEdit.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
